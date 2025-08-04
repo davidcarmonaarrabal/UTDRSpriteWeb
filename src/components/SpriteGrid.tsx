@@ -38,10 +38,10 @@ export function SpriteGrid({ characters }: Props) {
                                         className="object-contain"
                                     />
                                     <a
-                                        href={`/sprites/${name}/${img}`}
+                                        href={`/sprites/${name}/${img}`} 
                                         download
                                         className="block text-sm text-blue-600 mt-1"
-                                    >
+                                    > 
                                         Descargar {img}
                                     </a>
                                 </div>
