@@ -3,7 +3,7 @@ import { characters } from "@/data/characters";
 import Link from "next/link";
 
 export default function CharacterPage({ params }: { params: { id: string } }) {
-    const character = characters.find(c => c.id === params.id);
+    const character = characters.find((c) => c.id === params.id);
 
     if (!character) return <p>Personaje no encontrado</p>;
 
