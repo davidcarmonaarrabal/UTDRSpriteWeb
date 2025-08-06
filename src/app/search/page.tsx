@@ -15,7 +15,7 @@ export default function SearchPage() {
     return (
         <main className="p-6">
             <Link href="/" className="btn">Volver al Home</Link>
-            <h2 className="text-2xl my-4">Resultados para "{query}"</h2>
+            <h2 className="text-2xl my-4">Resultados para &quot;{query}&quot;</h2>
             <div className="grid grid-cols-2 gap-4">
                 {filtered.map(char => (
                     <Link key={char.id} href={`/character/${char.id}`} className="text-center">
