@@ -1,27 +1,40 @@
-'use client';
-
-import { useSearchParams } from "next/navigation";
-import { characters } from "@/data/characters";
+import Image from "next/image";
 import Link from "next/link";
+import { characters } from "@/data/characters";
 
-export default function SearchPage() {
-    const searchParams = useSearchParams();
-    const query = searchParams.get("name")?.toLowerCase() || "";
+export default async function CharacterPage({
+    params,
+}: {
+    params: Promise<{ id: string }>;
+}) {
+    const { id } = await params; // ✅ ahora sí coincide con PageProps
+    const character = characters.find((c) => c.id === id);
 
-    const filtered = characters.filter(c =>
-        c.name.toLowerCase().includes(query)
-    );
+    if (!character) return <p>Personaje no encontrado</p>;
 
     return (
         <main className="p-6">
-            <Link href="/" className="btn">Volver al Home</Link>
-            <h2 className="text-2xl my-4">Resultados para &quot;{query}&quot;</h2>
+            <Link href="/" className="btn">
+                Volver al Home
+            </Link>
+            <h2 className="text-2xl my-4">{character.name}</h2>
             <div className="grid grid-cols-2 gap-4">
-                {filtered.map(char => (
-                    <Link key={char.id} href={`/character/${char.id}`} className="text-center">
-                        <img src={char.sprites[0]} width={200} height={200} alt={char.name} />
-                        <p>{char.name}</p>
-                    </Link>
+                {character.sprites.map((sprite, i) => (
+                    <div key={i} className="text-center">
+                        <Image
+                            src={sprite}
+                            width={200}
+                            height={200}
+                            alt={`${character.name} sprite`}
+                        />
+                        <a
+                            href={sprite}
+                            download
+                            className="btn mt-2 inline-block"
+                        >
+                            Descargar
+                        </a>
+                    </div>
                 ))}
             </div>
         </main>
