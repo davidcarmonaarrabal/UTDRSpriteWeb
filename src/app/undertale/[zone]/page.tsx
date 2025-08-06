@@ -2,8 +2,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { characters } from "@/data/characters";
 
-export default function ZonePage({ params }: { params: { zone: string } }) {
-    const { zone } = params;
+export default async function ZonePage({
+    params,
+}: {
+    params: Promise<{ zone: string }>;
+}) {
+    const { zone } = await params;
     const zoneChars = characters.filter(
         (c) => c.zone.toLowerCase() === zone.toLowerCase()
     );
