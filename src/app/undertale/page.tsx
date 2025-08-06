@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function UndertaleGallery() {
-    const zones = ["ruins", "snowdin", "hotland"];
+    const zones = ["ruins", "snowdin", "hotland", "waterfall"];
 
     return (
         <main className="p-6">
