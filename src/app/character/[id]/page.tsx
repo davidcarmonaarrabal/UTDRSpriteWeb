@@ -5,9 +5,9 @@ import { characters } from "@/data/characters";
 export default async function CharacterPage({
     params,
 }: {
-    params: { id: string };
+    params: Promise<{ id: string }>;
 }) {
-    const { id } = params;
+    const { id } = await params;
 
     const character = characters.find((c) => c.id === id);
 
