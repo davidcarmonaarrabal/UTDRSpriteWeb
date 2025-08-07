@@ -1016,7 +1016,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "ruinas",
     "sprites": [
-      "/sprites/Undertale/ruinas/migospel/spr_migospel_1.PNG"
+      "/sprites/Undertale/ruinas/migospel/spr_migospel_1.png"
     ]
   },
   {
@@ -1124,7 +1124,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "ruinas",
     "sprites": [
-      "/sprites/Undertale/ruinas/vegetoid/spr_vegetoid_1.PNG"
+      "/sprites/Undertale/ruinas/vegetoid/spr_vegetoid_1.png"
     ]
   },
   {
