@@ -1708,25 +1708,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "waterfall",
     "sprites": [
-      "/sprites/Undertale/waterfall/big_tem/spr_5_eyes1_0.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_eyes1_1.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_eyes2_0.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_eyes3_0.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_eyes4_0.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_eyes5_0.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_eyes6_0.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_mouth1_0.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_mouth1_1.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_mouth2_0.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_mouth2_1.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_mouth3_0.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_sellface_0.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_sellface_1.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_sellface_x_0.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_sellface_x_1.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_sweat_0.png",
       "/sprites/Undertale/waterfall/big_tem/spr_5_tembody_0.png",
-      "/sprites/Undertale/waterfall/big_tem/spr_5_tembrows_0.png",
       "/sprites/Undertale/waterfall/big_tem/spr_5_temexampl_0.png",
       "/sprites/Undertale/waterfall/big_tem/spr_temsmug_0.png"
     ]
@@ -1743,6 +1725,15 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "echoflowerex",
+    "name": "Echoflowerex",
+    "game": "undertale",
+    "zone": "waterfall",
+    "sprites": [
+      "/sprites/Undertale/waterfall/echoflowerex/spr_echoflowerex_0.png"
+    ]
+  },
+  {
     "id": "elderpuzzler",
     "name": "Elderpuzzler",
     "game": "undertale",
@@ -1753,20 +1744,39 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "ferry",
+    "name": "Ferry",
+    "game": "undertale",
+    "zone": "waterfall",
+    "sprites": [
+      "/sprites/Undertale/waterfall/ferry/spr_ferry_1.png"
+    ]
+  },
+  {
     "id": "gerson",
     "name": "Gerson",
     "game": "undertale",
     "zone": "waterfall",
     "sprites": [
-      "/sprites/Undertale/waterfall/gerson/spr_shopkeeper2_arm_0.png",
-      "/sprites/Undertale/waterfall/gerson/spr_shopkeeper2_body_0.png",
-      "/sprites/Undertale/waterfall/gerson/spr_shopkeeper2_eyes_0.png",
-      "/sprites/Undertale/waterfall/gerson/spr_shopkeeper2_eyes_1.png",
-      "/sprites/Undertale/waterfall/gerson/spr_shopkeeper2_eyes_2.png",
-      "/sprites/Undertale/waterfall/gerson/spr_shopkeeper2_eyes_3.png",
-      "/sprites/Undertale/waterfall/gerson/spr_shopkeeper2_eyes_4.png",
-      "/sprites/Undertale/waterfall/gerson/spr_shopkeeper2_mouthbottom_0.png",
-      "/sprites/Undertale/waterfall/gerson/spr_shopkeeper2_mouthtop_0.png"
+      "/sprites/Undertale/waterfall/gerson/spr_gerson_1_processed.png"
+    ]
+  },
+  {
+    "id": "gonerclam",
+    "name": "Gonerclam",
+    "game": "undertale",
+    "zone": "waterfall",
+    "sprites": [
+      "/sprites/Undertale/waterfall/gonerclam/spr_gonerclam_1.png"
+    ]
+  },
+  {
+    "id": "gonerkid",
+    "name": "Gonerkid",
+    "game": "undertale",
+    "zone": "waterfall",
+    "sprites": [
+      "/sprites/Undertale/waterfall/gonerkid/spr_gonerkid_1.png"
     ]
   },
   {
@@ -1864,12 +1874,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "waterfall",
     "sprites": [
-      "/sprites/Undertale/waterfall/shyren/spr_shyren_0.png",
-      "/sprites/Undertale/waterfall/shyren/spr_shyren_1.png",
-      "/sprites/Undertale/waterfall/shyren/spr_shyren_swim_0.png",
-      "/sprites/Undertale/waterfall/shyren/spr_shyren_swim_1.png",
-      "/sprites/Undertale/waterfall/shyren/spr_shyren_swim_2.png",
-      "/sprites/Undertale/waterfall/shyren/spr_shyren_swim_3.png"
+      "/sprites/Undertale/waterfall/shyren/spr_shyren_swim_0.png"
     ]
   },
   {
@@ -1892,25 +1897,13 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "waterfall",
     "sprites": [
-      "/sprites/Undertale/waterfall/temmie/spr_temmie_hivetalk_0.png",
       "/sprites/Undertale/waterfall/temmie/spr_temmie_hivetalk_1.png",
       "/sprites/Undertale/waterfall/temmie/spr_temmie_hive_0.png",
       "/sprites/Undertale/waterfall/temmie/spr_temmie_hive_1.png",
       "/sprites/Undertale/waterfall/temmie/spr_temmie_hive_2.png",
       "/sprites/Undertale/waterfall/temmie/spr_temmie_hive_3.png",
-      "/sprites/Undertale/waterfall/temmie/spr_temmie_hive_4.png",
-      "/sprites/Undertale/waterfall/temmie/spr_temmie_lt_0.png",
-      "/sprites/Undertale/waterfall/temmie/spr_temmie_lt_1.png",
-      "/sprites/Undertale/waterfall/temmie/spr_temmie_l_0.png",
-      "/sprites/Undertale/waterfall/temmie/spr_temmie_l_1.png",
-      "/sprites/Undertale/waterfall/temmie/spr_temmie_l_2.png",
-      "/sprites/Undertale/waterfall/temmie/spr_temmie_l_3.png",
-      "/sprites/Undertale/waterfall/temmie/spr_temmie_rt_0.png",
       "/sprites/Undertale/waterfall/temmie/spr_temmie_rt_1.png",
-      "/sprites/Undertale/waterfall/temmie/spr_temmie_r_0.png",
-      "/sprites/Undertale/waterfall/temmie/spr_temmie_r_1.png",
-      "/sprites/Undertale/waterfall/temmie/spr_temmie_r_2.png",
-      "/sprites/Undertale/waterfall/temmie/spr_temmie_r_3.png"
+      "/sprites/Undertale/waterfall/temmie/spr_temmie_r_1.png"
     ]
   },
   {
@@ -1924,91 +1917,31 @@ export const characters: Character[] = [
       "/sprites/Undertale/waterfall/undyne/spr_adate_uface_1.png",
       "/sprites/Undertale/waterfall/undyne/spr_adate_uface_2.png",
       "/sprites/Undertale/waterfall/undyne/spr_adate_uface_2_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_adate_uface_2_1.png",
       "/sprites/Undertale/waterfall/undyne/spr_adate_uface_2_2.png",
       "/sprites/Undertale/waterfall/undyne/spr_adate_uface_2_3.png",
       "/sprites/Undertale/waterfall/undyne/spr_adate_uface_2_4.png",
-      "/sprites/Undertale/waterfall/undyne/spr_adate_uface_2_5.png",
-      "/sprites/Undertale/waterfall/undyne/spr_adate_uface_2_6.png",
-      "/sprites/Undertale/waterfall/undyne/spr_adate_uface_2_7.png",
       "/sprites/Undertale/waterfall/undyne/spr_adate_uface_3.png",
       "/sprites/Undertale/waterfall/undyne/spr_adate_uface_4.png",
       "/sprites/Undertale/waterfall/undyne/spr_adate_uface_5.png",
-      "/sprites/Undertale/waterfall/undyne/spr_adate_uface_6.png",
       "/sprites/Undertale/waterfall/undyne/spr_adate_uface_7.png",
       "/sprites/Undertale/waterfall/undyne/spr_adate_uface_8.png",
-      "/sprites/Undertale/waterfall/undyne/spr_adate_uface_9.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne0_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_face_undyne0_1.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne1A_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_face_undyne1_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne1_3_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne2_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_face_undyne2_2_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne3_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_face_undyne3_1.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne4_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_face_undyne5_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_face_undyne6A_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne6_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_face_undyne6_1.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne7A_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne7_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne8A_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne8_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne9_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_face_undyne9_1.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne9_2_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_face_undyne9_2_1.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne9_3_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne9_3_1.png",
-      "/sprites/Undertale/waterfall/undyne/spr_face_undyne9_B_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne9_B_1.png",
-      "/sprites/Undertale/waterfall/undyne/spr_ua_throw_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face2_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face2_1.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face2_2.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face2_3.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face2_4.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face2_5.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face2_6.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face2_7.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face2_8.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face2_9.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_1.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_10.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_11.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_12.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_13.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_14.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_15.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_16.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_17.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_18.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_19.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_2.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_20.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_3.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_4.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_5.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_6.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_7.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_8.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_9.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face_1.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face_2.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face_3.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face_4.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face_5.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face_6.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face_7.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face_8.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneface_encourage_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneface_fatal_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneface_wrap_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyneface_wrap_1.png"
+      "/sprites/Undertale/waterfall/undyne/spr_undyneb_face3_14.png"
     ]
   },
   {
