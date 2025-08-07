@@ -1,33 +1,42 @@
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 import { characters } from "@/data/characters";
 
-export default async function ZonePage({
+export default async function CharacterPage({
     params,
 }: {
-    params: Promise<{ zone: string }>;
+    params: { id: string };
 }) {
-    const { zone } = await params;
-    const zoneChars = characters.filter(
-        (c) => c.zone.toLowerCase() === zone.toLowerCase()
-    );
+    const { id } = params;
+
+    const character = characters.find((c) => c.id === id);
+
+    if (!character) {
+        return (
+            <main className="p-6">
+                <Link href="/" className="btn">Volver al Home</Link>
+                <p>Personaje no encontrado</p>
+            </main>
+        );
+    }
 
     return (
         <main className="p-6">
             <Link href="/" className="btn">Volver al Home</Link>
-            <h2 className="text-2xl my-4">Zona: {zone}</h2>
-
+            <h2 className="text-2xl my-4">{character.name}</h2>
             <div className="grid grid-cols-2 gap-4">
-                {zoneChars.map((char) => (
-                    <Link key={char.id} href={`/character/${char.id}`} className="text-center">
+                {character.sprites.map((sprite, i) => (
+                    <div key={i} className="text-center">
                         <Image
-                            src={char.sprites[0]}
+                            src={sprite}
                             width={200}
                             height={200}
-                            alt={char.name}
+                            alt={`${character.name} sprite`}
                         />
-                        <p>{char.name}</p>
-                    </Link>
+                        <a href={sprite} download className="btn mt-2 inline-block">
+                            Descargar
+                        </a>
+                    </div>
                 ))}
             </div>
         </main>
