@@ -269,33 +269,14 @@ export const characters: Character[] = [
     "zone": "hotland",
     "sprites": [
       "/sprites/Undertale/hotland/alphys/sprite1099_0.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_0.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_1.png",
       "/sprites/Undertale/hotland/alphys/spr_adate_head_10.png",
       "/sprites/Undertale/hotland/alphys/spr_adate_head_11.png",
       "/sprites/Undertale/hotland/alphys/spr_adate_head_12.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_13.png",
       "/sprites/Undertale/hotland/alphys/spr_adate_head_14.png",
       "/sprites/Undertale/hotland/alphys/spr_adate_head_15.png",
       "/sprites/Undertale/hotland/alphys/spr_adate_head_16.png",
       "/sprites/Undertale/hotland/alphys/spr_adate_head_17.png",
       "/sprites/Undertale/hotland/alphys/spr_adate_head_18.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_2.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_2_0.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_2_1.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_2_10.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_2_2.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_2_3.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_2_4.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_2_5.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_2_6.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_2_7.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_2_8.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_2_9.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_3.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_4.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_5.png",
-      "/sprites/Undertale/hotland/alphys/spr_adate_head_6.png",
       "/sprites/Undertale/hotland/alphys/spr_adate_head_7.png",
       "/sprites/Undertale/hotland/alphys/spr_adate_head_8.png",
       "/sprites/Undertale/hotland/alphys/spr_adate_head_9.png",
@@ -331,16 +312,11 @@ export const characters: Character[] = [
       "/sprites/Undertale/hotland/alphys/spr_alphysface_hit_0.png",
       "/sprites/Undertale/hotland/alphys/spr_alphysface_laugh_0.png",
       "/sprites/Undertale/hotland/alphys/spr_alphysface_new_0.png",
-      "/sprites/Undertale/hotland/alphys/spr_alphysface_new_1.png",
       "/sprites/Undertale/hotland/alphys/spr_alphysface_new_2.png",
       "/sprites/Undertale/hotland/alphys/spr_alphysface_new_3.png",
       "/sprites/Undertale/hotland/alphys/spr_alphysface_new_4.png",
       "/sprites/Undertale/hotland/alphys/spr_alphysface_new_5.png",
-      "/sprites/Undertale/hotland/alphys/spr_alphysface_new_6.png",
       "/sprites/Undertale/hotland/alphys/spr_alphysface_smarmy_0.png",
-      "/sprites/Undertale/hotland/alphys/spr_alphysface_wrap_0.png",
-      "/sprites/Undertale/hotland/alphys/spr_alphysface_wrap_1.png",
-      "/sprites/Undertale/hotland/alphys/spr_alphysface_wrap_2.png",
       "/sprites/Undertale/hotland/alphys/spr_alphyshelper_a_0.png",
       "/sprites/Undertale/hotland/alphys/spr_alphyshelper_a_1.png",
       "/sprites/Undertale/hotland/alphys/spr_alphyshelper_b_0.png",
@@ -355,14 +331,23 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "businessguys",
+    "name": "Businessguys",
+    "game": "undertale",
+    "zone": "hotland",
+    "sprites": [
+      "/sprites/Undertale/hotland/businessguys/spr_businessman_1.png",
+      "/sprites/Undertale/hotland/businessguys/spr_businessman_2.png"
+    ]
+  },
+  {
     "id": "clamguy",
     "name": "Clamguy",
     "game": "undertale",
     "zone": "hotland",
     "sprites": [
       "/sprites/Undertale/hotland/clamguy/spr_clamguy_a_0.png",
-      "/sprites/Undertale/hotland/clamguy/spr_clamguy_b_0.png",
-      "/sprites/Undertale/hotland/clamguy/spr_clamguy_b_1.png"
+      "/sprites/Undertale/hotland/clamguy/spr_clamguy_b_0.png"
     ]
   },
   {
@@ -371,8 +356,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "hotland",
     "sprites": [
-      "/sprites/Undertale/hotland/diamondboy/spr_diamondboy_0.png",
-      "/sprites/Undertale/hotland/diamondboy/spr_diamondboy_1.png"
+      "/sprites/Undertale/hotland/diamondboy/spr_diamondboy_0.png"
     ]
   },
   {
@@ -381,8 +365,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "hotland",
     "sprites": [
-      "/sprites/Undertale/hotland/diamondtallboy/spr_diamondtallboy_0.png",
-      "/sprites/Undertale/hotland/diamondtallboy/spr_diamondtallboy_1.png"
+      "/sprites/Undertale/hotland/diamondtallboy/spr_diamondtallboy_0.png"
     ]
   },
   {
@@ -391,8 +374,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "hotland",
     "sprites": [
-      "/sprites/Undertale/hotland/donutboy/spr_donutscaredguy_0.png",
-      "/sprites/Undertale/hotland/donutboy/spr_donutscaredguy_1.png"
+      "/sprites/Undertale/hotland/donutboy/spr_donutscaredguy_0.png"
     ]
   },
   {
@@ -402,9 +384,16 @@ export const characters: Character[] = [
     "zone": "hotland",
     "sprites": [
       "/sprites/Undertale/hotland/dresslion/spr_dresslion_a_0.png",
-      "/sprites/Undertale/hotland/dresslion/spr_dresslion_a_1.png",
-      "/sprites/Undertale/hotland/dresslion/spr_dresslion_b_0.png",
-      "/sprites/Undertale/hotland/dresslion/spr_dresslion_b_1.png"
+      "/sprites/Undertale/hotland/dresslion/spr_dresslion_b_0.png"
+    ]
+  },
+  {
+    "id": "foxhead",
+    "name": "Foxhead",
+    "game": "undertale",
+    "zone": "hotland",
+    "sprites": [
+      "/sprites/Undertale/hotland/foxhead/spr_foxhead_1.png"
     ]
   },
   {
@@ -413,10 +402,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "hotland",
     "sprites": [
-      "/sprites/Undertale/hotland/fukufire/spr_fukufire_0.png",
-      "/sprites/Undertale/hotland/fukufire/spr_fukufire_1.png",
-      "/sprites/Undertale/hotland/fukufire/spr_fukufire_2.png",
-      "/sprites/Undertale/hotland/fukufire/spr_fukufire_3.png"
+      "/sprites/Undertale/hotland/fukufire/spr_fukufire_0.png"
     ]
   },
   {
@@ -425,8 +411,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "hotland",
     "sprites": [
-      "/sprites/Undertale/hotland/gasterfollower2/spr_g_follower_2_0.png",
-      "/sprites/Undertale/hotland/gasterfollower2/spr_g_follower_2_1.png"
+      "/sprites/Undertale/hotland/gasterfollower2/spr_g_follower_2_0.png"
     ]
   },
   {
@@ -437,14 +422,9 @@ export const characters: Character[] = [
     "sprites": [
       "/sprites/Undertale/hotland/mettaton/spr_mettanchor_evillaugh_0.png",
       "/sprites/Undertale/hotland/mettaton/spr_mettanchor_evillaugh_1.png",
-      "/sprites/Undertale/hotland/mettaton/spr_mettanchor_evillaugh_full_0.png",
-      "/sprites/Undertale/hotland/mettaton/spr_mettanchor_evillaugh_full_1.png",
       "/sprites/Undertale/hotland/mettaton/spr_mettanchor_fingerup_0.png",
-      "/sprites/Undertale/hotland/mettaton/spr_mettanchor_fingerup_full_0.png",
-      "/sprites/Undertale/hotland/mettaton/spr_mettanchor_fingerup_full_1.png",
       "/sprites/Undertale/hotland/mettaton/spr_mettanchor_handfold_0.png",
       "/sprites/Undertale/hotland/mettaton/spr_mettanchor_handraise_0.png",
-      "/sprites/Undertale/hotland/mettaton/spr_mettanchor_handraise_1.png",
       "/sprites/Undertale/hotland/mettaton/spr_mettanchor_handsonhead_0.png",
       "/sprites/Undertale/hotland/mettaton/spr_mettanchor_mepose_0.png",
       "/sprites/Undertale/hotland/mettaton/spr_mettanchor_shufflepaper_0.png",
@@ -454,18 +434,11 @@ export const characters: Character[] = [
       "/sprites/Undertale/hotland/mettaton/spr_mettaton_cackle_1.png",
       "/sprites/Undertale/hotland/mettaton/spr_mettaton_clap_0.png",
       "/sprites/Undertale/hotland/mettaton/spr_mettaton_clap_1.png",
-      "/sprites/Undertale/hotland/mettaton/spr_mettaton_clap_2.png",
       "/sprites/Undertale/hotland/mettaton/spr_mettaton_dress1_0.png",
-      "/sprites/Undertale/hotland/mettaton/spr_mettaton_dressflight_0.png",
-      "/sprites/Undertale/hotland/mettaton/spr_mettaton_dressflight_1.png",
       "/sprites/Undertale/hotland/mettaton/spr_mettaton_holdarm_0.png",
-      "/sprites/Undertale/hotland/mettaton/spr_mettaton_holdarm_1.png",
-      "/sprites/Undertale/hotland/mettaton/spr_mettaton_noarms_0.png",
       "/sprites/Undertale/hotland/mettaton/spr_mettaton_noarm_0.png",
       "/sprites/Undertale/hotland/mettaton/spr_mettaton_pointingup_0.png",
-      "/sprites/Undertale/hotland/mettaton/spr_mettaton_pointingup_1.png",
-      "/sprites/Undertale/hotland/mettaton/spr_mettaton_pulldress_0.png",
-      "/sprites/Undertale/hotland/mettaton/spr_mettaton_pulldress_1.png"
+      "/sprites/Undertale/hotland/mettaton/spr_mettaton_pulldress_0.png"
     ]
   },
   {
@@ -493,13 +466,6 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "hotland",
     "sprites": [
-      "/sprites/Undertale/hotland/orangefire/spr_orangefire_0.png",
-      "/sprites/Undertale/hotland/orangefire/spr_orangefire_1.png",
-      "/sprites/Undertale/hotland/orangefire/spr_orangefire_2.png",
-      "/sprites/Undertale/hotland/orangefire/spr_orangefire_3.png",
-      "/sprites/Undertale/hotland/orangefire/spr_orangefire_4.png",
-      "/sprites/Undertale/hotland/orangefire/spr_orangefire_5.png",
-      "/sprites/Undertale/hotland/orangefire/spr_orangefire_6.png",
       "/sprites/Undertale/hotland/orangefire/spr_orangefire_7.png"
     ]
   },
@@ -530,8 +496,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "hotland",
     "sprites": [
-      "/sprites/Undertale/hotland/skateboardgirl/spr_skateboardgirl_0.png",
-      "/sprites/Undertale/hotland/skateboardgirl/spr_skateboardgirl_1.png"
+      "/sprites/Undertale/hotland/skateboardgirl/spr_skateboardgirl_0.png"
     ]
   },
   {
@@ -559,16 +524,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "hotland",
     "sprites": [
-      "/sprites/Undertale/hotland/vulkin/spr_vulkinface2_0.png",
-      "/sprites/Undertale/hotland/vulkin/spr_vulkinface2_1.png",
-      "/sprites/Undertale/hotland/vulkin/spr_vulkinface3_0.png",
-      "/sprites/Undertale/hotland/vulkin/spr_vulkinface3_1.png",
-      "/sprites/Undertale/hotland/vulkin/spr_vulkinface4_0.png",
-      "/sprites/Undertale/hotland/vulkin/spr_vulkinface4_1.png",
-      "/sprites/Undertale/hotland/vulkin/spr_vulkinface5_0.png",
-      "/sprites/Undertale/hotland/vulkin/spr_vulkinface_0.png",
-      "/sprites/Undertale/hotland/vulkin/spr_vulkinface_1.png",
-      "/sprites/Undertale/hotland/vulkin/spr_vulkinhurt_0.png"
+      "/sprites/Undertale/hotland/vulkin/spr_vulkinhurt_0_processed.png"
     ]
   },
   {
