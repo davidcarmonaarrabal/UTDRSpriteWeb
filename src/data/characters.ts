@@ -1139,12 +1139,21 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "bigmouth",
+    "name": "Bigmouth",
+    "game": "undertale",
+    "zone": "snowdin",
+    "sprites": [
+      "/sprites/Undertale/snowdin/bigmouth/spr_bigmouth_1.png"
+    ]
+  },
+  {
     "id": "chilldrake",
     "name": "Chilldrake",
     "game": "undertale",
     "zone": "snowdin",
     "sprites": [
-      "/sprites/Undertale/snowdin/chilldrake/spr_chilldrake_0.PNG"
+      "/sprites/Undertale/snowdin/chilldrake/spr_chilldrake_0.png"
     ]
   },
   {
@@ -1162,18 +1171,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "snowdin",
     "sprites": [
-      "/sprites/Undertale/snowdin/dogaressa/spr_womandoge_1.png",
-      "/sprites/Undertale/snowdin/dogaressa/spr_womandognormal_0.png",
-      "/sprites/Undertale/snowdin/dogaressa/spr_womandognormal_1.png",
-      "/sprites/Undertale/snowdin/dogaressa/spr_womandognormal_10.png",
-      "/sprites/Undertale/snowdin/dogaressa/spr_womandognormal_2.png",
-      "/sprites/Undertale/snowdin/dogaressa/spr_womandognormal_3.png",
-      "/sprites/Undertale/snowdin/dogaressa/spr_womandognormal_4.png",
-      "/sprites/Undertale/snowdin/dogaressa/spr_womandognormal_5.png",
-      "/sprites/Undertale/snowdin/dogaressa/spr_womandognormal_6.png",
-      "/sprites/Undertale/snowdin/dogaressa/spr_womandognormal_7.png",
-      "/sprites/Undertale/snowdin/dogaressa/spr_womandognormal_8.png",
-      "/sprites/Undertale/snowdin/dogaressa/spr_womandognormal_9.png"
+      "/sprites/Undertale/snowdin/dogaressa/spr_womandognormal_0.png"
     ]
   },
   {
@@ -1183,21 +1181,15 @@ export const characters: Character[] = [
     "zone": "snowdin",
     "sprites": [
       "/sprites/Undertale/snowdin/doggo/spr_movedogeheada_0.png",
-      "/sprites/Undertale/snowdin/doggo/spr_movedogeheada_1.png",
       "/sprites/Undertale/snowdin/doggo/spr_movedogeheada_10.png",
       "/sprites/Undertale/snowdin/doggo/spr_movedogeheada_11.png",
       "/sprites/Undertale/snowdin/doggo/spr_movedogeheada_12.png",
-      "/sprites/Undertale/snowdin/doggo/spr_movedogeheada_2.png",
       "/sprites/Undertale/snowdin/doggo/spr_movedogeheada_3.png",
       "/sprites/Undertale/snowdin/doggo/spr_movedogeheada_4.png",
       "/sprites/Undertale/snowdin/doggo/spr_movedogeheada_5.png",
-      "/sprites/Undertale/snowdin/doggo/spr_movedogeheada_6.png",
-      "/sprites/Undertale/snowdin/doggo/spr_movedogeheada_7.png",
-      "/sprites/Undertale/snowdin/doggo/spr_movedogeheada_8.png",
       "/sprites/Undertale/snowdin/doggo/spr_movedogeheada_9.png",
       "/sprites/Undertale/snowdin/doggo/spr_movedogeheadb_0.png",
-      "/sprites/Undertale/snowdin/doggo/spr_movedogeheadb_1.png",
-      "/sprites/Undertale/snowdin/doggo/spr_movedoge_1.png"
+      "/sprites/Undertale/snowdin/doggo/spr_movedogeheadb_1.png"
     ]
   },
   {
@@ -1268,7 +1260,6 @@ export const characters: Character[] = [
       "/sprites/Undertale/snowdin/greatdog/spr_dogneck5_0.png",
       "/sprites/Undertale/snowdin/greatdog/spr_dogpoff_67.png",
       "/sprites/Undertale/snowdin/greatdog/spr_dogspear_0.png",
-      "/sprites/Undertale/snowdin/greatdog/spr_greatdog_n_0.png",
       "/sprites/Undertale/snowdin/greatdog/spr_greatdog_n_1.png"
     ]
   },
@@ -1280,12 +1271,7 @@ export const characters: Character[] = [
     "sprites": [
       "/sprites/Undertale/snowdin/grillby/spr_grillby_d_0.png",
       "/sprites/Undertale/snowdin/grillby/spr_grillby_d_1.png",
-      "/sprites/Undertale/snowdin/grillby/spr_grillby_d_2.png",
-      "/sprites/Undertale/snowdin/grillby/spr_grillby_d_3.png",
       "/sprites/Undertale/snowdin/grillby/spr_npc_grillby_0.png",
-      "/sprites/Undertale/snowdin/grillby/spr_npc_grillby_1.png",
-      "/sprites/Undertale/snowdin/grillby/spr_npc_grillby_2.png",
-      "/sprites/Undertale/snowdin/grillby/spr_npc_grillby_3.png",
       "/sprites/Undertale/snowdin/grillby/spr_npc_grillby_4.png"
     ]
   },
@@ -1304,10 +1290,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "snowdin",
     "sprites": [
-      "/sprites/Undertale/snowdin/icecap/spr_icecap_0.png",
-      "/sprites/Undertale/snowdin/icecap/spr_icecap_1.png",
-      "/sprites/Undertale/snowdin/icecap/spr_icecap_2.png",
-      "/sprites/Undertale/snowdin/icecap/spr_icecap_3.png"
+      "/sprites/Undertale/snowdin/icecap/spr_icecap_1.png"
     ]
   },
   {
@@ -1328,8 +1311,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "snowdin",
     "sprites": [
-      "/sprites/Undertale/snowdin/icewolf/spr_icewolf_0.png",
-      "/sprites/Undertale/snowdin/icewolf/spr_icewolf_1.png"
+      "/sprites/Undertale/snowdin/icewolf/spr_icewolf_0.png"
     ]
   },
   {
@@ -1348,7 +1330,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "snowdin",
     "sprites": [
-      "/sprites/Undertale/snowdin/jerry/Captura.PNG"
+      "/sprites/Undertale/snowdin/jerry/spr_jerry_1.png"
     ]
   },
   {
@@ -1357,8 +1339,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "snowdin",
     "sprites": [
-      "/sprites/Undertale/snowdin/lesserdog/spr_lesserdoge_0.png",
-      "/sprites/Undertale/snowdin/lesserdog/spr_lesserdoge_1.png"
+      "/sprites/Undertale/snowdin/lesserdog/spr_lesserdoge_0.png"
     ]
   },
   {
@@ -1387,7 +1368,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "snowdin",
     "sprites": [
-      "/sprites/Undertale/snowdin/madmew/spr_madmew_1.PNG"
+      "/sprites/Undertale/snowdin/madmew/spr_madmew_1.png"
     ]
   },
   {
@@ -1396,55 +1377,30 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "snowdin",
     "sprites": [
-      "/sprites/Undertale/snowdin/papyrus/spr_adate_papyrus_0.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_face_papyruscool_0.png",
       "/sprites/Undertale/snowdin/papyrus/spr_face_papyruscool_1.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_face_papyruscry_0.png",
       "/sprites/Undertale/snowdin/papyrus/spr_face_papyruscry_1.png",
       "/sprites/Undertale/snowdin/papyrus/spr_face_papyrusdejected_0.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_face_papyrusevil_0.png",
       "/sprites/Undertale/snowdin/papyrus/spr_face_papyrusevil_1.png",
       "/sprites/Undertale/snowdin/papyrus/spr_face_papyruslaugh_0.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_face_papyruslaugh_1.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_face_papyrusmad_0.png",
       "/sprites/Undertale/snowdin/papyrus/spr_face_papyrusmad_1.png",
       "/sprites/Undertale/snowdin/papyrus/spr_face_papyrusside_0.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_face_papyrusside_1.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_face_papyrussweat_0.png",
       "/sprites/Undertale/snowdin/papyrus/spr_face_papyrussweat_1.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_face_papyruswacky_0.png",
       "/sprites/Undertale/snowdin/papyrus/spr_face_papyruswacky_1.png",
       "/sprites/Undertale/snowdin/papyrus/spr_face_papyrus_0.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_face_papyrus_1.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papface_fatal_0.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papface_wrap_0.png",
       "/sprites/Undertale/snowdin/papyrus/spr_paphead_believe_0.png",
       "/sprites/Undertale/snowdin/papyrus/spr_paphead_friendship_0.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papyrusboss_head_0.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_anime_0.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_anime_1.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_blush2_0.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_blush_0.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_confident_0.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_confident_1.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_confident_2.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_confident_3.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_hurt_0.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_mad_0.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_mad_1.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_mad_2.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_normal_0.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_normal_1.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_normal_2.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_sad_0.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_sad_1.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_sad_2.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_side_0.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_sly_0.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_sly_1.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_sweaty_0.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_sweaty_1.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_sweaty_2.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_variety_0.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_variety_1.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_variety_2.png",
@@ -1452,9 +1408,7 @@ export const characters: Character[] = [
       "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_variety_4.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_variety_5.png",
       "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_variety_6.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_variety_7.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_variety_8.png",
-      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_variety_9.png"
+      "/sprites/Undertale/snowdin/papyrus/spr_papyrushead_variety_7.png"
     ]
   },
   {
@@ -1524,29 +1478,15 @@ export const characters: Character[] = [
     "zone": "snowdin",
     "sprites": [
       "/sprites/Undertale/snowdin/sans/sprite1059_0.png",
-      "/sprites/Undertale/snowdin/sans/spr_face_sansblink_0.png",
-      "/sprites/Undertale/snowdin/sans/spr_face_sanschuckle2_0.png",
-      "/sprites/Undertale/snowdin/sans/spr_face_sanschuckle_0.png",
-      "/sprites/Undertale/snowdin/sans/spr_face_sansnoeyes_0.png",
-      "/sprites/Undertale/snowdin/sans/spr_face_sanswink_0.png",
-      "/sprites/Undertale/snowdin/sans/spr_face_sans_0.png",
       "/sprites/Undertale/snowdin/sans/spr_sansb_blueeye_0.png",
       "/sprites/Undertale/snowdin/sans/spr_sansb_blueeye_1.png",
-      "/sprites/Undertale/snowdin/sans/spr_sansb_face_0.png",
-      "/sprites/Undertale/snowdin/sans/spr_sansb_face_1.png",
       "/sprites/Undertale/snowdin/sans/spr_sansb_face_10.png",
       "/sprites/Undertale/snowdin/sans/spr_sansb_face_11.png",
       "/sprites/Undertale/snowdin/sans/spr_sansb_face_12.png",
       "/sprites/Undertale/snowdin/sans/spr_sansb_face_13.png",
       "/sprites/Undertale/snowdin/sans/spr_sansb_face_14.png",
-      "/sprites/Undertale/snowdin/sans/spr_sansb_face_2.png",
-      "/sprites/Undertale/snowdin/sans/spr_sansb_face_3.png",
-      "/sprites/Undertale/snowdin/sans/spr_sansb_face_4.png",
-      "/sprites/Undertale/snowdin/sans/spr_sansb_face_5.png",
       "/sprites/Undertale/snowdin/sans/spr_sansb_face_6.png",
-      "/sprites/Undertale/snowdin/sans/spr_sansb_face_7.png",
       "/sprites/Undertale/snowdin/sans/spr_sansb_face_8.png",
-      "/sprites/Undertale/snowdin/sans/spr_sansb_face_9.png",
       "/sprites/Undertale/snowdin/sans/spr_sanswrapface_0.png",
       "/sprites/Undertale/snowdin/sans/spr_sanswrapface_1.png",
       "/sprites/Undertale/snowdin/sans/spr_sans_bface_0.png",
@@ -1602,26 +1542,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "snowdin",
     "sprites": [
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_0.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_1.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_10.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_11.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_12.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_13.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_14.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_15.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_16.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_17.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_18.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_19.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_2.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_3.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_4.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_5.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_6.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_7.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_8.png",
-      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_9.png"
+      "/sprites/Undertale/snowdin/snowdrake/spr_snowdrake_head_0.png"
     ]
   },
   {
@@ -1643,69 +1564,24 @@ export const characters: Character[] = [
     "zone": "snowdin",
     "sprites": [
       "/sprites/Undertale/snowdin/tobyfox/spr_dogshrine_dog_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_dogshrine_dog_sleep_0.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_dogshrine_dog_sleep_1.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_dtrapdog_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_dtrapdog_1.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_dtrapdog_2.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_dtrapdog_3.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_dtrapdog_4.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_dtrapdog_5.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_dtrapdog_6.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_dtrapdog_7.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_dtrapdog_8.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_dtrapdog_9.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_sleepdog_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_sleepdog_1.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_tobdogl_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobdogl_1.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_tobdogl_fire_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobdogl_fire_1.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobdogl_fire_still_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobdogl_fire_still_1.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobdogl_still_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobdogl_talk_0.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_tobdogl_talk_1.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_tobdogl_talk_eyeclose_0.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_tobdogl_talk_eyeclose_1.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobdogr_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobdogr_1.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_tobdog_sleep_firebattle_0.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_tobdog_sleep_firebattle_1.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobdog_sleep_fire_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobdog_sleep_fire_1.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_tobdog_sleep_trash_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobdog_sleep_trash_1.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_tobdog_spring_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobdog_spring_1.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobdog_spring_2.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobdog_spring_3.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_tobdog_summer_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobdog_summer_1.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_tobdog_winter_0.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_tobydogeat_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogeat_1.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogeat_2.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogeat_3.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogeat_4.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogeat_5.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogeat_6.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogeat_7.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogeat_small_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogeat_small_1.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogeat_small_2.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogeat_small_3.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogeat_small_4.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogeat_small_5.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogeat_small_6.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogeat_small_7.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_tobydogscoot_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogscoot_1.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogscoot_small_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogscoot_small_1.png",
       "/sprites/Undertale/snowdin/tobyfox/spr_tobydogsurprise_0.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogsurprise_1.png",
-      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogsurprise_small_0.png"
+      "/sprites/Undertale/snowdin/tobyfox/spr_tobydogsurprise_1.png"
     ]
   },
   {
