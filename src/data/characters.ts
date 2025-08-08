@@ -14,29 +14,12 @@ export const characters: Character[] = [
     "zone": "core",
     "sprites": [
       "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim2_0.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim2_1.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim2_10.png",
       "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim2_11.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim2_2.png",
       "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim2_3.png",
       "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim2_4.png",
       "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim2_5.png",
       "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim2_6.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim2_7.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim2_8.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim2_9.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim_0.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim_1.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim_10.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim_11.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim_2.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim_3.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim_4.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim_5.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim_6.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim_7.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim_8.png",
-      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim_9.png"
+      "/sprites/Undertale/core/astigmatism/spr_astigmatism_anim2_8.png"
     ]
   },
   {
@@ -71,6 +54,15 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "businessmanticore",
+    "name": "Businessmanticore",
+    "game": "undertale",
+    "zone": "core",
+    "sprites": [
+      "/sprites/Undertale/core/businessmanticore/spr_businessmanticore_1.png"
+    ]
+  },
+  {
     "id": "catty",
     "name": "Catty",
     "game": "undertale",
@@ -82,10 +74,7 @@ export const characters: Character[] = [
       "/sprites/Undertale/core/catty/spr_cattyface_1.png",
       "/sprites/Undertale/core/catty/spr_cattyface_2.png",
       "/sprites/Undertale/core/catty/spr_cattyface_3.png",
-      "/sprites/Undertale/core/catty/spr_cattyface_4.png",
-      "/sprites/Undertale/core/catty/spr_cattyface_5.png",
-      "/sprites/Undertale/core/catty/spr_cattyface_6.png",
-      "/sprites/Undertale/core/catty/spr_cattyface_7.png"
+      "/sprites/Undertale/core/catty/spr_cattyface_4.png"
     ]
   },
   {
@@ -120,6 +109,24 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "ficuslicker",
+    "name": "Ficuslicker",
+    "game": "undertale",
+    "zone": "core",
+    "sprites": [
+      "/sprites/Undertale/core/ficuslicker/spr_ficuslicker_1.png"
+    ]
+  },
+  {
+    "id": "fishrecepcionist",
+    "name": "Fishrecepcionist",
+    "game": "undertale",
+    "zone": "core",
+    "sprites": [
+      "/sprites/Undertale/core/fishrecepcionist/spr_fishrecepcionist_1.png"
+    ]
+  },
+  {
     "id": "gasterfollower1",
     "name": "Gasterfollower1",
     "game": "undertale",
@@ -146,24 +153,7 @@ export const characters: Character[] = [
     "zone": "core",
     "sprites": [
       "/sprites/Undertale/core/janitor/spr_slimejanitor_0.png",
-      "/sprites/Undertale/core/janitor/spr_slimejanitor_1.png",
-      "/sprites/Undertale/core/janitor/spr_slimejanitor_2.png",
-      "/sprites/Undertale/core/janitor/spr_slimejanitor_3.png",
-      "/sprites/Undertale/core/janitor/spr_slimejanitor_4.png",
-      "/sprites/Undertale/core/janitor/spr_slimejanitor_5.png",
-      "/sprites/Undertale/core/janitor/spr_slimejanitor_6.png",
-      "/sprites/Undertale/core/janitor/spr_slimejanitor_7.png",
-      "/sprites/Undertale/core/janitor/spr_slimejanitor_8.png",
-      "/sprites/Undertale/core/janitor/spr_slimejanitor_9.png"
-    ]
-  },
-  {
-    "id": "knightknight",
-    "name": "Knightknight",
-    "game": "undertale",
-    "zone": "core",
-    "sprites": [
-      "/sprites/Undertale/core/knightknight/spr_finalknight_0.png"
+      "/sprites/Undertale/core/janitor/spr_slimejanitor_5.png"
     ]
   },
   {
@@ -190,23 +180,6 @@ export const characters: Character[] = [
       "/sprites/Undertale/core/mettatonex/spr_mettface1_6.png",
       "/sprites/Undertale/core/mettatonex/spr_mettface1_7.png",
       "/sprites/Undertale/core/mettatonex/spr_mettface1_8.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_defeated_0.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_defeated_1.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_defeated_10.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_defeated_11.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_defeated_2.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_defeated_3.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_defeated_4.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_defeated_5.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_defeated_6.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_defeated_7.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_defeated_8.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_defeated_9.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_general_0.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_general_1.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_general_2.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_general_3.png",
-      "/sprites/Undertale/core/mettatonex/spr_mettface_general_4.png",
       "/sprites/Undertale/core/mettatonex/spr_mettface_general_5.png",
       "/sprites/Undertale/core/mettatonex/spr_mettface_general_6.png",
       "/sprites/Undertale/core/mettatonex/spr_mettface_general_7.png",
@@ -250,6 +223,24 @@ export const characters: Character[] = [
     "sprites": [
       "/sprites/Undertale/core/saddragon/spr_saddragon_0.png",
       "/sprites/Undertale/core/saddragon/spr_saddragon_1.png"
+    ]
+  },
+  {
+    "id": "shamblingmass",
+    "name": "Shamblingmass",
+    "game": "undertale",
+    "zone": "core",
+    "sprites": [
+      "/sprites/Undertale/core/shamblingmass/spr_shamblingmass_1.png"
+    ]
+  },
+  {
+    "id": "snowdrakefather",
+    "name": "Snowdrakefather",
+    "game": "undertale",
+    "zone": "core",
+    "sprites": [
+      "/sprites/Undertale/core/snowdrakefather/spr_snowdrakefather_1.png"
     ]
   },
   {
