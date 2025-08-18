@@ -1475,7 +1475,7 @@ export const characters: Character[] = [
       "/sprites/Undertale/truelab/everyman/spr_strangeman_floathead_8.png",
       "/sprites/Undertale/truelab/everyman/spr_strangeman_floathead_9.png",
       "/sprites/Undertale/truelab/everyman/spr_strangeman_walk_0.png",
-      "/sprites/Undertale/truelab/everyman/spr_strangeman_walk_1.png"
+      "/sprites/Undertale/truelab/everyman/spr_strangeman_walk_1_fixed.png"
     ]
   },
   {
@@ -1518,6 +1518,15 @@ export const characters: Character[] = [
       "/sprites/Undertale/truelab/reaperbird/spr_reaperbird_head_4.png",
       "/sprites/Undertale/truelab/reaperbird/spr_reaperbird_head_5.png",
       "/sprites/Undertale/truelab/reaperbird/spr_reaperbird_head_6.png"
+    ]
+  },
+  {
+    "id": "redacted",
+    "name": "Redacted",
+    "game": "undertale",
+    "zone": "truelab",
+    "sprites": [
+      "/sprites/Undertale/truelab/redacted/spr_redacted_0.png"
     ]
   },
   {
