@@ -14,7 +14,6 @@ export default function LogoLinks({ randomId }: LogoLinksProps) {
 
     return (
         <div className="flex gap-4 mt-4 items-center">
-            {/* Undertale */}
             <Link href="/undertale" className="block">
                 <div className={logoBox}>
                     <Image
@@ -28,7 +27,6 @@ export default function LogoLinks({ randomId }: LogoLinksProps) {
                 </div>
             </Link>
 
-            {/* Deltarune */}
             <Link href="/deltarune" className="block">
                 <div className={logoBox}>
                     <Image
@@ -42,7 +40,6 @@ export default function LogoLinks({ randomId }: LogoLinksProps) {
                 </div>
             </Link>
 
-            {/* Fans */}
             <Link href="/fans" className="block">
                 <div className={logoBox}>
                     <Image
@@ -56,7 +53,6 @@ export default function LogoLinks({ randomId }: LogoLinksProps) {
                 </div>
             </Link>
 
-            {/* Random */}
             {randomId && (
                 <Link href={`/character/${randomId}`} className="block">
                     <div className={logoBox}>

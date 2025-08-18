@@ -27,7 +27,6 @@ export default function Home() {
         }}
       />
 
-      {/* Aquí importamos el nuevo componente */}
       <LogoLinks randomId={randomId} />
     </main>
   );

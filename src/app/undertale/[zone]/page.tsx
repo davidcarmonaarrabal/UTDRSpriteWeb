@@ -9,16 +9,13 @@ export default async function ZonePage({
 }) {
     const { zone } = await params;
 
-    // Personajes de la zona (case-insensitive)
     const zoneChars = characters.filter(
         (c) => c.zone?.toLowerCase() === zone.toLowerCase()
     );
 
-    // Título bonito para la zona
     const prettyZone =
         zone.charAt(0).toUpperCase() + zone.slice(1).toLowerCase();
 
-    // Random seguro al ser Server Component (evita el problema de hidratación)
     const randomChar =
         zoneChars.length > 0
             ? zoneChars[Math.floor(Math.random() * zoneChars.length)]
@@ -26,7 +23,6 @@ export default async function ZonePage({
 
     return (
         <main className="p-6 max-w-6xl mx-auto">
-            {/* Barra superior */}
             <div className="flex items-center justify-between gap-4 mb-6">
                 <Link
                     href="/"
@@ -61,7 +57,6 @@ export default async function ZonePage({
                 </p>
             </header>
 
-            {/* Grid de personajes */}
             {zoneChars.length === 0 ? (
                 <div className="mt-10 rounded-2xl border border-zinc-800 bg-zinc-900/60 p-8 text-center text-zinc-300">
                     No hay personajes en <span className="font-semibold">{prettyZone}</span>.

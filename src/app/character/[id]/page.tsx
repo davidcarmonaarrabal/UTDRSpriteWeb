@@ -24,12 +24,10 @@ export default async function CharacterPage({
         );
     }
 
-    // Si tu objeto tiene `zone`, hacemos un link de retorno a esa zona
     const zoneHref = character.zone ? `/undertale/${character.zone}` : null;
 
     return (
         <main className="p-6 max-w-6xl mx-auto">
-            {/* Barra superior */}
             <div className="flex items-center justify-between gap-4 mb-6">
                 <div className="flex items-center gap-3">
                     <Link
@@ -53,7 +51,6 @@ export default async function CharacterPage({
                 </span>
             </div>
 
-            {/* Encabezado */}
             <header className="mb-6">
                 <h1 className="text-3xl font-bold tracking-tight text-white">{character.name}</h1>
                 <p className="mt-1 text-zinc-400">
@@ -61,14 +58,12 @@ export default async function CharacterPage({
                 </p>
             </header>
 
-            {/* Grid de sprites */}
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5">
                 {character.sprites.map((sprite, i) => (
                     <div
                         key={i}
                         className="group rounded-2xl border border-zinc-800 bg-zinc-900/60 p-3 shadow hover:shadow-lg hover:border-zinc-700 transition"
                     >
-                        {/* Marco cuadrado del sprite */}
                         <div className="relative aspect-square w-full rounded-xl bg-black overflow-hidden">
                             <Image
                                 src={sprite}
@@ -76,11 +71,10 @@ export default async function CharacterPage({
                                 fill
                                 sizes="200px"
                                 className="object-contain transition-transform duration-200 ease-out group-hover:scale-105"
-                                priority={i < 4} // prioriza los primeros para mejor LCP
+                                priority={i < 4} 
                             />
                         </div>
 
-                        {/* Acción de descarga */}
                         <a
                             href={sprite}
                             download
