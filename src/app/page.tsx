@@ -3,12 +3,16 @@
 import LogoLinks from "@/components/visuals/LogoLinks";
 import SearchBox from "@/components/navbar/SearchBox";
 import { useEffect, useState } from "react";
+import { characters } from "@/data/characters"; 
 
 export default function Home() {
   const [randomId, setRandomId] = useState<string | null>(null);
 
   useEffect(() => {
-    setRandomId(Math.random().toString(36).substring(2, 8));
+    if (characters.length > 0) {
+      const randomIndex = Math.floor(Math.random() * characters.length);
+      setRandomId(characters[randomIndex].id);
+    }
   }, []);
 
   return (

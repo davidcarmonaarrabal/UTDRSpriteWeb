@@ -2,8 +2,12 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { characters } from "@/data/characters"; 
 
 export default function UndertaleGallery() {
+    const router = useRouter();
+
     const logoBox =
         "relative w-[240px] h-[120px] overflow-hidden rounded-xl shadow " +
         "transition-transform duration-200 ease-out hover:scale-105 bg-black";
@@ -19,12 +23,36 @@ export default function UndertaleGallery() {
         { id: "truelab", img: "/img/Truelab.jpg", label: "True Lab" },
     ];
 
+    const goToRandomUndertale = () => {
+        const undertaleChars = characters.filter(c => c.game === "undertale");
+        if (undertaleChars.length === 0) return;
+
+        const randomIndex = Math.floor(Math.random() * undertaleChars.length);
+        const randomId = undertaleChars[randomIndex].id;
+
+        router.push(`/character/${randomId}`);
+    };
+
     return (
-        <main className="p-6">
-            <Link href="/" className="btn">
+        <main className="p-6 flex flex-col items-center">
+            <Link href="/" className="btn mb-4">
                 Volver al Home
             </Link>
             <h2 className="text-2xl my-4">Galería Undertale</h2>
+
+            <button
+                onClick={goToRandomUndertale}
+                className="mb-6 relative w-[120px] h-[40px] rounded-lg shadow hover:scale-105 transition overflow-hidden"
+            >
+                <Image
+                    src="/img/button_random.jpg"
+                    alt="Random"
+                    fill
+                    sizes="120px"
+                    className="object-contain"
+                    priority
+                />
+            </button>
 
             <div className="flex gap-6 flex-wrap justify-center">
                 {zones.map((zone) => (

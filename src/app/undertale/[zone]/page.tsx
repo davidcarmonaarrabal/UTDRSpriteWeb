@@ -1,13 +1,14 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter, useParams } from "next/navigation";
 import { characters } from "@/data/characters";
 
-export default async function ZonePage({
-    params,
-}: {
-    params: Promise<{ zone: string }>;
-}) {
-    const { zone } = await params;
+export default function ZonePage() {
+    const router = useRouter();
+    const params = useParams(); // <-- hook
+    const zone = params?.zone || ""; // seguro
 
     const zoneChars = characters.filter(
         (c) => c.zone?.toLowerCase() === zone.toLowerCase()
@@ -16,10 +17,12 @@ export default async function ZonePage({
     const prettyZone =
         zone.charAt(0).toUpperCase() + zone.slice(1).toLowerCase();
 
-    const randomChar =
-        zoneChars.length > 0
-            ? zoneChars[Math.floor(Math.random() * zoneChars.length)]
-            : null;
+    const goToRandomChar = () => {
+        if (zoneChars.length === 0) return;
+        const randomIndex = Math.floor(Math.random() * zoneChars.length);
+        const randomId = zoneChars[randomIndex].id;
+        router.push(`/character/${randomId}`);
+    };
 
     return (
         <main className="p-6 max-w-6xl mx-auto">
@@ -36,18 +39,24 @@ export default async function ZonePage({
                         {zoneChars.length} personaje{zoneChars.length !== 1 ? "s" : ""}
                     </span>
 
-                    {randomChar && (
-                        <Link
-                            href={`/character/${randomChar.id}`}
-                            className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-indigo-500 transition"
+                    {zoneChars.length > 0 && (
+                        <button
+                            onClick={goToRandomChar}
+                            className="relative w-[120px] h-[40px] rounded-xl shadow hover:scale-105 transition overflow-hidden"
                         >
-                            Random
-                        </Link>
+                            <Image
+                                src="/img/button_random.jpg"
+                                alt="Random"
+                                fill
+                                sizes="120px"
+                                className="object-contain"
+                                priority
+                            />
+                        </button>
                     )}
                 </div>
             </div>
 
-            {/* Encabezado */}
             <header className="mb-6">
                 <h2 className="text-3xl font-bold tracking-tight text-white">
                     {prettyZone}
@@ -86,7 +95,6 @@ export default async function ZonePage({
                         </Link>
                     ))}
                 </div>
-
             )}
         </main>
     );

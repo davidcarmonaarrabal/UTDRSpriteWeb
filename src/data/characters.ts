@@ -1329,6 +1329,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "snowdin",
     "sprites": [
+      "/sprites/Undertale/snowdin/sans/spr_sans_bface_0.png",
       "/sprites/Undertale/snowdin/sans/sprite1059_0.png",
       "/sprites/Undertale/snowdin/sans/spr_sansb_blueeye_0.png",
       "/sprites/Undertale/snowdin/sans/spr_sansb_blueeye_1.png",
@@ -1341,7 +1342,6 @@ export const characters: Character[] = [
       "/sprites/Undertale/snowdin/sans/spr_sansb_face_8.png",
       "/sprites/Undertale/snowdin/sans/spr_sanswrapface_0.png",
       "/sprites/Undertale/snowdin/sans/spr_sanswrapface_1.png",
-      "/sprites/Undertale/snowdin/sans/spr_sans_bface_0.png",
       "/sprites/Undertale/snowdin/sans/spr_sans_bface_1.png",
       "/sprites/Undertale/snowdin/sans/spr_sans_bface_2.png",
       "/sprites/Undertale/snowdin/sans/spr_sans_bface_3.png",
