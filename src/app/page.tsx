@@ -1,13 +1,13 @@
 'use client';
 
+import LogoLinks from "@/components/visuals/LogoLinks";
 import { useEffect, useState } from "react";
-import Link from "next/link";
+
 
 export default function Home() {
   const [randomId, setRandomId] = useState<string | null>(null);
 
   useEffect(() => {
-    // Aquí generamos el valor aleatorio solo en cliente
     setRandomId(Math.random().toString(36).substring(2, 8));
   }, []);
 
@@ -27,14 +27,8 @@ export default function Home() {
         }}
       />
 
-      <div className="flex gap-4 mt-4">
-        <Link href="/undertale" className="btn">Galería Undertale</Link>
-        <Link href="/deltarune" className="btn">Galería Deltarune</Link>
-        <Link href="/fans" className="btn">Galería Fans</Link>
-        {randomId && (
-          <Link href={`/character/${randomId}`} className="btn">Random</Link>
-        )}
-      </div>
+      {/* Aquí importamos el nuevo componente */}
+      <LogoLinks randomId={randomId} />
     </main>
   );
 }
