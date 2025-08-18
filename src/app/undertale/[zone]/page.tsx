@@ -8,29 +8,91 @@ export default async function ZonePage({
     params: Promise<{ zone: string }>;
 }) {
     const { zone } = await params;
+
+    // Personajes de la zona (case-insensitive)
     const zoneChars = characters.filter(
-        (c) => c.zone.toLowerCase() === zone.toLowerCase()
+        (c) => c.zone?.toLowerCase() === zone.toLowerCase()
     );
 
-    return (
-        <main className="p-6">
-            <Link href="/" className="btn">Volver al Home</Link>
-            <h2 className="text-2xl my-4">Zona: {zone}</h2>
+    // Título bonito para la zona
+    const prettyZone =
+        zone.charAt(0).toUpperCase() + zone.slice(1).toLowerCase();
 
-            <div className="grid grid-cols-2 gap-4">
-                {zoneChars.map((char) => (
-                    <Link key={char.id} href={`/character/${char.id}`} className="text-center">
-                        <Image
-                            src={char.sprites[0]}
-                            width={200}
-                            height={200}
-                            alt={char.name}
-                        />
-                        <p>{char.name}</p>
-                    </Link>
-                ))}
+    // Random seguro al ser Server Component (evita el problema de hidratación)
+    const randomChar =
+        zoneChars.length > 0
+            ? zoneChars[Math.floor(Math.random() * zoneChars.length)]
+            : null;
+
+    return (
+        <main className="p-6 max-w-6xl mx-auto">
+            {/* Barra superior */}
+            <div className="flex items-center justify-between gap-4 mb-6">
+                <Link
+                    href="/"
+                    className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition"
+                >
+                    ← Volver al Home
+                </Link>
+
+                <div className="flex items-center gap-3">
+                    <span className="rounded-lg bg-zinc-900/70 border border-zinc-800 px-3 py-1 text-sm text-zinc-300">
+                        {zoneChars.length} personaje{zoneChars.length !== 1 ? "s" : ""}
+                    </span>
+
+                    {randomChar && (
+                        <Link
+                            href={`/character/${randomChar.id}`}
+                            className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-indigo-500 transition"
+                        >
+                            Random
+                        </Link>
+                    )}
+                </div>
             </div>
+
+            {/* Encabezado */}
+            <header className="mb-6">
+                <h2 className="text-3xl font-bold tracking-tight text-white">
+                    {prettyZone}
+                </h2>
+                <p className="mt-1 text-zinc-400">
+                    Explora los sprites principales de los personajes de esta zona.
+                </p>
+            </header>
+
+            {/* Grid de personajes */}
+            {zoneChars.length === 0 ? (
+                <div className="mt-10 rounded-2xl border border-zinc-800 bg-zinc-900/60 p-8 text-center text-zinc-300">
+                    No hay personajes en <span className="font-semibold">{prettyZone}</span>.
+                </div>
+            ) : (
+                <div className="flex flex-wrap justify-center gap-5">
+                    {zoneChars.map((char) => (
+                        <Link
+                            key={char.id}
+                            href={`/character/${char.id}`}
+                            className="group block w-[140px] rounded-2xl border border-zinc-800 bg-zinc-900/60 p-3 shadow hover:shadow-lg hover:border-zinc-700 transition"
+                        >
+                            <div className="relative aspect-square w-full rounded-xl bg-black overflow-hidden">
+                                <Image
+                                    src={char.sprites[0]}
+                                    alt={char.name}
+                                    fill
+                                    sizes="140px"
+                                    className="object-contain transition-transform duration-200 ease-out group-hover:scale-105"
+                                />
+                            </div>
+
+                            <p className="mt-3 text-center text-sm font-medium text-zinc-100">
+                                {char.name}
+                            </p>
+                            <div className="mx-auto mt-1 h-px w-10 bg-zinc-700 opacity-0 group-hover:opacity-100 transition"></div>
+                        </Link>
+                    ))}
+                </div>
+
+            )}
         </main>
     );
 }
-
