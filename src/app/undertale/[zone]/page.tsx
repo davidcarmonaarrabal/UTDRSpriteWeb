@@ -4,21 +4,27 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { characters } from "@/data/characters";
+import { use } from "react";
 
-export default function ZonePage({ params }: { params: { zone: string | string[] } }) {
+interface PageProps {
+    params: {
+        zone: string | string[];
+    };
+}
+
+export default function ZonePage({ params: paramsPromise }: { params: Promise<PageProps['params']> }) {
     const router = useRouter();
+    const params = use(paramsPromise);
 
-    // 🔹 Forzar que zone sea string
+    // Ensure zone is always a string
     const zone = Array.isArray(params?.zone) ? params.zone[0] : params?.zone || "";
 
     const zoneChars = characters.filter(
         (c) => c.zone?.toLowerCase() === zone.toLowerCase()
     );
 
-    const prettyZone =
-        zone.charAt(0).toUpperCase() + zone.slice(1).toLowerCase();
+    const prettyZone = zone.charAt(0).toUpperCase() + zone.slice(1).toLowerCase();
 
-    // 🔹 Función para navegar a un personaje random de esta zona
     const goToRandomChar = () => {
         if (zoneChars.length === 0) return;
         const randomIndex = Math.floor(Math.random() * zoneChars.length);
@@ -44,16 +50,16 @@ export default function ZonePage({ params }: { params: { zone: string | string[]
                     {zoneChars.length > 0 && (
                         <button
                             onClick={goToRandomChar}
-                            className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-indigo-500 transition"
+                            className="relative w-[120px] h-[40px] rounded-xl shadow hover:scale-105 transition overflow-hidden"
                         >
                             <Image
-                                src="/img/button_random.png"
+                                src="/img/button_random.jpg"
                                 alt="Random"
-                                width={24}
-                                height={24}
+                                fill
+                                sizes="120px"
                                 className="object-contain"
+                                priority
                             />
-                            Random 🎲
                         </button>
                     )}
                 </div>
