@@ -74,7 +74,7 @@ export default function SearchResults() {
             {/* Resultados */}
             {query && results.length === 0 && (
                 <div className="rounded-2xl border border-zinc-800 bg-zinc-900/60 p-8 text-center text-zinc-300">
-                    No hay resultados para <span className="font-semibold">"{query}"</span>.
+                    No hay resultados para <span className="font-semibold">&quot;{query}&quot;</span>.
                 </div>
             )}
 
