@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useRouter, useParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { characters } from "@/data/characters";
 
-export default function ZonePage() {
+export default function ZonePage({ params }: { params: { zone: string | string[] } }) {
     const router = useRouter();
-    const params = useParams(); // <-- hook
-    const zone = params?.zone || ""; // seguro
+
+    // 🔹 Forzar que zone sea string
+    const zone = Array.isArray(params?.zone) ? params.zone[0] : params?.zone || "";
 
     const zoneChars = characters.filter(
         (c) => c.zone?.toLowerCase() === zone.toLowerCase()
@@ -17,6 +18,7 @@ export default function ZonePage() {
     const prettyZone =
         zone.charAt(0).toUpperCase() + zone.slice(1).toLowerCase();
 
+    // 🔹 Función para navegar a un personaje random de esta zona
     const goToRandomChar = () => {
         if (zoneChars.length === 0) return;
         const randomIndex = Math.floor(Math.random() * zoneChars.length);
@@ -42,16 +44,16 @@ export default function ZonePage() {
                     {zoneChars.length > 0 && (
                         <button
                             onClick={goToRandomChar}
-                            className="relative w-[120px] h-[40px] rounded-xl shadow hover:scale-105 transition overflow-hidden"
+                            className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-indigo-500 transition"
                         >
                             <Image
-                                src="/img/button_random.jpg"
+                                src="/img/button_random.png"
                                 alt="Random"
-                                fill
-                                sizes="120px"
+                                width={24}
+                                height={24}
                                 className="object-contain"
-                                priority
                             />
+                            Random 🎲
                         </button>
                     )}
                 </div>
