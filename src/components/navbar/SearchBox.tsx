@@ -18,9 +18,19 @@ export default function SearchBox({
 }: Props) {
     const router = useRouter();
     const pathname = usePathname();
-    const sp = useSearchParams();
+    // This will now be used inside a Suspense boundary
+    const searchParams = useSearchParams();
+    
+    // Safely get the search params
+    const initial = useMemo(() => {
+      try {
+        return (searchParams?.get("name") ?? "").trim();
+      } catch (e) {
+        console.log(e);
+        return "";
+      }
+    }, [searchParams]);
 
-    const initial = useMemo(() => (sp?.get("name") ?? "").trim(), [sp]);
     const [query, setQuery] = useState(initial);
     const pushedToSearch = useRef(false);
 
@@ -28,23 +38,20 @@ export default function SearchBox({
         const t = setTimeout(() => {
             const q = query.trim();
 
-            // 🚨 Solo activar si hay mínimo 3 caracteres
             if (q.length < 3) {
                 if (pathname === "/search") {
-                    router.replace("/search"); // limpiar resultados si hay menos de 3
+                    router.replace("/search");
                 }
                 pushedToSearch.current = false;
                 return;
             }
             
-            // si estamos en Home y se quiere navegación automática
             if (autoNavigateToSearch && pathname === "/" && !pushedToSearch.current) {
                 pushedToSearch.current = true;
                 router.push(`/search?name=${encodeURIComponent(q)}`);
                 return;
             }
 
-            // actualizar URL
             const target = `/search?name=${encodeURIComponent(q)}`;
             if (pathname === "/search" || autoNavigateToSearch) {
                 router.replace(target);
