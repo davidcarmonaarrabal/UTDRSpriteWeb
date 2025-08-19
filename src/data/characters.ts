@@ -49,8 +49,7 @@ export const characters: Character[] = [
       "/sprites/Undertale/core/bratty/spr_brattyface_1.png",
       "/sprites/Undertale/core/bratty/spr_brattyface_2.png",
       "/sprites/Undertale/core/bratty/spr_brattyface_3.png",
-      "/sprites/Undertale/core/bratty/spr_brattyface_4.png",
-      "/sprites/Undertale/core/bratty/spr_brattyface_5.png"
+      "/sprites/Undertale/core/bratty/spr_brattyface_4.png"
     ]
   },
   {
