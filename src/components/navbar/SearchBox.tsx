@@ -13,22 +13,19 @@ type Props = {
 export default function SearchBox({
     placeholder = "Buscar personaje...",
     autoNavigateToSearch = false,
-    className = "border p-2 w-64 rounded-md",
+    className = "w-full max-w-md rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-zinc-100 placeholder-zinc-500",
     debounceMs = 250,
 }: Props) {
     const router = useRouter();
     const pathname = usePathname();
-    // This will now be used inside a Suspense boundary
     const searchParams = useSearchParams();
-    
-    // Safely get the search params
+
     const initial = useMemo(() => {
-      try {
-        return (searchParams?.get("name") ?? "").trim();
-      } catch (e) {
-        console.log(e);
-        return "";
-      }
+        try {
+            return (searchParams?.get("name") ?? "").trim();
+        } catch {
+            return "";
+        }
     }, [searchParams]);
 
     const [query, setQuery] = useState(initial);
@@ -38,20 +35,21 @@ export default function SearchBox({
         const t = setTimeout(() => {
             const q = query.trim();
 
+            // Mínimo 3 caracteres
             if (q.length < 3) {
-                if (pathname === "/search") {
-                    router.replace("/search");
-                }
+                if (pathname === "/search") router.replace("/search");
                 pushedToSearch.current = false;
                 return;
             }
-            
+
+            // Desde Home, navegar a /search al empezar a escribir
             if (autoNavigateToSearch && pathname === "/" && !pushedToSearch.current) {
                 pushedToSearch.current = true;
                 router.push(`/search?name=${encodeURIComponent(q)}`);
                 return;
             }
 
+            // Sincroniza URL
             const target = `/search?name=${encodeURIComponent(q)}`;
             if (pathname === "/search" || autoNavigateToSearch) {
                 router.replace(target);
@@ -79,7 +77,7 @@ export default function SearchBox({
                 }
             }}
             placeholder={placeholder}
-            className={className}
+            className={className + " w-full"} // ocupa todo el ancho en móvil
         />
     );
 }

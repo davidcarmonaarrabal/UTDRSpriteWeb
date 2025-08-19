@@ -17,14 +17,30 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex flex-col items-center justify-center gap-4 p-8">
-      <h1 className="text-4xl font-bold">Galería de Sprites</h1>
+    <main className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6">
+      <h1 className="text-3xl sm:text-4xl font-bold text-center">Galería de Sprites</h1>
 
-      <Suspense fallback={<input placeholder="Loading search..." className="border p-2 w-64 rounded-md" />}>
-        <SearchBox autoNavigateToSearch placeholder="Buscar personaje..." />
-      </Suspense>
+      <div className="mt-4 flex w-full justify-center">
+        <Suspense
+          fallback={
+            <input
+              placeholder="Cargando búsqueda…"
+              className="w-full max-w-md rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-zinc-100 placeholder-zinc-500"
+            />
+          }
+        >
+          {/* Ancho completo en móvil, max-w en pantallas grandes */}
+          <SearchBox
+            autoNavigateToSearch
+            className="w-full max-w-md rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-indigo-600"
+          />
+        </Suspense>
+      </div>
 
-      <LogoLinks randomId={randomId} />
+      {/* Logos con grid responsive */}
+      <div className="mt-6">
+        <LogoLinks randomId={randomId} />
+      </div>
     </main>
   );
 }
