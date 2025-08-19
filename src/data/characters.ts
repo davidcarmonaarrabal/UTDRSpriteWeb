@@ -506,7 +506,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "hotland",
     "sprites": [
-      "/sprites/Undertale/hotland/tsundereplane/spr_tsundereplane_1.PNG"
+      "/sprites/Undertale/hotland/tsundereplane/spr_tsundereplane_1.png"
     ]
   },
   {
