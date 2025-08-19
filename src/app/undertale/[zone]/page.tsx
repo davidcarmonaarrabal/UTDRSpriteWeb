@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { characters } from "@/data/characters";
-import { use } from "react";
+import { use, useMemo } from "react";
 
 interface PageProps {
     params: {
@@ -12,28 +12,34 @@ interface PageProps {
     };
 }
 
-export default function ZonePage({ params: paramsPromise }: { params: Promise<PageProps['params']> }) {
+export default function ZonePage({
+    params: paramsPromise,
+}: {
+    params: Promise<PageProps["params"]>;
+}) {
     const router = useRouter();
     const params = use(paramsPromise);
 
-    // Ensure zone is always a string
+    // Normaliza zone a string
     const zone = Array.isArray(params?.zone) ? params.zone[0] : params?.zone || "";
 
     const zoneChars = characters.filter(
         (c) => c.zone?.toLowerCase() === zone.toLowerCase()
     );
 
-    const prettyZone = zone.charAt(0).toUpperCase() + zone.slice(1).toLowerCase();
+    const prettyZone =
+        zone.charAt(0).toUpperCase() + zone.slice(1).toLowerCase();
 
-    const goToRandomChar = () => {
-        if (zoneChars.length === 0) return;
-        const randomIndex = Math.floor(Math.random() * zoneChars.length);
-        const randomId = zoneChars[randomIndex].id;
-        router.push(`/character/${randomId}`);
-    };
+    // Random estable por render (evita handler y navegación imperativa)
+    const randomCharId = useMemo(() => {
+        if (zoneChars.length === 0) return null;
+        const r = Math.floor(Math.random() * zoneChars.length);
+        return zoneChars[r].id;
+    }, [zoneChars]);
 
     return (
         <main className="p-6 max-w-6xl mx-auto">
+            {/* Barra superior */}
             <div className="flex items-center justify-between gap-4 mb-6">
                 <Link
                     href="/"
@@ -47,24 +53,26 @@ export default function ZonePage({ params: paramsPromise }: { params: Promise<Pa
                         {zoneChars.length} personaje{zoneChars.length !== 1 ? "s" : ""}
                     </span>
 
-                    {zoneChars.length > 0 && (
-                        <button
-                            onClick={goToRandomChar}
-                            className="relative w-[120px] h-[40px] rounded-xl shadow hover:scale-105 transition overflow-hidden"
+                    {randomCharId && (
+                        <Link
+                            href={`/character/${randomCharId}`}
+                            aria-label="Personaje aleatorio de la zona"
+                            className="relative block w-[120px] h-[40px] rounded-xl shadow hover:scale-105 transition overflow-hidden bg-black focus:outline-none focus:ring-2 focus:ring-indigo-600"
                         >
                             <Image
                                 src="/img/button_random.webp"
                                 alt="Random"
                                 fill
                                 sizes="120px"
-                                className="object-contain"
+                                className="object-contain"  /* ocupa todo sin recortar */
                                 priority
                             />
-                        </button>
+                        </Link>
                     )}
                 </div>
             </div>
 
+            {/* Encabezado */}
             <header className="mb-6">
                 <h2 className="text-3xl font-bold tracking-tight text-white">
                     {prettyZone}
@@ -74,6 +82,7 @@ export default function ZonePage({ params: paramsPromise }: { params: Promise<Pa
                 </p>
             </header>
 
+            {/* Grid / Flex centrado (última fila centrada) */}
             {zoneChars.length === 0 ? (
                 <div className="mt-10 rounded-2xl border border-zinc-800 bg-zinc-900/60 p-8 text-center text-zinc-300">
                     No hay personajes en <span className="font-semibold">{prettyZone}</span>.
