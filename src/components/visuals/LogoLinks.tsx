@@ -17,7 +17,7 @@ export default function LogoLinks({ randomId }: LogoLinksProps) {
             <Link href="/undertale" className="block">
                 <div className={logoBox}>
                     <Image
-                        src="/img/Undertale-logo.jpg"
+                        src="/img/Undertale-logo.webp"
                         alt="Galería Undertale"
                         fill
                         sizes="240px"
@@ -43,7 +43,7 @@ export default function LogoLinks({ randomId }: LogoLinksProps) {
             <Link href="/fans" className="block">
                 <div className={logoBox}>
                     <Image
-                        src="/img/Fans-logo.jpg"
+                        src="/img/Fans-logo.webp"
                         alt="Galería Fans"
                         fill
                         sizes="240px"
@@ -57,7 +57,7 @@ export default function LogoLinks({ randomId }: LogoLinksProps) {
                 <Link href={`/character/${randomId}`} className="block">
                     <div className={logoBox}>
                         <Image
-                            src="/img/Random-logo.jpg"
+                            src="/img/Random-logo.webp"
                             alt="Random"
                             fill
                             sizes="240px"

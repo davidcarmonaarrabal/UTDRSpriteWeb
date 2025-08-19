@@ -14,13 +14,13 @@ export default function UndertaleGallery() {
 
     // Zonas + logos
     const zones = [
-        { id: "ruinas", img: "/img/Ruinas.jpg", label: "Ruins" },
-        { id: "snowdin", img: "/img/Snowdin.jpg", label: "Snowdin" },
-        { id: "waterfall", img: "/img/Waterfall.jpg", label: "Waterfall" },
-        { id: "hotland", img: "/img/Hotland.jpg", label: "Hotland" },
-        { id: "core", img: "/img/Core.jpg", label: "Core" },
-        { id: "newhome", img: "/img/Newhome.jpg", label: "New Home" },
-        { id: "truelab", img: "/img/Truelab.jpg", label: "True Lab" },
+        { id: "ruinas", img: "/img/Ruinas.webp", label: "Ruins" },
+        { id: "snowdin", img: "/img/Snowdin.webp", label: "Snowdin" },
+        { id: "waterfall", img: "/img/Waterfall.webp", label: "Waterfall" },
+        { id: "hotland", img: "/img/Hotland.webp", label: "Hotland" },
+        { id: "core", img: "/img/Core.webp", label: "Core" },
+        { id: "newhome", img: "/img/Newhome.webp", label: "New Home" },
+        { id: "truelab", img: "/img/Truelab.webp", label: "True Lab" },
     ];
 
     const goToRandomUndertale = () => {
@@ -45,7 +45,7 @@ export default function UndertaleGallery() {
                 className="mb-6 relative w-[120px] h-[40px] rounded-lg shadow hover:scale-105 transition overflow-hidden"
             >
                 <Image
-                    src="/img/button_random.jpg"
+                    src="/img/button_random.webp"
                     alt="Random"
                     fill
                     sizes="120px"

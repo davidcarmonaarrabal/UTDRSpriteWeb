@@ -53,7 +53,7 @@ export default function ZonePage({ params: paramsPromise }: { params: Promise<Pa
                             className="relative w-[120px] h-[40px] rounded-xl shadow hover:scale-105 transition overflow-hidden"
                         >
                             <Image
-                                src="/img/button_random.jpg"
+                                src="/img/button_random.webp"
                                 alt="Random"
                                 fill
                                 sizes="120px"
