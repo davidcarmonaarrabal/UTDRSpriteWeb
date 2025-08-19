@@ -2,17 +2,14 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
-import { characters } from "@/data/characters"; 
+import { characters } from "@/data/characters";
 
 export default function UndertaleGallery() {
-    const router = useRouter();
-
     const logoBox =
-        "relative w-[240px] h-[120px] overflow-hidden rounded-xl shadow " +
-        "transition-transform duration-200 ease-out hover:scale-105 bg-black";
+        "relative overflow-hidden rounded-xl shadow bg-black " +
+        "transition-transform duration-200 ease-out hover:scale-105 " +
+        "w-[160px] h-[80px] sm:w-[200px] sm:h-[100px] md:w-[220px] md:h-[110px] lg:w-[240px] lg:h-[120px]";
 
-    // Zonas + logos
     const zones = [
         { id: "ruinas", img: "/img/Ruinas.webp", label: "Ruins" },
         { id: "snowdin", img: "/img/Snowdin.webp", label: "Snowdin" },
@@ -23,38 +20,44 @@ export default function UndertaleGallery() {
         { id: "truelab", img: "/img/Truelab.webp", label: "True Lab" },
     ];
 
-    const goToRandomUndertale = () => {
-        const undertaleChars = characters.filter(c => c.game === "undertale");
-        if (undertaleChars.length === 0) return;
-
-        const randomIndex = Math.floor(Math.random() * undertaleChars.length);
-        const randomId = undertaleChars[randomIndex].id;
-
-        router.push(`/character/${randomId}`);
-    };
+    // ID random de Undertale
+    const undertaleChars = characters.filter((c) => c.game === "undertale");
+    const randomChar = undertaleChars[Math.floor(Math.random() * undertaleChars.length)];
 
     return (
-        <main className="p-6 flex flex-col items-center">
-            <Link href="/" className="btn mb-4">
-                Volver al Home
-            </Link>
-            <h2 className="text-2xl my-4">Galería Undertale</h2>
-
-            <button
-                onClick={goToRandomUndertale}
-                className="mb-6 relative w-[120px] h-[40px] rounded-lg shadow hover:scale-105 transition overflow-hidden"
+        <main className="mx-auto w-full max-w-6xl px-4 py-6 flex flex-col items-center">
+            <Link
+                href="/"
+                className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition mb-4"
             >
-                <Image
-                    src="/img/button_random.webp"
-                    alt="Random"
-                    fill
-                    sizes="120px"
-                    className="object-contain"
-                    priority
-                />
-            </button>
+                ← Volver al Home
+            </Link>
 
-            <div className="flex gap-6 flex-wrap justify-center">
+            <h2 className="text-2xl sm:text-3xl font-bold my-4 text-center">
+                Galería Undertale
+            </h2>
+
+            {/* Random como Link */}
+            {/* Random como Link */}
+            {randomChar && (
+                <Link
+                    href={`/character/${randomChar.id}`}
+                    aria-label="Personaje aleatorio de Undertale"
+                    className="mb-6 relative w-[180px] h-[50px] sm:w-[200px] sm:h-[56px] rounded-lg shadow hover:scale-105 focus:scale-105 focus:outline-none focus:ring-2 focus:ring-indigo-600 transition overflow-hidden block"
+                >
+                    <Image
+                        src="/img/button_random.webp"
+                        alt="Random"
+                        fill
+                        sizes="(max-width: 640px) 180px, 200px"
+                        className="object-contain"   // ← en vez de object-cover
+                        priority
+                    />
+                </Link>
+            )}
+
+
+            <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
                 {zones.map((zone) => (
                     <Link key={zone.id} href={`/undertale/${zone.id}`} className="block">
                         <div className={logoBox}>
@@ -62,11 +65,13 @@ export default function UndertaleGallery() {
                                 src={zone.img}
                                 alt={zone.label}
                                 fill
-                                sizes="240px"
+                                sizes="(max-width: 640px) 160px, (max-width: 768px) 200px, (max-width: 1024px) 220px, 240px"
                                 className="object-cover"
                             />
                         </div>
-                        <p className="text-center mt-2 font-semibold">{zone.label}</p>
+                        <p className="text-center mt-2 text-sm sm:text-base font-semibold">
+                            {zone.label}
+                        </p>
                     </Link>
                 ))}
             </div>
