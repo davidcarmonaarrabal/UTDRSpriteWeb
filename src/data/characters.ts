@@ -1649,17 +1649,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "waterfall",
     "sprites": [
-      "/sprites/Undertale/waterfall/moldbygg/spr_moldbygg_1.PNG"
-    ]
-  },
-  {
-    "id": "moldsmal",
-    "name": "Moldsmal",
-    "game": "undertale",
-    "zone": "waterfall",
-    "sprites": [
-      "/sprites/Undertale/waterfall/moldsmal/spr_moldsmal_0.png",
-      "/sprites/Undertale/waterfall/moldsmal/spr_moldsmal_1.png"
+      "/sprites/Undertale/waterfall/moldbygg/spr_moldbygg_1.png"
     ]
   },
   {
@@ -1683,16 +1673,6 @@ export const characters: Character[] = [
     "zone": "waterfall",
     "sprites": [
       "/sprites/Undertale/waterfall/mushroomguy/spr_mushroomdance_end_0.png"
-    ]
-  },
-  {
-    "id": "mysteryman",
-    "name": "Mysteryman",
-    "game": "undertale",
-    "zone": "waterfall",
-    "sprites": [
-      "/sprites/Undertale/waterfall/mysteryman/spr_mysteryman_0.png",
-      "/sprites/Undertale/waterfall/mysteryman/spr_mysteryman_1.png"
     ]
   },
   {
@@ -1726,7 +1706,6 @@ export const characters: Character[] = [
     "zone": "waterfall",
     "sprites": [
       "/sprites/Undertale/waterfall/smallbird/spr_smallbird_0.png",
-      "/sprites/Undertale/waterfall/smallbird/spr_smallbird_1.png",
       "/sprites/Undertale/waterfall/smallbird/spr_smallbird_cry_0.png",
       "/sprites/Undertale/waterfall/smallbird/spr_smallbird_cry_1.png",
       "/sprites/Undertale/waterfall/smallbird/spr_smallbird_fly_0.png",
