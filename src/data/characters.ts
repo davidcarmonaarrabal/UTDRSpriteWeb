@@ -824,10 +824,8 @@ export const characters: Character[] = [
     "sprites": [
       "/sprites/Undertale/ruinas/frisk/spr_f_maincharad_0.png",
       "/sprites/Undertale/ruinas/frisk/spr_f_maincharad_1.png",
-      "/sprites/Undertale/ruinas/frisk/spr_f_maincharad_2.png",
       "/sprites/Undertale/ruinas/frisk/spr_f_maincharad_3.png",
-      "/sprites/Undertale/ruinas/frisk/spr_labcamera_emergency_0.png",
-      "/sprites/Undertale/ruinas/frisk/spr_labcamera_emergency_1.png"
+      "/sprites/Undertale/ruinas/frisk/spr_labcamera_emergency_0.png"
     ]
   },
   {
@@ -855,11 +853,9 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "ruinas",
     "sprites": [
-      "/sprites/Undertale/ruinas/migosp/spr_migosphappy_0.png",
       "/sprites/Undertale/ruinas/migosp/spr_migosphappy_1.png",
       "/sprites/Undertale/ruinas/migosp/spr_migosphurt_0.png",
-      "/sprites/Undertale/ruinas/migosp/spr_migosp_0.png",
-      "/sprites/Undertale/ruinas/migosp/spr_migosp_1.png"
+      "/sprites/Undertale/ruinas/migosp/spr_migosp_0.png"
     ]
   },
   {
@@ -877,8 +873,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "ruinas",
     "sprites": [
-      "/sprites/Undertale/ruinas/moldessa/spr_moldessa_hurt_0.png",
-      "/sprites/Undertale/ruinas/moldessa/spr_moldessa_hurt_1.png"
+      "/sprites/Undertale/ruinas/moldessa/spr_moldessa_hurt_0.png"
     ]
   },
   {
@@ -887,8 +882,7 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "ruinas",
     "sprites": [
-      "/sprites/Undertale/ruinas/moldsmal/spr_moldsmal_0.png",
-      "/sprites/Undertale/ruinas/moldsmal/spr_moldsmal_1.png"
+      "/sprites/Undertale/ruinas/moldsmal/spr_moldsmal_0.png"
     ]
   },
   {
@@ -898,17 +892,11 @@ export const characters: Character[] = [
     "zone": "ruinas",
     "sprites": [
       "/sprites/Undertale/ruinas/napstablook/spr_napstabattle_0.png",
-      "/sprites/Undertale/ruinas/napstablook/spr_napstabattle_1.png",
       "/sprites/Undertale/ruinas/napstablook/spr_napstablook_adjust_0.png",
       "/sprites/Undertale/ruinas/napstablook/spr_napstablook_d_0.png",
-      "/sprites/Undertale/ruinas/napstablook/spr_napstablook_d_headphone_0.png",
-      "/sprites/Undertale/ruinas/napstablook/spr_napstablook_grsm_0.png",
-      "/sprites/Undertale/ruinas/napstablook/spr_napstablook_grsm_headphones_0.png",
       "/sprites/Undertale/ruinas/napstablook/spr_napstablook_gr_0.png",
       "/sprites/Undertale/ruinas/napstablook/spr_napstablook_l_0.png",
-      "/sprites/Undertale/ruinas/napstablook/spr_napstablook_l_headphone_0.png",
-      "/sprites/Undertale/ruinas/napstablook/spr_napstablook_r_0.png",
-      "/sprites/Undertale/ruinas/napstablook/spr_napstablook_r_headphone_0.png"
+      "/sprites/Undertale/ruinas/napstablook/spr_napstablook_r_0.png"
     ]
   },
   {
@@ -1329,7 +1317,6 @@ export const characters: Character[] = [
     "game": "undertale",
     "zone": "snowdin",
     "sprites": [
-      "/sprites/Undertale/snowdin/sans/spr_sans_bface_0.png",
       "/sprites/Undertale/snowdin/sans/sprite1059_0.png",
       "/sprites/Undertale/snowdin/sans/spr_sansb_blueeye_0.png",
       "/sprites/Undertale/snowdin/sans/spr_sansb_blueeye_1.png",
@@ -1342,6 +1329,7 @@ export const characters: Character[] = [
       "/sprites/Undertale/snowdin/sans/spr_sansb_face_8.png",
       "/sprites/Undertale/snowdin/sans/spr_sanswrapface_0.png",
       "/sprites/Undertale/snowdin/sans/spr_sanswrapface_1.png",
+      "/sprites/Undertale/snowdin/sans/spr_sans_bface_0.png",
       "/sprites/Undertale/snowdin/sans/spr_sans_bface_1.png",
       "/sprites/Undertale/snowdin/sans/spr_sans_bface_2.png",
       "/sprites/Undertale/snowdin/sans/spr_sans_bface_3.png",
