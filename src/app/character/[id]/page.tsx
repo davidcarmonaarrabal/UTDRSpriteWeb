@@ -18,9 +18,9 @@ export default async function CharacterPage({
                     href="/"
                     className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition"
                 >
-                    ← Volver al Home
+                    ← Back to Home
                 </Link>
-                <p className="mt-6 text-zinc-300">Personaje no encontrado</p>
+                <p className="mt-6 text-zinc-300">Character not found.</p>
             </main>
         );
     }
@@ -28,7 +28,6 @@ export default async function CharacterPage({
     const zone = character.zone ?? null;
     const zoneHref = zone ? `/undertale/${zone}` : null;
 
-    // Navegación entre personajes de la misma zona (si aplica)
     const zoneChars = zone
         ? characters.filter((c) => c.zone?.toLowerCase() === zone.toLowerCase())
         : [];
@@ -41,7 +40,6 @@ export default async function CharacterPage({
 
     return (
         <main className="p-6 max-w-6xl mx-auto">
-            {/* Breadcrumbs */}
             <nav className="mb-4 text-sm text-zinc-400">
                 <ol className="flex items-center gap-2">
                     <li>
@@ -89,7 +87,7 @@ export default async function CharacterPage({
                             aria-label={`Anterior: ${prevChar.name}`}
                             title={`Anterior: ${prevChar.name}`}
                         >
-                            ← Anterior
+                            ← Previous
                         </Link>
                     )}
                     {nextChar && (
@@ -99,7 +97,7 @@ export default async function CharacterPage({
                             aria-label={`Siguiente: ${nextChar.name}`}
                             title={`Siguiente: ${nextChar.name}`}
                         >
-                            Siguiente →
+                            Next →
                         </Link>
                     )}
 
@@ -150,7 +148,7 @@ export default async function CharacterPage({
                                     className="inline-flex items-center justify-center rounded-lg bg-indigo-600 px-3 py-2 text-xs font-semibold text-white shadow hover:bg-indigo-500 transition"
                                     aria-label={`Descargar ${fileName}`}
                                 >
-                                    ⤓ Descargar
+                                    ⤓ Download
                                 </a>
                                 <a
                                     href={sprite}
@@ -159,8 +157,8 @@ export default async function CharacterPage({
                                     className="inline-flex items-center justify-center rounded-lg border border-zinc-700 bg-zinc-900 px-3 py-2 text-xs font-medium text-zinc-100 hover:bg-zinc-800 transition"
                                     aria-label={`Abrir ${fileName} en nueva pestaña`}
                                 >
-                                    ↗ Ver
-                                </a>
+                                    ↗ See
+                                </a>    
                             </div>
                         </div>
                     );

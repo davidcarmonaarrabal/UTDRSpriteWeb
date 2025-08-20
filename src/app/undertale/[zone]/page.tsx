@@ -20,7 +20,6 @@ export default function ZonePage({
     const router = useRouter();
     const params = use(paramsPromise);
 
-    // Normaliza zone a string
     const zone = Array.isArray(params?.zone) ? params.zone[0] : params?.zone || "";
 
     const zoneChars = characters.filter(
@@ -30,7 +29,6 @@ export default function ZonePage({
     const prettyZone =
         zone.charAt(0).toUpperCase() + zone.slice(1).toLowerCase();
 
-    // Random estable por render (evita handler y navegación imperativa)
     const randomCharId = useMemo(() => {
         if (zoneChars.length === 0) return null;
         const r = Math.floor(Math.random() * zoneChars.length);
@@ -39,13 +37,19 @@ export default function ZonePage({
 
     return (
         <main className="p-6 max-w-6xl mx-auto">
-            {/* Barra superior */}
             <div className="flex items-center justify-between gap-4 mb-6">
                 <Link
                     href="/"
                     className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition"
                 >
-                    ← Volver al Home
+                    ← Back to Home
+                </Link>
+
+                <Link
+                    href="/undertale"
+                    className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition"
+                >
+                    ← Back to Game
                 </Link>
 
                 <div className="flex items-center gap-3">
@@ -64,7 +68,7 @@ export default function ZonePage({
                                 alt="Random"
                                 fill
                                 sizes="120px"
-                                className="object-contain"  /* ocupa todo sin recortar */
+                                className="object-contain"  
                                 priority
                             />
                         </Link>
@@ -78,14 +82,13 @@ export default function ZonePage({
                     {prettyZone}
                 </h2>
                 <p className="mt-1 text-zinc-400">
-                    Explora los sprites principales de los personajes de esta zona.
+                    Explore the principal characters sprites of this zone.
                 </p>
             </header>
 
-            {/* Grid / Flex centrado (última fila centrada) */}
             {zoneChars.length === 0 ? (
                 <div className="mt-10 rounded-2xl border border-zinc-800 bg-zinc-900/60 p-8 text-center text-zinc-300">
-                    No hay personajes en <span className="font-semibold">{prettyZone}</span>.
+                    There is not characters in <span className="font-semibold">{prettyZone}</span>.
                 </div>
             ) : (
                 <div className="flex flex-wrap justify-center gap-5">

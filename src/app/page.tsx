@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <main className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6">
-      <h1 className="text-3xl sm:text-4xl font-bold text-center">Galería de Sprites</h1>
+      <h1 className="text-3xl sm:text-4xl font-bold text-center">Undertale / Deltarune Sprites Repository</h1>
 
       <div className="mt-4 flex w-full justify-center">
         <Suspense
@@ -29,7 +29,6 @@ export default function Home() {
             />
           }
         >
-          {/* Ancho completo en móvil, max-w en pantallas grandes */}
           <SearchBox
             autoNavigateToSearch
             className="w-full max-w-md rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-indigo-600"

@@ -20,7 +20,6 @@ export default function UndertaleGallery() {
         { id: "truelab", img: "/img/Truelab.webp", label: "True Lab" },
     ];
 
-    // ID random de Undertale
     const undertaleChars = characters.filter((c) => c.game === "undertale");
     const randomChar = undertaleChars[Math.floor(Math.random() * undertaleChars.length)];
 
@@ -30,11 +29,11 @@ export default function UndertaleGallery() {
                 href="/"
                 className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition mb-4"
             >
-                ← Volver al Home
+                ← Back to Home
             </Link>
 
             <h2 className="text-2xl sm:text-3xl font-bold my-4 text-center">
-                Galería Undertale
+                Undertale Sprites Repository
             </h2>
 
             {/* Random como Link */}
