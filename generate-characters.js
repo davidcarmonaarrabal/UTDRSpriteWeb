@@ -25,7 +25,7 @@ function gameIdFromFolder(folder) {
     return g;
 }
 
-// lee subdirectorios seguros
+// lee subdirectorios seguros 
 function safeReadDirs(absPath) {
     if (!fs.existsSync(absPath)) return [];
     return fs
@@ -44,8 +44,7 @@ const charMap = new Map();
         sprites: Set<string>
     }
 */
-
-function collect() {
+ function collect() {
     const gameFolders = safeReadDirs(SPRITES_ROOT);
 
     for (const gameFolder of gameFolders) {
