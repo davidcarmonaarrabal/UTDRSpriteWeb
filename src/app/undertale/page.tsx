@@ -36,8 +36,6 @@ export default function UndertaleGallery() {
                 Undertale Sprites Repository
             </h2>
 
-            {/* Random como Link */}
-            {/* Random como Link */}
             {randomChar && (
                 <Link
                     href={`/character/${randomChar.id}`}
@@ -49,7 +47,7 @@ export default function UndertaleGallery() {
                         alt="Random"
                         fill
                         sizes="(max-width: 640px) 180px, 200px"
-                        className="object-contain"   // ← en vez de object-cover
+                        className="object-contain"   
                         priority
                     />
                 </Link>

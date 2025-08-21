@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { characters } from "@/data/characters";
 import { use, useMemo } from "react";
 
@@ -17,17 +17,30 @@ export default function ZonePage({
 }: {
     params: Promise<PageProps["params"]>;
 }) {
-    const router = useRouter();
+    const pathname = usePathname();
     const params = use(paramsPromise);
 
+    // juego tomado del path: /undertale/[zone] o /deltarune/[zone]
+    const game = useMemo(() => {
+        const seg = (pathname || "/").split("/").filter(Boolean)[0] || "undertale";
+        return seg.toLowerCase(); // "undertale" | "deltarune" (o lo que uses)
+    }, [pathname]);
+
+    // normaliza zone → string
     const zone = Array.isArray(params?.zone) ? params.zone[0] : params?.zone || "";
 
-    const zoneChars = characters.filter(
-        (c) => c.zone?.toLowerCase() === zone.toLowerCase()
+    // filtro con arrays
+    const zoneChars = useMemo(
+        () =>
+            characters.filter(
+                (c) =>
+                    c.games?.some((g) => g.toLowerCase() === game) &&
+                    c.zones?.some((z) => z.toLowerCase() === zone.toLowerCase())
+            ),
+        [game, zone]
     );
 
-    const prettyZone =
-        zone.charAt(0).toUpperCase() + zone.slice(1).toLowerCase();
+    const prettyZone = zone.charAt(0).toUpperCase() + zone.slice(1).toLowerCase();
 
     const randomCharId = useMemo(() => {
         if (zoneChars.length === 0) return null;
@@ -46,7 +59,7 @@ export default function ZonePage({
                 </Link>
 
                 <Link
-                    href="/undertale"
+                    href={`/${game}`}
                     className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition"
                 >
                     ← Back to Game
@@ -68,7 +81,7 @@ export default function ZonePage({
                                 alt="Random"
                                 fill
                                 sizes="120px"
-                                className="object-contain"  
+                                className="object-contain"
                                 priority
                             />
                         </Link>
@@ -76,11 +89,8 @@ export default function ZonePage({
                 </div>
             </div>
 
-            {/* Encabezado */}
             <header className="mb-6">
-                <h2 className="text-3xl font-bold tracking-tight text-white">
-                    {prettyZone}
-                </h2>
+                <h2 className="text-3xl font-bold tracking-tight text-white">{prettyZone}</h2>
                 <p className="mt-1 text-zinc-400">
                     Explore the principal characters sprites of this zone.
                 </p>
@@ -88,7 +98,7 @@ export default function ZonePage({
 
             {zoneChars.length === 0 ? (
                 <div className="mt-10 rounded-2xl border border-zinc-800 bg-zinc-900/60 p-8 text-center text-zinc-300">
-                    There is not characters in <span className="font-semibold">{prettyZone}</span>.
+                    There are no characters in <span className="font-semibold">{prettyZone}</span>.
                 </div>
             ) : (
                 <div className="flex flex-wrap justify-center gap-5">
