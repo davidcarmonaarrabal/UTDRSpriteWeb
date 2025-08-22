@@ -107,7 +107,7 @@ export default async function CharacterPage({
                             aria-label={`Next: ${nextChar.name}`}
                             title={`Next: ${nextChar.name}`}
                         >
-                            Next →
+                            Next →  
                         </Link>
                     )}
 
