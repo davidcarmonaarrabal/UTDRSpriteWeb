@@ -13,7 +13,7 @@ export default async function ZonePage({
     const zoneChars = characters.filter(
         (c) =>
             (c.zones ?? []).some((z) => z.toLowerCase() === zone.toLowerCase()) &&
-            (c.games ?? []).some((g) => g.toLowerCase() === "undertale")
+            (c.games ?? []).some((g) => g.toLowerCase() === "deltarune")
     );
 
     return (

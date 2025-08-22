@@ -20,8 +20,15 @@ export default function UndertaleGallery() {
         { id: "truelab", img: "/img/Truelab.webp", label: "True Lab" },
     ];
 
-    const undertaleChars = characters.filter((c) => c.game === "undertale");
-    const randomChar = undertaleChars[Math.floor(Math.random() * undertaleChars.length)];
+    // games es array: filtramos por "undertale"
+    const undertaleChars = characters.filter(
+        (c) => (c.games ?? []).some((g) => g.toLowerCase() === "undertale")
+    );
+
+    const randomChar =
+        undertaleChars.length > 0
+            ? undertaleChars[Math.floor(Math.random() * undertaleChars.length)]
+            : null;
 
     return (
         <main className="mx-auto w-full max-w-6xl px-4 py-6 flex flex-col items-center">
@@ -47,12 +54,11 @@ export default function UndertaleGallery() {
                         alt="Random"
                         fill
                         sizes="(max-width: 640px) 180px, 200px"
-                        className="object-contain"   
+                        className="object-contain"
                         priority
                     />
                 </Link>
             )}
-
 
             <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
                 {zones.map((zone) => (
