@@ -8,8 +8,12 @@ export default async function ZonePage({
     params: Promise<{ zone: string }>;
 }) {
     const { zone } = await params;
+
+    // Filtra por zona (array) y por juego undertale (array)
     const zoneChars = characters.filter(
-        (c) => c.zone.toLowerCase() === zone.toLowerCase()
+        (c) =>
+            (c.zones ?? []).some((z) => z.toLowerCase() === zone.toLowerCase()) &&
+            (c.games ?? []).some((g) => g.toLowerCase() === "undertale")
     );
 
     return (

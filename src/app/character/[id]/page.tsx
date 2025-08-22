@@ -153,7 +153,7 @@ export default async function CharacterPage({
                     const fileName = sprite.split("/").pop() ?? `sprite-${i + 1}.png`;
                     return (
                         <div
-                            key={i}
+                            key={i}     
                             className="group rounded-2xl border border-zinc-800 bg-zinc-900/60 p-3 shadow hover:shadow-lg hover:border-zinc-700 transition"
                         >
                             <div className="relative aspect-square w-full rounded-xl bg-black overflow-hidden">
