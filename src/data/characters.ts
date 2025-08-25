@@ -1281,6 +1281,19 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "knightknight",
+    "name": "Knightknight",
+    "games": [
+      "undertale"
+    ],
+    "zones": [
+      "core"
+    ],
+    "sprites": [
+      "/sprites/Undertale/core/knightknight/Knight_knight (1).jpg"
+    ]
+  },
+  {
     "id": "lemonbread",
     "name": "Lemonbread",
     "games": [
