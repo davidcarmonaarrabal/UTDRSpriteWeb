@@ -20,16 +20,13 @@ export default function ZonePage({
     const pathname = usePathname();
     const params = use(paramsPromise);
 
-    // juego tomado del path: /undertale/[zone] o /deltarune/[zone]
     const game = useMemo(() => {
         const seg = (pathname || "/").split("/").filter(Boolean)[0] || "undertale";
-        return seg.toLowerCase(); // "undertale" | "deltarune" (o lo que uses)
+        return seg.toLowerCase(); 
     }, [pathname]);
 
-    // normaliza zone → string
     const zone = Array.isArray(params?.zone) ? params.zone[0] : params?.zone || "";
 
-    // filtro con arrays
     const zoneChars = useMemo(
         () =>
             characters.filter(

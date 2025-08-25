@@ -20,7 +20,6 @@ export default function UndertaleGallery() {
         { id: "truelab", img: "/img/Truelab.webp", label: "True Lab" },
     ];
 
-    // games es array: filtramos por "undertale"
     const undertaleChars = characters.filter(
         (c) => (c.games ?? []).some((g) => g.toLowerCase() === "undertale")
     );

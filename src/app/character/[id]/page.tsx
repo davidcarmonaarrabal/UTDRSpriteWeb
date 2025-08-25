@@ -25,15 +25,12 @@ export default async function CharacterPage({
         );
     }
 
-    // --- NUEVO: arrays ---
     const games = character.games ?? [];
     const zones = character.zones ?? [];
 
-    // Elegimos una zona “activa” para breadcrumbs y navegación (primera si existe)
     const activeZone = zones[0] ?? null;
-    const zoneHref = activeZone ? `/undertale/${activeZone}` : null; // ajusta si quieres detectar juego en URL
+    const zoneHref = activeZone ? `/undertale/${activeZone}` : null;
 
-    // Navegación entre personajes de la misma zona activa (si existe)
     const zoneChars = activeZone
         ? characters.filter((c) =>
             (c.zones ?? []).some((z) => z.toLowerCase() === activeZone.toLowerCase())
@@ -49,7 +46,6 @@ export default async function CharacterPage({
 
     return (
         <main className="p-6 max-w-6xl mx-auto">
-            {/* Breadcrumbs */}
             <nav className="mb-4 text-sm text-zinc-400">
                 <ol className="flex items-center gap-2">
                     <li>
@@ -70,7 +66,6 @@ export default async function CharacterPage({
                 </ol>
             </nav>
 
-            {/* Barra superior acciones */}
             <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
                 <div className="flex items-center gap-3">
                     <Link
@@ -117,7 +112,6 @@ export default async function CharacterPage({
                 </div>
             </div>
 
-            {/* Header con badges de juegos y zonas */}
             <header className="mb-6">
                 <h1 className="text-3xl font-bold tracking-tight text-white">{character.name}</h1>
 
@@ -147,7 +141,6 @@ export default async function CharacterPage({
                 </p>
             </header>
 
-            {/* Grid de sprites */}
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5">
                 {character.sprites.map((sprite, i) => {
                     const fileName = sprite.split("/").pop() ?? `sprite-${i + 1}.png`;

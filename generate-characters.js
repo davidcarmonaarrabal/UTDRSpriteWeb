@@ -86,7 +86,6 @@ const charMap = new Map();
                     entry.games.add(gameId);
                     entry.zones.add(zone);
                     sprites.forEach((s) => entry.sprites.add(s));
-                    // opcional: si quieres sobreescribir el name con el "más bonito"
                     if (name.length > entry.name.length) entry.name = name;
                 }
             }

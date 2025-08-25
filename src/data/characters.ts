@@ -1,7 +1,7 @@
 export type Character = {
     id: string;
     name: string;
-    games: ('undertale' | 'deltarune' | string)[]; // permite más juegos si añades carpetas nuevas
+    games: ('undertale' | 'deltarune' | string)[]; 
     zones: string[];
     sprites: string[];
 };

@@ -17,25 +17,21 @@ export default function SearchResults() {
     const router = useRouter();
     const searchParams = useSearchParams();
 
-    // leer query inicial de la URL
     const initial = (searchParams.get("name") ?? "").trim();
     const [query, setQuery] = useState<string>(initial);
     const [debounced, setDebounced] = useState<string>(initial);
 
-    // debounce para sincronizar URL sin spamear el historial
     useEffect(() => {
         const t = setTimeout(() => setDebounced(query), 250);
         return () => clearTimeout(t);
     }, [query]);
 
-    // sincroniza ?name= con el valor debounced (reemplaza en la misma entrada del historial)
     useEffect(() => {
         const q = debounced.trim();
         const url = q ? `/search?name=${encodeURIComponent(q)}` : "/search";
-        router.replace(url); // no recarga, solo cambia la URL
+        router.replace(url);
     }, [debounced, router]);
 
-    // filtrar en memoria (reactivo e instantáneo)
     const results = useMemo(() => {
         const q = normalize(query);
         if (!q) return [];
@@ -48,7 +44,6 @@ export default function SearchResults() {
 
     return (
         <main className="p-6 max-w-6xl mx-auto">
-            {/* Barra superior */}
             <div className="flex items-center justify-between gap-4 mb-6">
                 <Link
                     href="/"
@@ -71,7 +66,6 @@ export default function SearchResults() {
                 </div>
             </div>
 
-            {/* Resultados */}
             {query && results.length === 0 && (
                 <div className="rounded-2xl border border-zinc-800 bg-zinc-900/60 p-8 text-center text-zinc-300">
                     No hay resultados para <span className="font-semibold">&quot;{query}&quot;</span>.

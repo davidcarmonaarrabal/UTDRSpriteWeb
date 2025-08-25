@@ -8,7 +8,6 @@ interface LogoLinksProps {
 }
 
 export default function LogoLinks({ randomId }: LogoLinksProps) {
-    // Tamaños responsivos: móvil más pequeño, crece en sm/md/lg
     const logoBox =
         "relative overflow-hidden rounded-xl shadow bg-black " +
         "transition-transform duration-200 ease-out hover:scale-105 " +

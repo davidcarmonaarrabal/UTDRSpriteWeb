@@ -36,7 +36,6 @@ export default function Home() {
         </Suspense>
       </div>
 
-      {/* Logos con grid responsive */}
       <div className="mt-6">
         <LogoLinks randomId={randomId} />
       </div>

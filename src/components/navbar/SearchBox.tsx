@@ -35,21 +35,18 @@ export default function SearchBox({
         const t = setTimeout(() => {
             const q = query.trim();
 
-            // Mínimo 3 caracteres
             if (q.length < 3) {
                 if (pathname === "/search") router.replace("/search");
                 pushedToSearch.current = false;
                 return;
             }
 
-            // Desde Home, navegar a /search al empezar a escribir
             if (autoNavigateToSearch && pathname === "/" && !pushedToSearch.current) {
                 pushedToSearch.current = true;
                 router.push(`/search?name=${encodeURIComponent(q)}`);
                 return;
             }
 
-            // Sincroniza URL
             const target = `/search?name=${encodeURIComponent(q)}`;
             if (pathname === "/search" || autoNavigateToSearch) {
                 router.replace(target);
@@ -77,7 +74,7 @@ export default function SearchBox({
                 }
             }}
             placeholder={placeholder}
-            className={className + " w-full"} // ocupa todo el ancho en móvil
+            className={className + " w-full"}
         />
     );
 }
