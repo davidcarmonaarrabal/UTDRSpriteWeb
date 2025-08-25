@@ -5,7 +5,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "@/components/visuals/Footer";
 
 export const metadata: Metadata = {
-  title: "Undertale Sprites",
+  title: "UNDERTALE/DELTARUNE Sprites Repository",
   description: "Galería de personajes de Undertale",
 };
 
