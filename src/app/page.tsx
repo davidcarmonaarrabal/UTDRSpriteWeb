@@ -5,6 +5,7 @@ import LogoLinks from "@/components/visuals/LogoLinks";
 import { useEffect, useState } from "react";
 import { characters } from "@/data/characters"; 
 import SearchBox from "@/components/navbar/SearchBox";
+import Image from "next/image";
 
 export default function Home() {
   const [randomId, setRandomId] = useState<string | null>(null);
@@ -17,28 +18,44 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6">
-      <h1 className="text-3xl sm:text-4xl font-bold text-center">Undertale / Deltarune Sprites Repository</h1>
+    <div
+      className="min-h-screen w-full bg-cover bg-center"
+      style={{ backgroundImage: "url('/img/fondo1.webp')" }}
+    >
+      <main className="mx-auto w-full px-4 sm:px-16 py-8 sm:px-6 flex flex-col items-end text-right">
+        
+        {/* Logo */}
+        <Image
+          src="/img/logo.webp"
+          alt="Undertale / Deltarune Logo"
+          width={400}
+          height={200}
+          className="drop-shadow-lg"
+          priority
+        />
 
-      <div className="mt-4 flex w-full justify-center">
-        <Suspense
-          fallback={
-            <input
-              placeholder="Cargando búsqueda…"
-              className="w-full max-w-md rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-zinc-100 placeholder-zinc-500"
+        {/* Buscador */}
+        <div className="mt-4 flex w-full justify-end">
+          <Suspense
+            fallback={
+              <input
+                placeholder="Cargando búsqueda…"
+                className="w-full max-w-md rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-zinc-100 placeholder-zinc-500"
+              />
+            }
+          >
+            <SearchBox
+              autoNavigateToSearch
+              className="w-full max-w-md rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-indigo-600"
             />
-          }
-        >
-          <SearchBox
-            autoNavigateToSearch
-            className="w-full max-w-md rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-indigo-600"
-          />
-        </Suspense>
-      </div>
+          </Suspense>
+        </div>
 
-      <div className="mt-6">
-        <LogoLinks randomId={randomId} />
-      </div>
-    </main>
+        {/* Enlaces */}
+        <div className="mt-6 w-full flex justify-end">
+          <LogoLinks randomId={randomId} />
+        </div>
+      </main>
+    </div>
   );
 }
