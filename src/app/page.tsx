@@ -32,8 +32,7 @@ export default function Home() {
           priority
         />
 
-        {/* Search */}
-        <div className="mt-4 w-full flex justify-center sm:justify-end">
+        <div className="mt-4 w-full flex justify-center sm:justify-end pb-3">
           <Suspense
             fallback={
               <input

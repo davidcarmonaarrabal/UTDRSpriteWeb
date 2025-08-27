@@ -25,13 +25,13 @@ export default function LogoLinks({ randomId }: LogoLinksProps) {
     return (
         <div
             className="
-        flex 
-        flex-col 
-        items-center sm:items-end 
-        gap-4 sm:gap-6 
-        w-full sm:w-auto
-        pb-4
-      "
+                flex 
+                flex-col 
+                items-center sm:items-end 
+                gap-4 sm:gap-6 
+                w-full sm:w-auto
+                pb-4
+            "
         >
             {links.map((link) => (
                 <Link key={link.href} href={link.href} className="block">
@@ -41,13 +41,13 @@ export default function LogoLinks({ randomId }: LogoLinksProps) {
                         width={160}
                         height={60}
                         className="
-              object-contain 
-              hover:scale-105 
-              transition-transform 
-              duration-200 
-              ease-out 
-              sm:w-[220px] sm:h-[80px]
-            "
+                            object-contain 
+                            hover:scale-105 
+                            transition-transform 
+                            duration-200 
+                            ease-out 
+                            sm:w-[220px] sm:h-[80px]
+                        "
                         priority
                     />
                 </Link>
