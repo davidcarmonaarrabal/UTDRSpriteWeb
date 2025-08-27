@@ -1,8 +1,7 @@
 'use client';
 
-import { Suspense } from "react";
+import { Suspense, useEffect, useState } from "react";
 import LogoLinks from "@/components/visuals/LogoLinks";
-import { useEffect, useState } from "react";
 import { characters } from "@/data/characters"; 
 import SearchBox from "@/components/navbar/SearchBox";
 import Image from "next/image";
@@ -22,18 +21,19 @@ export default function Home() {
       className="min-h-screen w-full bg-cover bg-center"
       style={{ backgroundImage: "url('/img/fondo1.webp')" }}
     >
-      <main className="mx-auto w-full px-4 sm:px-16 py-8 sm:px-6 flex flex-col items-end text-right">
+      <main className="mx-auto w-full px-4 sm:px-8 py-6 flex flex-col items-center sm:items-end text-center sm:text-right">
         
         <Image
           src="/img/logo.webp"
           alt="Undertale / Deltarune Logo"
-          width={400}
-          height={200}
-          className="drop-shadow-lg"
+          width={320}
+          height={160}
+          className="drop-shadow-lg sm:w-[400px]"
           priority
         />
 
-        <div className="mt-4 flex w-full justify-end">
+        {/* Search */}
+        <div className="mt-4 w-full flex justify-center sm:justify-end">
           <Suspense
             fallback={
               <input
@@ -50,7 +50,7 @@ export default function Home() {
         </div>
 
         {/* Enlaces */}
-        <div className="mt-6 w-full flex justify-end">
+        <div className="mt-6 w-full flex justify-center sm:justify-end">
           <LogoLinks randomId={randomId} />
         </div>
       </main>
