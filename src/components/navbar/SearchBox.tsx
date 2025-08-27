@@ -11,9 +11,9 @@ type Props = {
 };
 
 export default function SearchBox({
-    placeholder = "Buscar personaje...",
+    placeholder = "Search character...",
     autoNavigateToSearch = false,
-    className = "w-full max-w-md rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-zinc-100 placeholder-zinc-500",
+    className = "w-full max-w-md rounded-md border border-zinc-700 bg-zinc-400 px-3 py-2 text-black placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-indigo-600",
     debounceMs = 250,
 }: Props) {
     const router = useRouter();

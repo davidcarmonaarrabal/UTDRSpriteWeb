@@ -24,7 +24,6 @@ export default function Home() {
     >
       <main className="mx-auto w-full px-4 sm:px-16 py-8 sm:px-6 flex flex-col items-end text-right">
         
-        {/* Logo */}
         <Image
           src="/img/logo.webp"
           alt="Undertale / Deltarune Logo"
@@ -34,19 +33,18 @@ export default function Home() {
           priority
         />
 
-        {/* Buscador */}
         <div className="mt-4 flex w-full justify-end">
           <Suspense
             fallback={
               <input
                 placeholder="Cargando búsqueda…"
-                className="w-full max-w-md rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-zinc-100 placeholder-zinc-500"
+                className="w-full max-w-md rounded-md border border-zinc-800 bg-zinc-400 px-3 py-2 text-black placeholder-zinc-500"
               />
             }
           >
             <SearchBox
               autoNavigateToSearch
-              className="w-full max-w-md rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-indigo-600"
+              className="w-full max-w-md rounded-md border border-zinc-800 bg-zinc-400 px-3 py-2 text-black placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-indigo-600"
             />
           </Suspense>
         </div>

@@ -47,7 +47,7 @@ export default function SearchResults() {
             <div className="flex items-center justify-between gap-4 mb-6">
                 <Link
                     href="/"
-                    className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition"
+                    className="inline-flex items-center gap-2 rounded-xl border border-zinc-400 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition"
                 >
                     ← Volver al Home
                 </Link>

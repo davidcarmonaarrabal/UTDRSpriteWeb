@@ -40,6 +40,13 @@ export default function Footer() {
                             <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.24 4.24 0 001.85-2.35c-.83.5-1.75.85-2.72 1.04a4.22 4.22 0 00-7.19 3.85A11.95 11.95 0 013 4.8a4.22 4.22 0 001.3 5.63c-.68-.02-1.32-.21-1.87-.52v.05c0 2.07 1.47 3.8 3.42 4.19-.36.1-.74.15-1.14.15-.28 0-.55-.03-.81-.08a4.23 4.23 0 003.95 2.93A8.48 8.48 0 012 19.54a11.93 11.93 0 006.48 1.9c7.78 0 12.03-6.45 12.03-12.03l-.01-.55A8.4 8.4 0 0022.46 6z" />
                         </svg>
                     </Link>
+
+                    <Link 
+                        href="https://www.instagram.com/by.jiangtao/"
+                        target="_blank"
+                        className="hover:text-white transition">
+                        <p>Design by: @by.jiangtao</p>
+                    </Link>
                 </div>
             </div>
         </footer>
