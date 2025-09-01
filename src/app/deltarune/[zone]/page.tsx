@@ -2,79 +2,42 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useParams } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { characters } from "@/data/characters";
-import { useMemo } from "react";
+import { use, useMemo } from "react";
 
-type Params = {
-    locale?: string;
-    game?: string | string[];
-    zone?: string | string[];
-};
-
-function normalizeGame(g: string) {
-    return (g || "").toLowerCase();
+interface PageProps {
+    params: {
+        zone: string | string[];
+    };
 }
 
-/** Normaliza la zona según el juego.
- * - Undertale: devuelve el slug en minúsculas (snowdin, waterfall, …)
- * - Deltarune: acepta "ch1" tal cual y mapea "chapter1"/"chapter 1" → "ch1"
- */
-function normalizeZoneByGame(game: string, zone: string) {
-    const g = normalizeGame(game);
-    const z = (zone || "").toLowerCase().trim();
+export default function ZonePage({
+    params: paramsPromise,
+}: {
+    params: Promise<PageProps["params"]>;
+}) {
+    const pathname = usePathname();
+    const params = use(paramsPromise);
 
-    if (g === "deltarune") {
-        // ya es chN
-        if (/^ch\d+$/.test(z)) return z;
-        // chapterN o chapter N → chN
-        const m = z.match(/^chapter\s*(\d+)$/);
-        if (m) return `ch${m[1]}`;
-        return z; // deja pasar por si ya viene correcto
-    }
+    const game = useMemo(() => {
+        const seg = (pathname || "/").split("/").filter(Boolean)[0] || "deltarune";
+        return seg.toLowerCase(); 
+    }, [pathname]);
 
-    // Undertale u otros: solo minúsculas
-    return z;
-}
-
-/** Título “bonito” para la zona mostrada en UI */
-function prettyZoneLabel(game: string, rawZone: string) {
-    const g = normalizeGame(game);
-    const z = (rawZone || "").toLowerCase();
-
-    if (g === "deltarune") {
-        // Mostrar "Chapter N" si viene chN o chapterN
-        const m1 = z.match(/^ch(\d+)$/);
-        const m2 = z.match(/^chapter\s*(\d+)$/);
-        const n = m1?.[1] || m2?.[1];
-        if (n) return `Chapter ${n}`;
-    }
-
-    // Capitaliza 1ª letra (Snowdin → Snowdin)
-    return rawZone.charAt(0).toUpperCase() + rawZone.slice(1).toLowerCase();
-}
-
-export default function ZonePage() {
-    const params = useParams() as Params;
-
-    // Normaliza por si vienen como array
-    const gameRaw = Array.isArray(params?.game) ? params.game[0] : params?.game || "undertale";
-    const zoneRaw = Array.isArray(params?.zone) ? params.zone[0] : params?.zone || "";
-
-    const game = useMemo(() => normalizeGame(gameRaw), [gameRaw]);
-    const zoneKey = useMemo(() => normalizeZoneByGame(game, zoneRaw), [game, zoneRaw]);
+    const zone = Array.isArray(params?.zone) ? params.zone[0] : params?.zone || "";
 
     const zoneChars = useMemo(
         () =>
             characters.filter(
                 (c) =>
-                    (c.games ?? []).some((g) => normalizeGame(g) === game) &&
-                    (c.zones ?? []).some((z) => normalizeZoneByGame(game, z) === zoneKey)
+                    c.games?.some((g) => g.toLowerCase() === game) &&
+                    c.zones?.some((z) => z.toLowerCase() === zone.toLowerCase())
             ),
-        [game, zoneKey]
+        [game, zone]
     );
 
-    const prettyZone = useMemo(() => prettyZoneLabel(game, zoneRaw), [game, zoneRaw]);
+    const prettyZone = zone.charAt(0).toUpperCase() + zone.slice(1).toLowerCase();
 
     const randomCharId = useMemo(() => {
         if (zoneChars.length === 0) return null;
@@ -84,7 +47,6 @@ export default function ZonePage() {
 
     return (
         <main className="p-6 max-w-6xl mx-auto">
-            {/* Barra superior */}
             <div className="flex items-center justify-between gap-4 mb-6">
                 <Link
                     href="/"
@@ -124,13 +86,13 @@ export default function ZonePage() {
                 </div>
             </div>
 
-            {/* Encabezado */}
             <header className="mb-6">
                 <h2 className="text-3xl font-bold tracking-tight text-white">{prettyZone}</h2>
-                <p className="mt-1 text-zinc-400">Explore the principal characters sprites of this zone.</p>
+                <p className="mt-1 text-zinc-400">
+                    Explore the principal characters sprites of this zone.
+                </p>
             </header>
 
-            {/* Grid */}
             {zoneChars.length === 0 ? (
                 <div className="mt-10 rounded-2xl border border-zinc-800 bg-zinc-900/60 p-8 text-center text-zinc-300">
                     There are no characters in <span className="font-semibold">{prettyZone}</span>.
@@ -153,7 +115,9 @@ export default function ZonePage() {
                                 />
                             </div>
 
-                            <p className="mt-3 text-center text-sm font-medium text-zinc-100">{char.name}</p>
+                            <p className="mt-3 text-center text-sm font-medium text-zinc-100">
+                                {char.name}
+                            </p>
                             <div className="mx-auto mt-1 h-px w-10 bg-zinc-700 opacity-0 group-hover:opacity-100 transition"></div>
                         </Link>
                     ))}
