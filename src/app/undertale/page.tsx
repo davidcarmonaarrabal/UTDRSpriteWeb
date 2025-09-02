@@ -105,7 +105,7 @@ export default function UndertaleGallery() {
                                         className="object-cover"
                                     />
                                 </div>
-                                <p className="text-center mt-2 text-sm sm:text-base font-semibold">
+                                <p className="text-center mt-2 text-sm sm:text-base font-semibold text-gray-300">
                                     {zone.label}
                                 </p>
                             </Link>

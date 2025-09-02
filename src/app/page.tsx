@@ -34,7 +34,7 @@ export default function Home() {
 
         <div className="mt-4 w-full flex justify-center sm:justify-end pb-3">
           <Suspense   
-            fallback={
+            fallback={  
               <input
                 placeholder="Cargando búsqueda…"
                 className="w-full max-w-md rounded-md border border-zinc-800 bg-zinc-400 px-3 py-2 text-black placeholder-zinc-500"
