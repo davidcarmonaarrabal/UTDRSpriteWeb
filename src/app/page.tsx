@@ -15,13 +15,13 @@ export default function Home() {
       setRandomId(characters[randomIndex].id);
     }
   }, []);
-
+ 
   return (
     <div 
-      className="min-h-screen w-full bg-cover bg-center"
+      className="min-h-screen w-full bg-cover bg-center"  
       style={{ backgroundImage: "url('/img/fondo1.webp')" }}
     > 
-      <main className="mx-auto w-full px-4 sm:px-8 py-6 flex flex-col ite  ms-center sm:items-end text-center sm:text-right">
+      <main className="mx-auto w-full px-4 sm:px-8 py-6 flex flex-col ite  ms-cente r sm:items-end text-center sm:text-right">
         
         <Image
           src="/img/logo.webp"
@@ -33,11 +33,11 @@ export default function Home() {
         />
 
         <div className="mt-4 w-full flex justify-center sm:justify-end pb-3">
-          <Suspense   
+          <Suspense    
             fallback={  
               <input
                 placeholder="Cargando búsqueda…"
-                className="w-full max-w-md rounded-md border border-zinc-800 bg-zinc-400 px-3 py-2 text-black placeholder-zinc-500"
+                className="w-full max-w-md round ed-md border border-zinc-800 bg-zinc-400 px-3 py-2 text-black placeholder-zinc-500"
               />
             }
           >
@@ -53,6 +53,6 @@ export default function Home() {
         </div>
       </main>
     </div>
-  ); 
+  );  
 }
- 
+  
