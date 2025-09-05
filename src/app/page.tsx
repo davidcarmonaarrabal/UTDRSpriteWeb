@@ -31,7 +31,7 @@ export default function Home() {
           className="drop-shadow-lg sm:w-[400px]"
           priority
         />
-
+        
         <div className="mt-4 w-full flex justify-center sm:justify-end pb-3">
           <Suspense    
             fallback={  
@@ -39,7 +39,7 @@ export default function Home() {
                 placeholder="Cargando búsqueda…"
                 className="w-full max-w-md round ed-md border border-zinc-800 bg-zinc-400 px-3 py-2 text-black placeholder-zinc-500"
               />
-            }
+            } 
           >
             <SearchBox
               autoNavigateToSearch
