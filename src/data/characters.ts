@@ -20,7 +20,36 @@ export const characters: Character[] = [
       "/sprites/Undertale/waterfall/aaron/spr_aaronbody_0.png",
       "/sprites/Undertale/waterfall/aaron/spr_aaronbody_bull_0.png",
       "/sprites/Undertale/waterfall/aaron/spr_aaronnpc_0.png",
-      "/sprites/Undertale/waterfall/aaron/spr_aaronnpc_1.png"
+      "/sprites/Undertale/waterfall/aaron/spr_aaronnpc_1.png",
+      "/sprites/Undertale/waterfall/aaron/spr_npc_aaron_0.png"
+    ]
+  },
+  {
+    "id": "addison",
+    "name": "Addison",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/addison/spr_npc_addison_blue_0.png",
+      "/sprites/deltarune/ch2/addison/spr_npc_addison_blue_1.png",
+      "/sprites/deltarune/ch2/addison/spr_npc_addison_blue_up_0.png",
+      "/sprites/deltarune/ch2/addison/spr_npc_addison_blue_up_1.png",
+      "/sprites/deltarune/ch2/addison/spr_npc_addison_orange_0.png",
+      "/sprites/deltarune/ch2/addison/spr_npc_addison_orange_1.png",
+      "/sprites/deltarune/ch2/addison/spr_npc_addison_orange_up_0.png",
+      "/sprites/deltarune/ch2/addison/spr_npc_addison_orange_up_1.png",
+      "/sprites/deltarune/ch2/addison/spr_npc_addison_pink_0.png",
+      "/sprites/deltarune/ch2/addison/spr_npc_addison_pink_1.png",
+      "/sprites/deltarune/ch2/addison/spr_npc_addison_pink_up_0.png",
+      "/sprites/deltarune/ch2/addison/spr_npc_addison_pink_up_1.png",
+      "/sprites/deltarune/ch2/addison/spr_npc_addison_yellow_0.png",
+      "/sprites/deltarune/ch2/addison/spr_npc_addison_yellow_1.png",
+      "/sprites/deltarune/ch2/addison/spr_npc_addison_yellow_up_0.png",
+      "/sprites/deltarune/ch2/addison/spr_npc_addison_yellow_up_1.png"
     ]
   },
   {
@@ -275,6 +304,43 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "battlequeen",
+    "name": "Battlequeen",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/battlequeen/spr_bqueen_0.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_bqueen_11.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_bqueen_12.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_bqueen_14.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_bqueen_15.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_bqueen_17.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_bqueen_2.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_bqueen_21.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_bqueen_22.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_bqueen_26.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_bqueen_27.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_bqueen_29.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_bqueen_8.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_bqueen_9.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_bqueen_missles_0.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_bqueen_missles_2.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_cutscene_26_queen_giga_head_0.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_cutscene_26_queen_giga_head_laugh_0.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_cutscene_26_queen_giga_head_laugh_1.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_cutscene_26_queen_giga_head_unhappy_0.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_cutscene_27_queen_damaged_0.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_cutscene_27_queen_damaged_unhappy_0.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_cutscene_27_queen_giga_surprise_0.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_cutscene_27_queen_laugh_damaged_1.png",
+      "/sprites/deltarune/ch2/battlequeen/spr_cutscene_27_queen_look_down_damaged_opaque_0.png"
+    ]
+  },
+  {
     "id": "berdly",
     "name": "Berdly",
     "games": [
@@ -284,10 +350,160 @@ export const characters: Character[] = [
       "ch1"
     ],
     "sprites": [
+      "/sprites/deltarune/ch1/berdly/spr_berdly_book_dw_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_coaster_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_cross_arms_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_cross_arms_nervous_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_cross_arms_right_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_cross_arms_smug_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_defeat_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_depressed_dw_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_depressed_dw_left_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_depressed_dw_right_0.png",
       "/sprites/deltarune/ch1/berdly/spr_berdly_dt_0.png",
       "/sprites/deltarune/ch1/berdly/spr_berdly_dt_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_hurt_kneel_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_hurt_kneel_battle_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_hurt_kneel_burnt_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_ice_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_jump_pose_1_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_jump_pose_2_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_kneel_scream_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_laugh_dw_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_laugh_dw_1.png",
       "/sprites/deltarune/ch1/berdly/spr_berdly_library_r_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_mad_dw_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_mad_right_dw_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_shocked_left_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_shocked_left_battle_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_shocked_right_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_smug_point_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_smug_point_animated_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_smug_point_animated_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_smug_point_right_0.png",
       "/sprites/deltarune/ch1/berdly/spr_berdly_ut_l_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_down_dw_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_down_dw_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_down_dw_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_down_dw_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_down_dw_unhappy_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_down_dw_unhappy_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_down_dw_unhappy_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_down_dw_unhappy_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_down_lw_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_down_lw_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_down_lw_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_down_lw_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_dw_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_dw_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_dw_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_dw_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_dw_shocked_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_dw_shocked_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_dw_shocked_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_dw_shocked_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_dw_unhappy_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_dw_unhappy_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_dw_unhappy_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_dw_unhappy_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_dw_unhappy_burned_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_dw_unhappy_burned_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_dw_unhappy_burned_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_dw_unhappy_burned_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_lw_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_lw_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_lw_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_lw_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_lw_books_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_lw_books_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_lw_books_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_left_lw_books_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_right_dw_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_right_dw_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_right_dw_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_right_dw_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_right_dw_unhappy_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_right_dw_unhappy_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_right_dw_unhappy_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_right_dw_unhappy_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_right_lw_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_right_lw_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_right_lw_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_right_lw_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_right_lw_brokenArm_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_right_lw_brokenArm_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_right_lw_brokenArm_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_right_lw_brokenArm_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_up_dw_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_up_dw_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_up_dw_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_up_lw_books_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_up_lw_books_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_up_lw_books_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdly_walk_up_lw_books_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdlyact_queen_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdlyb_idle_right_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdlyb_idle_right_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdlyb_idle_right_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdlyb_idle_right_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_berdlyb_idle_right_4.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_23d_berdly_rose_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_23d_berdly_rose_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_23d_noelle_berdly_shake_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_23d_noelle_berdly_shake_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_23d_noelle_berdly_shake_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_gamer_kiss_2_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_gamer_kiss_2_surprise_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_gamer_kiss_3_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_gamer_kiss_3_surprise_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_grab_electrocute_bluearm_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_grab_electrocute_bluearm_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_grab_electrocute_bluearm_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_grab_electrocute_yellowarm_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_grab_electrocute_yellowarm_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_grab_electrocute_yellowarm_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_grab_plug_old_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_ground_2_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_ground_3_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_ground_surprised_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_ground_surprised_2_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_kneel_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_kneel_left_unhappy_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_25_berdly_plug_removed_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_26_berdly_left_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_26_berdly_statue_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_angry_left_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_angry_right_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_depressed_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_halt_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_halt_look_forward_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_halt_look_left_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_halt_look_up_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_halt_normal_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_halt_talk_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_laugh_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_laugh_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_shocked_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_smug_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_walk_down_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_walk_down_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_walk_down_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_walk_down_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_walk_right_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_walk_right_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_walk_right_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_walk_right_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_walk_right_unhappy_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_walk_right_unhappy_1.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_walk_right_unhappy_2.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_27_berdly_walk_right_unhappy_3.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_28b_berdly_desk_books_lift_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_28b_berdly_desk_down_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_28b_berdly_desk_holds_arm_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_28b_berdly_desk_right_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_28b_berdly_desk_shocked_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_28b_berdly_desk_sleep_0.png",
+      "/sprites/deltarune/ch1/berdly/spr_cutscene_28b_berdly_desk_wakes_right_0.png",
       "/sprites/deltarune/ch1/berdly/spr_face_b0_0.png",
       "/sprites/deltarune/ch1/berdly/spr_face_b1_0.png",
       "/sprites/deltarune/ch1/berdly/spr_face_b2_0.png",
@@ -335,10 +551,10 @@ export const characters: Character[] = [
       "ch1"
     ],
     "sprites": [
-      "/sprites/deltarune/ch1/Blockguy/spr_blockguy_overworld_0.png",
-      "/sprites/deltarune/ch1/Blockguy/spr_blockguy_part_6.png",
-      "/sprites/deltarune/ch1/Blockguy/spr_blockguy_part_hurt_1.png",
-      "/sprites/deltarune/ch1/Blockguy/spr_blockguy_spared_0.png"
+      "/sprites/deltarune/ch1/blockguy/spr_blockguy_overworld_0.png",
+      "/sprites/deltarune/ch1/blockguy/spr_blockguy_part_6.png",
+      "/sprites/deltarune/ch1/blockguy/spr_blockguy_part_hurt_1.png",
+      "/sprites/deltarune/ch1/blockguy/spr_blockguy_spared_0.png"
     ]
   },
   {
@@ -395,6 +611,8 @@ export const characters: Character[] = [
       "/sprites/Undertale/core/bpants/spr_bpants_face_4.png",
       "/sprites/Undertale/core/bpants/spr_bpants_face_5.png",
       "/sprites/Undertale/core/bpants/spr_bpants_face_6.png",
+      "/sprites/Undertale/core/bpants/spr_burgerpants_sit_0.png",
+      "/sprites/Undertale/core/bpants/spr_burgerpants_sit_phone_0.png",
       "/sprites/Undertale/core/bpants/spr_face_burgerpants_0.png",
       "/sprites/Undertale/core/bpants/spr_face_burgerpants_1.png",
       "/sprites/Undertale/core/bpants/spr_face_burgerpants_2.png",
@@ -487,6 +705,22 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "car",
+    "name": "Car",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/car/spr_caradventure_car_enemy_0.png",
+      "/sprites/deltarune/ch2/car/spr_caradventure_car_enemy_1.png",
+      "/sprites/deltarune/ch2/car/spr_caradventure_car_enemy_2.png",
+      "/sprites/deltarune/ch2/car/spr_caradventure_car_enemy_3.png"
+    ]
+  },
+  {
     "id": "catty",
     "name": "Catty",
     "games": [
@@ -513,7 +747,9 @@ export const characters: Character[] = [
       "/sprites/Undertale/core/catty/spr_face_catty_5.png",
       "/sprites/Undertale/core/catty/spr_face_catty_6.png",
       "/sprites/Undertale/core/catty/spr_face_catty_7.png",
-      "/sprites/Undertale/core/catty/spr_face_catty_8.png"
+      "/sprites/Undertale/core/catty/spr_face_catty_8.png",
+      "/sprites/Undertale/core/catty/spr_npc_catty_ukelele_0.png",
+      "/sprites/Undertale/core/catty/spr_npc_catty_ukelele_1.png"
     ]
   },
   {
@@ -542,6 +778,8 @@ export const characters: Character[] = [
       "ch1"
     ],
     "sprites": [
+      "/sprites/deltarune/ch1/cattymom/spr_npc_catti_mom_no1_0.png",
+      "/sprites/deltarune/ch1/cattymom/spr_npc_catti_mom_no1_1.png",
       "/sprites/deltarune/ch1/cattymom/spr_npc_catty_0.png",
       "/sprites/deltarune/ch1/cattymom/spr_npc_catty_1.png",
       "/sprites/deltarune/ch1/cattymom/spr_npc_catty_wave_0.png",
@@ -757,6 +995,37 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "cursor",
+    "name": "Cursor",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/cursor/spr_cutscene_26_hacker_0.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_cursor_walk_left_0.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_cursor_walk_left_1.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_cursor_walk_left_2.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_cursor_walk_left_3.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_cursor_walk_right_0.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_cursor_walk_right_1.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_cursor_walk_right_2.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_cursor_walk_right_3.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_hacker_0.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_hacker_point_0.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_pointer_walk_left_0.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_pointer_walk_left_1.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_pointer_walk_left_2.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_pointer_walk_left_3.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_pointer_walk_right_0.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_pointer_walk_right_1.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_pointer_walk_right_2.png",
+      "/sprites/deltarune/ch2/cursor/spr_npc_pointer_walk_right_3.png"
+    ]
+  },
+  {
     "id": "diamondboy",
     "name": "Diamondboy",
     "games": [
@@ -824,7 +1093,11 @@ export const characters: Character[] = [
       "/sprites/Undertale/snowdin/dogamy/spr_mandogwalk_0.png",
       "/sprites/Undertale/snowdin/dogamy/spr_mandogwalk_1.png",
       "/sprites/Undertale/snowdin/dogamy/spr_mandogwalk_2.png",
-      "/sprites/Undertale/snowdin/dogamy/spr_mandogwalk_3.png"
+      "/sprites/Undertale/snowdin/dogamy/spr_mandogwalk_3.png",
+      "/sprites/Undertale/snowdin/dogamy/spr_npc_prisoner_dog_m_0.png",
+      "/sprites/Undertale/snowdin/dogamy/spr_npc_prisoner_dog_m_1.png",
+      "/sprites/Undertale/snowdin/dogamy/spr_npc_prisoner_dog_m_2.png",
+      "/sprites/Undertale/snowdin/dogamy/spr_npc_prisoner_dog_m_3.png"
     ]
   },
   {
@@ -837,6 +1110,10 @@ export const characters: Character[] = [
       "snowdin"
     ],
     "sprites": [
+      "/sprites/Undertale/snowdin/dogaressa/spr_npc_prisoner_dog_f_0.png",
+      "/sprites/Undertale/snowdin/dogaressa/spr_npc_prisoner_dog_f_1.png",
+      "/sprites/Undertale/snowdin/dogaressa/spr_npc_prisoner_dog_f_2.png",
+      "/sprites/Undertale/snowdin/dogaressa/spr_npc_prisoner_dog_f_3.png",
       "/sprites/Undertale/snowdin/dogaressa/spr_womandognormal_0.png",
       "/sprites/Undertale/snowdin/dogaressa/spr_womandogwalk_0.png",
       "/sprites/Undertale/snowdin/dogaressa/spr_womandogwalk_1.png",
@@ -861,7 +1138,11 @@ export const characters: Character[] = [
       "/sprites/Undertale/snowdin/doggo/spr_movedogeheada_3.png",
       "/sprites/Undertale/snowdin/doggo/spr_movedogeheada_4.png",
       "/sprites/Undertale/snowdin/doggo/spr_movedogeheada_5.png",
-      "/sprites/Undertale/snowdin/doggo/spr_movedogeheadb_0.png"
+      "/sprites/Undertale/snowdin/doggo/spr_movedogeheadb_0.png",
+      "/sprites/Undertale/snowdin/doggo/spr_npc_prisoner_dog_eye_0.png",
+      "/sprites/Undertale/snowdin/doggo/spr_npc_prisoner_dog_eye_1.png",
+      "/sprites/Undertale/snowdin/doggo/spr_npc_prisoner_dog_eye_2.png",
+      "/sprites/Undertale/snowdin/doggo/spr_npc_prisoner_dog_eye_3.png"
     ]
   },
   {
@@ -981,6 +1262,61 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "elnina",
+    "name": "Elnina",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch3"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch3/elnina/spr_board_elnina_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_board_elnina_cry_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_board_elnina_cute_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_board_elnina_eyesclosed_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_board_elnina_glasses_left_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_board_elnina_glasses_left_blush_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_board_elnina_glasses_mad_left_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_board_elnina_glasses_sad_left_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_board_elnina_gloat_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_board_elnina_idle_left_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_board_elnina_idle_right_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_board_elnina_sad_left_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_board_elnina_sad_pose_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_angry_left_nowand_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_angrypose_left_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_angrypose_right_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_angrypose_right_nowand_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_cool_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_cool_3.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_eyesclosed_right_nowand_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_gloat_right_nowand_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_gloat_right_nowand_1.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_hurt_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_idle_right_alt_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_idle_right_nowand_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_sadconfused_right_nowand_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_shame_left_nowand_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_shocked_left_nowand_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_smileembarassed_left_nowand_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_elnina_smileembarassed_right_nowand_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_npc_elnina_blush_right_1.png",
+      "/sprites/deltarune/ch3/elnina/spr_npc_elnina_cry_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_npc_elnina_sneeze_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_npc_elnina_sneeze_1.png",
+      "/sprites/deltarune/ch3/elnina/spr_npc_elnina_sunglasses_remove_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_npc_elnina_sunglasses_remove_1.png",
+      "/sprites/deltarune/ch3/elnina/spr_npc_elnina_sunglasses_remove_4.png",
+      "/sprites/deltarune/ch3/elnina/spr_npc_elnina_sunglasses_remove_talk_1.png",
+      "/sprites/deltarune/ch3/elnina/spr_npc_elnina_talk_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_npc_elnina_talk_1.png",
+      "/sprites/deltarune/ch3/elnina/spr_npc_rouxls_weather_gaming_chef_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_rouxls_hugfriends_0.png",
+      "/sprites/deltarune/ch3/elnina/spr_rouxls_hugfriends_5.png"
+    ]
+  },
+  {
     "id": "endogeny",
     "name": "Endogeny",
     "games": [
@@ -995,6 +1331,27 @@ export const characters: Character[] = [
       "/sprites/Undertale/truelab/endogeny/spr_amalgam_dognpc_0.png",
       "/sprites/Undertale/truelab/endogeny/spr_endogeny_0.png",
       "/sprites/Undertale/truelab/endogeny/spr_endogeny_2_0.png"
+    ]
+  },
+  {
+    "id": "eram",
+    "name": "Eram",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch3"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch3/eram/spr_shadow_mantle_idle_0.png",
+      "/sprites/deltarune/ch3/eram/spr_shadow_mantle_laugh_0.png",
+      "/sprites/deltarune/ch3/eram/spr_shadow_mantle_laugh_1.png",
+      "/sprites/deltarune/ch3/eram/spr_shadow_mantle_onfire_0.png",
+      "/sprites/deltarune/ch3/eram/spr_shadow_mantle_release_abbreviated_0.png",
+      "/sprites/deltarune/ch3/eram/spr_shadow_mantle_release_abbreviated_1.png",
+      "/sprites/deltarune/ch3/eram/spr_shadow_mantle_release_abbreviated_2.png",
+      "/sprites/deltarune/ch3/eram/spr_shadow_mantle_release_abbreviated_4.png",
+      "/sprites/deltarune/ch3/eram/spr_shadow_mantle_side_l_0.png"
     ]
   },
   {
@@ -1468,6 +1825,10 @@ export const characters: Character[] = [
       "/sprites/Undertale/snowdin/greatdog/spr_npc_bigdog_0.png",
       "/sprites/Undertale/snowdin/greatdog/spr_npc_bigdog_1.png",
       "/sprites/Undertale/snowdin/greatdog/spr_npc_bigdog_2.png",
+      "/sprites/Undertale/snowdin/greatdog/spr_npc_prisoner_dog_big_0.png",
+      "/sprites/Undertale/snowdin/greatdog/spr_npc_prisoner_dog_big_1.png",
+      "/sprites/Undertale/snowdin/greatdog/spr_npc_prisoner_dog_big_2.png",
+      "/sprites/Undertale/snowdin/greatdog/spr_npc_prisoner_dog_big_3.png",
       "/sprites/Undertale/snowdin/greatdog/spr_npc_saddog_0.png",
       "/sprites/Undertale/snowdin/greatdog/spr_npc_saddog_1.png",
       "/sprites/Undertale/snowdin/greatdog/spr_npc_saddog_2.png"
@@ -1533,6 +1894,23 @@ export const characters: Character[] = [
       "/sprites/Undertale/core/hand/spr_hotel_receptionist1_1.png",
       "/sprites/Undertale/core/hand/spr_npc_receptionist_0.png",
       "/sprites/Undertale/core/hand/spr_npc_receptionist_1.png"
+    ]
+  },
+  {
+    "id": "hatguy",
+    "name": "Hatguy",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/hatguy/spr_hatguy_dance_0.png",
+      "/sprites/deltarune/ch2/hatguy/spr_hatguy_dance_1.png",
+      "/sprites/deltarune/ch2/hatguy/spr_hatguy_idle_2.png",
+      "/sprites/deltarune/ch2/hatguy/spr_hatguy_idle_3.png",
+      "/sprites/deltarune/ch2/hatguy/spr_npc_hatguy_0.png"
     ]
   },
   {
@@ -1631,7 +2009,25 @@ export const characters: Character[] = [
     "sprites": [
       "/sprites/Undertale/snowdin/icecreamguy/spr_icecreamguy_anim_0.png",
       "/sprites/Undertale/snowdin/icecreamguy/spr_icecreamguy_happy_0.png",
-      "/sprites/Undertale/snowdin/icecreamguy/spr_icecreamguy_happy_1.png"
+      "/sprites/Undertale/snowdin/icecreamguy/spr_icecreamguy_happy_1.png",
+      "/sprites/Undertale/snowdin/icecreamguy/spr_npc_nicecream_0.png",
+      "/sprites/Undertale/snowdin/icecreamguy/spr_npc_nicecream_mop_0.png"
+    ]
+  },
+  {
+    "id": "icee",
+    "name": "Icee",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/icee/spr_npc_icee_suit_0.png",
+      "/sprites/deltarune/ch2/icee/spr_npc_icee_suit_1.png",
+      "/sprites/deltarune/ch2/icee/spr_npc_icee_suit_2.png",
+      "/sprites/deltarune/ch2/icee/spr_npc_icee_suit_3.png"
     ]
   },
   {
@@ -1647,6 +2043,24 @@ export const characters: Character[] = [
       "/sprites/deltarune/ch1/icemascot/spr_npc_icemascot_fake_0.png",
       "/sprites/deltarune/ch1/icemascot/spr_npc_icemascot_fake_1.png",
       "/sprites/deltarune/ch1/icemascot/spr_npc_icemascot_fake_3.png"
+    ]
+  },
+  {
+    "id": "icewarrior",
+    "name": "Icewarrior",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/icewarrior/spr_npc_warrior_0.png",
+      "/sprites/deltarune/ch2/icewarrior/spr_npc_warrior_1.png",
+      "/sprites/deltarune/ch2/icewarrior/spr_npc_warrior_2.png",
+      "/sprites/deltarune/ch2/icewarrior/spr_npc_warrior_3.png",
+      "/sprites/deltarune/ch2/icewarrior/spr_npc_warrior_4.png",
+      "/sprites/deltarune/ch2/icewarrior/spr_npc_warrior_5.png"
     ]
   },
   {
@@ -1669,6 +2083,20 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "iconman",
+    "name": "Iconman",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/iconman/spr_npc_iconman_0.png",
+      "/sprites/deltarune/ch2/iconman/spr_npc_iconman_alt_0.png"
+    ]
+  },
+  {
     "id": "innkeeper",
     "name": "Innkeeper",
     "games": [
@@ -1680,6 +2108,45 @@ export const characters: Character[] = [
     "sprites": [
       "/sprites/Undertale/snowdin/innkeeper/spr_npc_innkeep_0.png",
       "/sprites/Undertale/snowdin/innkeeper/spr_npc_innkeep_1.png"
+    ]
+  },
+  {
+    "id": "jackenstein",
+    "name": "Jackenstein",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch4"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch4/jackenstein/spr_dancing_lantern_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_dancing_lantern_1.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_guywhoappearswhenyoudroppedyourtutu_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_guywhoappearswhenyoudroppedyourtutu_1.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_guywhoappearswhenyoudroppedyourtutu_2.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_guywhoappearswhenyouhavetakentoolonginaghosthouse_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_jackenstein_catch_1.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_jackenstein_party_hug_1.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_jackenstein_party_nuzzle_1.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_jackenstein_walk_up_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_jackolantern_but_politer_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_jackolantern_cry_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_jackolantern_frown_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_jackolantern_stunned_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_npc_jackenstein_cleaning_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_npc_jackenstein_cleaning_look_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_npc_jackenstein_climb_look_left_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_npc_jackenstein_climb_party_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_npc_jackenstein_clutch_head_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_npc_jackenstein_cover_face_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_npc_jackenstein_cover_face_right_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_npc_jackenstein_lift_head_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_npc_jackenstein_lift_head_3.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_npc_jackenstein_scared_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_npc_jackenstein_talk_0.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_npc_jackenstein_talk_2.png",
+      "/sprites/deltarune/ch4/jackenstein/spr_small_jackolantern_0.png"
     ]
   },
   {
@@ -1815,6 +2282,9 @@ export const characters: Character[] = [
       "/sprites/deltarune/ch1/king/spr_chainking_toss_old_2.png",
       "/sprites/deltarune/ch1/king/spr_face_king_0.png",
       "/sprites/deltarune/ch1/king/spr_face_king_1.png",
+      "/sprites/deltarune/ch1/king/spr_face_king_11.png",
+      "/sprites/deltarune/ch1/king/spr_face_king_12.png",
+      "/sprites/deltarune/ch1/king/spr_face_king_13.png",
       "/sprites/deltarune/ch1/king/spr_face_king_2.png",
       "/sprites/deltarune/ch1/king/spr_face_king_3.png",
       "/sprites/deltarune/ch1/king/spr_face_king_4.png",
@@ -1835,11 +2305,34 @@ export const characters: Character[] = [
       "/sprites/deltarune/ch1/king/spr_king_liftkris_3.png",
       "/sprites/deltarune/ch1/king/spr_king_pullweapon_6.png",
       "/sprites/deltarune/ch1/king/spr_king_shock_0.png",
+      "/sprites/deltarune/ch1/king/spr_king_sulk_drink_left_0.png",
+      "/sprites/deltarune/ch1/king/spr_king_sulk_drink_left_1.png",
       "/sprites/deltarune/ch1/king/spr_kingl_0.png",
       "/sprites/deltarune/ch1/king/spr_kingr_asleep_0.png",
       "/sprites/deltarune/ch1/king/spr_kingr_fallasleep_0.png",
       "/sprites/deltarune/ch1/king/spr_kingr_fallasleep_1.png",
-      "/sprites/deltarune/ch1/king/spr_kingr_fallasleep_2.png"
+      "/sprites/deltarune/ch1/king/spr_kingr_fallasleep_2.png",
+      "/sprites/deltarune/ch1/king/spr_npc_king_sulk_turn_0.png"
+    ]
+  },
+  {
+    "id": "kk",
+    "name": "Kk",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/kk/spr_kk_hurt_0.png",
+      "/sprites/deltarune/ch2/kk/spr_kk_static_0.png",
+      "/sprites/deltarune/ch2/kk/spr_npc_kk_0.png",
+      "/sprites/deltarune/ch2/kk/spr_npc_kk_1.png",
+      "/sprites/deltarune/ch2/kk/spr_npc_kk_highhat_0.png",
+      "/sprites/deltarune/ch2/kk/spr_npc_kk_highhat_1.png",
+      "/sprites/deltarune/ch2/kk/spr_npc_kk_music_1.png",
+      "/sprites/deltarune/ch2/kk/spr_npc_kk_music_2.png"
     ]
   },
   {
@@ -1865,6 +2358,8 @@ export const characters: Character[] = [
       "ch1"
     ],
     "sprites": [
+      "/sprites/deltarune/ch1/kris/spr_cutscene_27_queen_hand_party_0.png",
+      "/sprites/deltarune/ch1/kris/spr_cutscene_27_queen_hand_surprise_all_0.png",
       "/sprites/deltarune/ch1/kris/spr_dkris_grabheart_5.png",
       "/sprites/deltarune/ch1/kris/spr_dkris_grabheart_old_4.png",
       "/sprites/deltarune/ch1/kris/spr_dkris_ground_0.png",
@@ -1886,7 +2381,13 @@ export const characters: Character[] = [
       "/sprites/deltarune/ch1/kris/spr_king_liftkris_1.png",
       "/sprites/deltarune/ch1/kris/spr_king_liftkris_3.png",
       "/sprites/deltarune/ch1/kris/spr_kris_drop_0.png",
+      "/sprites/deltarune/ch1/kris/spr_kris_dw_land_example_dark_0.png",
+      "/sprites/deltarune/ch1/kris/spr_kris_dw_land_example_dark_1.png",
+      "/sprites/deltarune/ch1/kris/spr_kris_dw_land_example_dark_2.png",
       "/sprites/deltarune/ch1/kris/spr_kris_fall_0.png",
+      "/sprites/deltarune/ch1/kris/spr_kris_fall_example_dark_0.png",
+      "/sprites/deltarune/ch1/kris/spr_kris_fall_example_dark_1.png",
+      "/sprites/deltarune/ch1/kris/spr_kris_fall_example_dark_2.png",
       "/sprites/deltarune/ch1/kris/spr_kris_fallen_dark_0.png",
       "/sprites/deltarune/ch1/kris/spr_kris_fell_0.png",
       "/sprites/deltarune/ch1/kris/spr_kris_hug_1.png",
@@ -1907,19 +2408,38 @@ export const characters: Character[] = [
       "/sprites/deltarune/ch1/kris/spr_krisb_victory_2.png",
       "/sprites/deltarune/ch1/kris/spr_krisb_victory_3.png",
       "/sprites/deltarune/ch1/kris/spr_krisd_0.png",
+      "/sprites/deltarune/ch1/kris/spr_krisd_1.png",
+      "/sprites/deltarune/ch1/kris/spr_krisd_2.png",
+      "/sprites/deltarune/ch1/kris/spr_krisd_3.png",
       "/sprites/deltarune/ch1/kris/spr_krisd_dark_0.png",
+      "/sprites/deltarune/ch1/kris/spr_krisd_dark_1.png",
+      "/sprites/deltarune/ch1/kris/spr_krisd_dark_2.png",
+      "/sprites/deltarune/ch1/kris/spr_krisd_dark_3.png",
       "/sprites/deltarune/ch1/kris/spr_krisd_heart_0.png",
       "/sprites/deltarune/ch1/kris/spr_krisd_slide_0.png",
       "/sprites/deltarune/ch1/kris/spr_krisd_slide_heart_0.png",
       "/sprites/deltarune/ch1/kris/spr_krisd_slide_light_0.png",
       "/sprites/deltarune/ch1/kris/spr_krisl_0.png",
+      "/sprites/deltarune/ch1/kris/spr_krisl_1.png",
+      "/sprites/deltarune/ch1/kris/spr_krisl_2.png",
+      "/sprites/deltarune/ch1/kris/spr_krisl_3.png",
       "/sprites/deltarune/ch1/kris/spr_krisl_dark_0.png",
+      "/sprites/deltarune/ch1/kris/spr_krisl_dark_1.png",
+      "/sprites/deltarune/ch1/kris/spr_krisl_dark_2.png",
+      "/sprites/deltarune/ch1/kris/spr_krisl_dark_3.png",
       "/sprites/deltarune/ch1/kris/spr_krisl_heart_0.png",
       "/sprites/deltarune/ch1/kris/spr_krisr_0.png",
+      "/sprites/deltarune/ch1/kris/spr_krisr_1.png",
+      "/sprites/deltarune/ch1/kris/spr_krisr_2.png",
+      "/sprites/deltarune/ch1/kris/spr_krisr_3.png",
       "/sprites/deltarune/ch1/kris/spr_krisr_dark_0.png",
+      "/sprites/deltarune/ch1/kris/spr_krisr_dark_1.png",
+      "/sprites/deltarune/ch1/kris/spr_krisr_dark_2.png",
+      "/sprites/deltarune/ch1/kris/spr_krisr_dark_3.png",
       "/sprites/deltarune/ch1/kris/spr_krisr_heart_0.png",
       "/sprites/deltarune/ch1/kris/spr_krisr_kneel_0.png",
       "/sprites/deltarune/ch1/kris/spr_krisr_sit_0.png",
+      "/sprites/deltarune/ch1/kris/spr_npc_jackenstein_climb_party_0.png",
       "/sprites/deltarune/ch1/kris/spr_susie_grabsmile_0.png",
       "/sprites/deltarune/ch1/kris/spr_susie_grabsmile_4.png",
       "/sprites/deltarune/ch1/kris/spr_susie_krisdrop_0.png",
@@ -1991,6 +2511,51 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "lanino",
+    "name": "Lanino",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch3"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch3/lanino/spr_board_lanino_glasses_mad_right_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_board_lanino_glasses_right_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_board_lanino_glasses_right_blush_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_board_lanino_gloat_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_board_lanino_sad_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_lanino_angry_right_nowand_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_lanino_angrypose_right_nowand_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_lanino_cool_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_lanino_cool_3.png",
+      "/sprites/deltarune/ch3/lanino/spr_lanino_eyesclosed_left_nowand_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_lanino_eyesclosed_right_nowand_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_lanino_gloat_left_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_lanino_hurt_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_lanino_idle_left_nowand_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_lanino_idle_right_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_lanino_sadconfused_left_nowand_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_lanino_shocked_right_nowand_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_lanino_smileembarassed_left_nowand_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_lanino_smileembarassed_right_nowand_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_npc_lanino_blush_talk_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_npc_lanino_cool_talk_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_npc_lanino_cry_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_npc_lanino_sneeze_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_npc_lanino_sneeze_1.png",
+      "/sprites/deltarune/ch3/lanino/spr_npc_lanino_sunglasses_remove_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_npc_lanino_sunglasses_remove_1.png",
+      "/sprites/deltarune/ch3/lanino/spr_npc_lanino_sunglasses_remove_4.png",
+      "/sprites/deltarune/ch3/lanino/spr_npc_lanino_sunglasses_remove_talk_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_npc_lanino_talk_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_npc_lanino_talk_sad_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_npc_rouxls_weather_gaming_chef_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_rouxls_hugfriends_0.png",
+      "/sprites/deltarune/ch3/lanino/spr_rouxls_hugfriends_5.png"
+    ]
+  },
+  {
     "id": "lemonbread",
     "name": "Lemonbread",
     "games": [
@@ -2027,7 +2592,11 @@ export const characters: Character[] = [
       "/sprites/Undertale/snowdin/lesserdog/spr_dogneck5_0.png",
       "/sprites/Undertale/snowdin/lesserdog/spr_lessdog_table_0.png",
       "/sprites/Undertale/snowdin/lesserdog/spr_lessdogsnow_0.png",
-      "/sprites/Undertale/snowdin/lesserdog/spr_lesserdoge_0.png"
+      "/sprites/Undertale/snowdin/lesserdog/spr_lesserdoge_0.png",
+      "/sprites/Undertale/snowdin/lesserdog/spr_npc_prisoner_dog_lesser_0.png",
+      "/sprites/Undertale/snowdin/lesserdog/spr_npc_prisoner_dog_lesser_1.png",
+      "/sprites/Undertale/snowdin/lesserdog/spr_npc_prisoner_dog_lesser_2.png",
+      "/sprites/Undertale/snowdin/lesserdog/spr_npc_prisoner_dog_lesser_3.png"
     ]
   },
   {
@@ -2186,6 +2755,20 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "maus",
+    "name": "Maus",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/maus/spr_cutscene_26_maus_0.png",
+      "/sprites/deltarune/ch2/maus/spr_mauswheel_act_0.png"
+    ]
+  },
+  {
     "id": "memoryhead",
     "name": "Memoryhead",
     "games": [
@@ -2318,6 +2901,60 @@ export const characters: Character[] = [
     ],
     "sprites": [
       "/sprites/Undertale/ruinas/migospel/spr_migospel_1.png"
+    ]
+  },
+  {
+    "id": "mikes",
+    "name": "Mikes",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch4"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch4/mikes/spr_mic_2x_0.png",
+      "/sprites/deltarune/ch4/mikes/spr_mike_big_0.png",
+      "/sprites/deltarune/ch4/mikes/spr_mike_combo_0.png",
+      "/sprites/deltarune/ch4/mikes/spr_mike_m_0.png",
+      "/sprites/deltarune/ch4/mikes/spr_mike_m_3.png",
+      "/sprites/deltarune/ch4/mikes/spr_mike_m_7.png",
+      "/sprites/deltarune/ch4/mikes/spr_mike_med_sad_1.png",
+      "/sprites/deltarune/ch4/mikes/spr_mike_med_sad_5.png",
+      "/sprites/deltarune/ch4/mikes/spr_mike_med_sad_7.png",
+      "/sprites/deltarune/ch4/mikes/spr_mike_s_costume_remove_0.png",
+      "/sprites/deltarune/ch4/mikes/spr_mike_s_costume_remove_3.png",
+      "/sprites/deltarune/ch4/mikes/spr_mike_s_costume_remove_5.png",
+      "/sprites/deltarune/ch4/mikes/spr_mike_s_pointing_0.png",
+      "/sprites/deltarune/ch4/mikes/spr_mike_s_pointing_1.png",
+      "/sprites/deltarune/ch4/mikes/spr_mike_s_pointing_both_0.png",
+      "/sprites/deltarune/ch4/mikes/spr_mike_small_0.png",
+      "/sprites/deltarune/ch4/mikes/spr_npc_pippins_expressions_0.png",
+      "/sprites/deltarune/ch4/mikes/spr_npc_pippins_expressions_1.png",
+      "/sprites/deltarune/ch4/mikes/spr_npc_pippins_expressions_3.png",
+      "/sprites/deltarune/ch4/mikes/spr_npc_pippins_jump_green_5.png",
+      "/sprites/deltarune/ch4/mikes/spr_npc_pippins_jump_green_6.png",
+      "/sprites/deltarune/ch4/mikes/spr_pippins_exasperated_down_0.png",
+      "/sprites/deltarune/ch4/mikes/spr_pippins_exasperated_point_forward_0.png",
+      "/sprites/deltarune/ch4/mikes/spr_pippins_exasperated_point_left_0.png",
+      "/sprites/deltarune/ch4/mikes/spr_pippins_exasperated_stop_0.png",
+      "/sprites/deltarune/ch4/mikes/spr_pippins_eyes_closed_0.png",
+      "/sprites/deltarune/ch4/mikes/spr_pippins_shock_0.png",
+      "/sprites/deltarune/ch4/mikes/spr_pippins_thinking_1.png"
+    ]
+  },
+  {
+    "id": "milklooker",
+    "name": "Milklooker",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/milklooker/spr_npc_milklooker_0.png",
+      "/sprites/deltarune/ch2/milklooker/spr_npc_milklooker_1.png"
     ]
   },
   {
@@ -2478,7 +3115,10 @@ export const characters: Character[] = [
       "/sprites/Undertale/ruinas/napstablook/spr_napstablook_d_0.png",
       "/sprites/Undertale/ruinas/napstablook/spr_napstablook_gr_0.png",
       "/sprites/Undertale/ruinas/napstablook/spr_napstablook_l_0.png",
-      "/sprites/Undertale/ruinas/napstablook/spr_napstablook_r_0.png"
+      "/sprites/Undertale/ruinas/napstablook/spr_napstablook_r_0.png",
+      "/sprites/Undertale/ruinas/napstablook/spr_npc_napstablook_police_down_0.png",
+      "/sprites/Undertale/ruinas/napstablook/spr_npc_napstablook_police_left_0.png",
+      "/sprites/Undertale/ruinas/napstablook/spr_npc_napstablook_police_right_0.png"
     ]
   },
   {
@@ -2491,6 +3131,39 @@ export const characters: Character[] = [
       "ch1"
     ],
     "sprites": [
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_23b_noelle_kneel_laugh_eyes_open_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_23b_noelle_kneel_laugh_eyes_open_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_23b_noelle_kneel_lowered_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_23b_noelle_walk_happy_up_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_23b_noelle_walk_happy_up_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_23b_noelle_walk_happy_up_left_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_23b_noelle_walk_happy_up_left_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_23b_noelle_walk_happy_up_left_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_23b_noelle_walk_happy_up_left_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_desk_down_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_desk_left_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_desk_left_unhappy_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_desk_shocked_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_side_edit_a_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_side_edit_a_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_side_edit_a_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_side_edit_a_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_side_edit_b_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_side_edit_b_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_side_edit_b_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_side_edit_b_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_walk_books_down_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_walk_books_down_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_walk_books_down_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_walk_books_down_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_walk_books_left_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_walk_books_left_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_walk_books_left_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_walk_books_left_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_walk_books_right_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_walk_books_right_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_walk_books_right_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_cutscene_28b_noelle_walk_books_right_3.png",
       "/sprites/deltarune/ch1/noelle/spr_face_n_matome_0.png",
       "/sprites/deltarune/ch1/noelle/spr_face_n_matome_1.png",
       "/sprites/deltarune/ch1/noelle/spr_face_n_matome_2.png",
@@ -2510,8 +3183,246 @@ export const characters: Character[] = [
       "/sprites/deltarune/ch1/noelle/spr_face_n7_0.png",
       "/sprites/deltarune/ch1/noelle/spr_face_n8_0.png",
       "/sprites/deltarune/ch1/noelle/spr_face_n9_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_blush_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_blush_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_coaster_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_collapsed_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_collapsed_look_up_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_collapsed_reach_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_collapsed_reach_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_cower_left_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_cower_left_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_cower_right_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_cower_right_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_face_right_smile_less_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_game_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_game_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_game_done_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_game_done_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_game_done_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_game_done_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_game_done_4.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_game_done_5.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_game_right_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_game_unhappy_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_hand_mouth_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_hand_mouth_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_head_lowered_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_head_lowered_left_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_head_lowered_right_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_hurt_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_kneel_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_kneel_face_left_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_kneel_happy_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_kneel_shocked_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_kneel_shocked_1.png",
       "/sprites/deltarune/ch1/noelle/spr_noelle_l_0.png",
-      "/sprites/deltarune/ch1/noelle/spr_noelle_r_0.png"
+      "/sprites/deltarune/ch1/noelle/spr_noelle_laugh_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_laugh_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_point_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_r_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_sad_left_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_shocked_behind_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_shocked_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_shocked_lw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_smile_forward_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_smile_left_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_smile_left_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_surprise_left_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_down_blush_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_down_blush_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_down_blush_dw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_down_blush_dw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_down_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_down_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_down_dw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_down_dw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_down_lw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_down_lw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_down_lw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_down_lw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_down_sad_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_down_sad_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_down_sad_dw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_down_sad_dw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_face_up_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_face_up_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_face_up_dw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_face_up_dw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_blush_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_blush_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_blush_dw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_blush_dw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_dw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_dw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_lw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_lw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_lw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_lw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_mad_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_mad_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_mad_dw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_mad_dw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_sad_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_sad_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_sad_dw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_sad_dw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_smile_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_smile_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_smile_dw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_left_smile_dw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_blush_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_blush_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_blush_dw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_blush_dw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_dw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_dw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_lw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_noeyes_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_noeyes_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_noeyes_dw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_noeyes_dw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_sad_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_sad_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_sad_dw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_sad_dw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_sad_shocked_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_sad_shocked_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_sad_shocked_dw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_sad_shocked_dw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_smile_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_smile_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_smile_dw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_right_smile_dw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_up_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_up_dw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_up_dw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_up_dw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_up_headtilt_dw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_up_lw_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_up_lw_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_up_lw_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelle_walk_up_lw_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_act_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_act_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_act_10.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_act_11.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_act_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_act_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_act_4.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_act_5.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_act_6.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_act_7.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_act_8.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_act_9.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_act_nurse_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_act_nurse_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_act_nurse_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_actready_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_actready_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_attack_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_attack_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_attack_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_attack_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_attack_4.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_attackready_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_10.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_11.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_12.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_13.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_14.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_4.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_5.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_6.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_7.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_8.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_9.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_sideb_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_sideb_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_sideb_10.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_sideb_11.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_sideb_12.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_sideb_13.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_sideb_14.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_sideb_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_sideb_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_sideb_4.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_sideb_5.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_sideb_6.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_sideb_7.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_sideb_8.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_battleintro_sideb_9.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_defeat_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_defend_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_defend_sideb_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_defend_sideb_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_defend_sideb_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_defend_sideb_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_defend_sideb_4.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_defend_sideb_5.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_float_sideb_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_float_sideb_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_float_sideb_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_float_sideb_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_hurt_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_hurt_sideb_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_idle_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_idle_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_idle_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_idle_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_idle_4.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_idle_sideb_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_idle_sideb_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_idle_sideb_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_idle_sideb_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_idle_sideb_4.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_item_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_item_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_item_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_item_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_item_4.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_item_5.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_item_6.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_item_7.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_item_8.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_item_9.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_itemready_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_itemready_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_pray_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_pray_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_pray_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_pray_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_pray_4.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_spell_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_spell_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_spell_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_spell_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_spell_4.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_spell_5.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_spell_6.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_spell_7.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_spell_8.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_spell_special_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_spell_special_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_spell_special_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_spell_special_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_spellready_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_victory_0.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_victory_1.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_victory_2.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_victory_3.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_victory_4.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_victory_5.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_victory_6.png",
+      "/sprites/deltarune/ch1/noelle/spr_noelleb_victory_7.png"
     ]
   },
   {
@@ -2529,6 +3440,25 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "nubert",
+    "name": "Nubert",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/nubert/spr_npc_nubert_0.png",
+      "/sprites/deltarune/ch2/nubert/spr_npc_nubert_1.png",
+      "/sprites/deltarune/ch2/nubert/spr_npc_nubert_aristocrat_0.png",
+      "/sprites/deltarune/ch2/nubert/spr_npc_nubert_aristocrat_1.png",
+      "/sprites/deltarune/ch2/nubert/spr_npc_nubert_screen_0.png",
+      "/sprites/deltarune/ch2/nubert/spr_npc_nubert_screen_1.png",
+      "/sprites/deltarune/ch2/nubert/spr_npc_nubert_screen_2.png"
+    ]
+  },
+  {
     "id": "nurse",
     "name": "Nurse",
     "games": [
@@ -2540,6 +3470,74 @@ export const characters: Character[] = [
     "sprites": [
       "/sprites/deltarune/ch1/nurse/spr_npc_nurse_0.png",
       "/sprites/deltarune/ch1/nurse/spr_npc_nurse_1.png"
+    ]
+  },
+  {
+    "id": "oldman",
+    "name": "Oldman",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch4"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch4/oldman/spr_gerson_bench_paper_0.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_book_catch_2.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_bow_0.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_bow_1.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_dodge_0.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_hand_up_look_down_0.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_headtilt_nohair_0.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_idle_3.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_item_steal1_0.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_laugh_scene_0.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_look_diagonal_0.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_outfit_laugh_left_1.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_point_left_0.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_reach_down_1.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_rudebuster_0.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_rudebuster_13.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_sit_laugh_1.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_sit_look_2.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_smear_0.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_spin_5.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_swing_down_new_1.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_swing_down_new_4.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_switch_0.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_switch_1.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_tea_look_0.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_tea_pour_8.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_tea_pour_9.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_writing_loop_0.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_writing_scratch_aha_0.png",
+      "/sprites/deltarune/ch4/oldman/spr_gerson_writing_scratch_loop_0.png"
+    ]
+  },
+  {
+    "id": "omawaroid",
+    "name": "Omawaroid",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/omawaroid/spr_cutscene_26_omawaroid_0.png",
+      "/sprites/deltarune/ch2/omawaroid/spr_omawaroid_chase_0.png",
+      "/sprites/deltarune/ch2/omawaroid/spr_omawaroid_chase_1.png",
+      "/sprites/deltarune/ch2/omawaroid/spr_omawaroid_chase_2.png",
+      "/sprites/deltarune/ch2/omawaroid/spr_omawaroid_chase_3.png",
+      "/sprites/deltarune/ch2/omawaroid/spr_omawaroid_hurt_0.png",
+      "/sprites/deltarune/ch2/omawaroid/spr_omawaroid_idle_0.png",
+      "/sprites/deltarune/ch2/omawaroid/spr_omawaroid_idle_1.png",
+      "/sprites/deltarune/ch2/omawaroid/spr_omawaroid_idle_2.png",
+      "/sprites/deltarune/ch2/omawaroid/spr_omawaroid_idle_3.png",
+      "/sprites/deltarune/ch2/omawaroid/spr_omawaroid_idle_4.png",
+      "/sprites/deltarune/ch2/omawaroid/spr_omawaroid_idle_5.png",
+      "/sprites/deltarune/ch2/omawaroid/spr_omawaroid_spared_0.png",
+      "/sprites/deltarune/ch2/omawaroid/spr_omawaroid_spotted_0.png"
     ]
   },
   {
@@ -2712,6 +3710,35 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "plugboy",
+    "name": "Plugboy",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/plugboy/spr_cutscene_26_plugboy_0.png",
+      "/sprites/deltarune/ch2/plugboy/spr_npc_plugboy_0.png",
+      "/sprites/deltarune/ch2/plugboy/spr_npc_plugboy_1.png",
+      "/sprites/deltarune/ch2/plugboy/spr_npc_plugboy_bandana_0.png",
+      "/sprites/deltarune/ch2/plugboy/spr_npc_plugboy_bandana_1.png",
+      "/sprites/deltarune/ch2/plugboy/spr_npc_plugboy_girl_0.png",
+      "/sprites/deltarune/ch2/plugboy/spr_npc_plugboy_girl_1.png",
+      "/sprites/deltarune/ch2/plugboy/spr_npc_plugboy_hat_0.png",
+      "/sprites/deltarune/ch2/plugboy/spr_npc_plugboy_hat_1.png",
+      "/sprites/deltarune/ch2/plugboy/spr_npc_plugboy_shock_0.png",
+      "/sprites/deltarune/ch2/plugboy/spr_npc_plugboy_shock_1.png",
+      "/sprites/deltarune/ch2/plugboy/spr_npc_plugboy_static_0.png",
+      "/sprites/deltarune/ch2/plugboy/spr_npc_plugboy_static_1.png",
+      "/sprites/deltarune/ch2/plugboy/spr_npc_plugboy_static_outline_0.png",
+      "/sprites/deltarune/ch2/plugboy/spr_npc_plugboy_static_outline_1.png",
+      "/sprites/deltarune/ch2/plugboy/spr_npc_plugboy_wig_0.png",
+      "/sprites/deltarune/ch2/plugboy/spr_npc_plugboy_wig_1.png"
+    ]
+  },
+  {
     "id": "politicsbear",
     "name": "Politicsbear",
     "games": [
@@ -2745,6 +3772,53 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "poppup",
+    "name": "Poppup",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/poppup/spr_cutscene_26_poppup_0.png",
+      "/sprites/deltarune/ch2/poppup/spr_npc_poppup_0.png",
+      "/sprites/deltarune/ch2/poppup/spr_npc_poppup_1.png",
+      "/sprites/deltarune/ch2/poppup/spr_npc_poppup_2.png",
+      "/sprites/deltarune/ch2/poppup/spr_npc_poppup_3.png",
+      "/sprites/deltarune/ch2/poppup/spr_npc_poppup_4.png",
+      "/sprites/deltarune/ch2/poppup/spr_npc_poppup_5.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_hurt_0.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_idle_0.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_idle_1.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_idle_2.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_idle_3.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_idle_4.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_idle_5.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_idle_alt_overworld_0.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_idle_alt_overworld_1.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_idle_alt_overworld_2.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_idle_alt_overworld_3.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_idle_alt_overworld_4.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_idle_alt_overworld_5.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_intro_10.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_intro_3.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_intro_4.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_intro_5.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_intro_6.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_intro_7.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_intro_8.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_intro_9.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_shrivel_idle_0.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_shrivel_idle_1.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_shrivel_idle_2.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_shrivel_idle_3.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_shrivel_idle_4.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_shrivel_idle_5.png",
+      "/sprites/deltarune/ch2/poppup/spr_poppup_spared_0.png"
+    ]
+  },
+  {
     "id": "punkhamster",
     "name": "Punkhamster",
     "games": [
@@ -2771,8 +3845,20 @@ export const characters: Character[] = [
       "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_0.png",
       "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_jail_0.png",
       "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_shaved_0.png",
+      "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_shaved_frown_0.png",
+      "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_shaved_frown_1.png",
+      "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_shaved_happy_0.png",
+      "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_shaved_happy_1.png",
       "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_shock1_0.png",
-      "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_shock2_0.png"
+      "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_shock1_shaved_0.png",
+      "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_shock1_shaved_1.png",
+      "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_shock2_0.png",
+      "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_shock2_2.png",
+      "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_shock2_3.png",
+      "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_shock2_shaved_0.png",
+      "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_shock2_shaved_1.png",
+      "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_shock2_shaved_2.png",
+      "/sprites/deltarune/ch1/puzzlepiece/spr_npc_puzzlepiece_shock2_shaved_3.png"
     ]
   },
   {
@@ -2788,6 +3874,44 @@ export const characters: Character[] = [
       "/sprites/Undertale/hotland/pyrope/spr_pyropehurt_0.png",
       "/sprites/Undertale/hotland/pyrope/spr_pyropenpc_0.png",
       "/sprites/Undertale/hotland/pyrope/spr_pyropenpc_1.png"
+    ]
+  },
+  {
+    "id": "queen",
+    "name": "Queen",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/queen/spr_cutscene_10_queen_armup_7.png",
+      "/sprites/deltarune/ch2/queen/spr_cutscene_10_queen_ohoho_standing_0.png",
+      "/sprites/deltarune/ch2/queen/spr_cutscene_13_queen_drunk_laugh_0.png",
+      "/sprites/deltarune/ch2/queen/spr_cutscene_13_queen_drunk_smash_0.png",
+      "/sprites/deltarune/ch2/queen/spr_cutscene_15_queen_baseball_0.png",
+      "/sprites/deltarune/ch2/queen/spr_cutscene_26_queen_climb_0.png",
+      "/sprites/deltarune/ch2/queen/spr_cutscene_26_queen_pilot_0.png",
+      "/sprites/deltarune/ch2/queen/spr_cutscene_26_queen_pilot_laugh_1.png",
+      "/sprites/deltarune/ch2/queen/spr_cutscene_city01_queen_shocked_0.png",
+      "/sprites/deltarune/ch2/queen/spr_cutscene_city01_queen_stealth_0.png",
+      "/sprites/deltarune/ch2/queen/spr_npc_queen_relax_0.png",
+      "/sprites/deltarune/ch2/queen/spr_queen_chair_1_0.png",
+      "/sprites/deltarune/ch2/queen/spr_queen_chair_2_4.png",
+      "/sprites/deltarune/ch2/queen/spr_queen_chair_ohoho_1_0.png",
+      "/sprites/deltarune/ch2/queen/spr_queen_chair_ohoho_2_0.png",
+      "/sprites/deltarune/ch2/queen/spr_queen_down_0.png",
+      "/sprites/deltarune/ch2/queen/spr_queen_drunk_0.png",
+      "/sprites/deltarune/ch2/queen/spr_queen_hurt_3.png",
+      "/sprites/deltarune/ch2/queen/spr_queen_pie_left_0.png",
+      "/sprites/deltarune/ch2/queen/spr_queen_pie_throw_3.png",
+      "/sprites/deltarune/ch2/queen/spr_queen_point_left_1.png",
+      "/sprites/deltarune/ch2/queen/spr_queen_run_right_stupid_0.png",
+      "/sprites/deltarune/ch2/queen/spr_queen_run_right_stupid_1.png",
+      "/sprites/deltarune/ch2/queen/spr_queen_run_right_stupid_3.png",
+      "/sprites/deltarune/ch2/queen/spr_queen_walk_left_0.png",
+      "/sprites/deltarune/ch2/queen/spr_queen_wine_left_0.png"
     ]
   },
   {
@@ -2836,6 +3960,20 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "rainykid",
+    "name": "Rainykid",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/rainykid/spr_npc_rainykid_0.png",
+      "/sprites/deltarune/ch2/rainykid/spr_npc_rainykid_1.png"
+    ]
+  },
+  {
     "id": "ralsei",
     "name": "Ralsei",
     "games": [
@@ -2845,6 +3983,8 @@ export const characters: Character[] = [
       "ch1"
     ],
     "sprites": [
+      "/sprites/deltarune/ch1/ralsei/spr_cutscene_24e_ralsei_splat_happy_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_cutscene_24e_ralsei_splat_mad_0.png",
       "/sprites/deltarune/ch1/ralsei/spr_face_r_dark_1.png",
       "/sprites/deltarune/ch1/ralsei/spr_face_r_dark_10.png",
       "/sprites/deltarune/ch1/ralsei/spr_face_r_dark_11.png",
@@ -2862,8 +4002,28 @@ export const characters: Character[] = [
       "/sprites/deltarune/ch1/ralsei/spr_face_r_nohat_0.png",
       "/sprites/deltarune/ch1/ralsei/spr_face_r_nohat_1.png",
       "/sprites/deltarune/ch1/ralsei/spr_face_r_nohat_2.png",
+      "/sprites/deltarune/ch1/ralsei/spr_npc_jackenstein_climb_party_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_coaster_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_cotton_talk_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_cotton_talk_1.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_dance_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_dance_1.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_dance_2.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_dance_3.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_dance_4.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_dance_5.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_dance_6.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_dance_7.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_dance2_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_down_surprised2_0.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralsei_fell_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_hatless_throw_0.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralsei_hood_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_jump_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_laugh_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_laugh_1.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_left_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_pose_0.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralsei_pullhat_0.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralsei_removehood_0.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralsei_removehood_1.png",
@@ -2875,7 +4035,53 @@ export const characters: Character[] = [
       "/sprites/deltarune/ch1/ralsei/spr_ralsei_reveal_3.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralsei_reveal_4.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralsei_reveal_8.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_right_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_roll_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_roll_1.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_roll_smear_0.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralsei_shock_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_shocked_behind_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_slide_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_slide_1.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_slide_2.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_surprised_down_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_down_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_down_1.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_down_2.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_down_3.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_down_blush_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_down_blush_1.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_down_blush_2.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_down_blush_3.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_down_sleep_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_down_sleep_1.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_down_unhappy_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_down_unhappy_1.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_down_unhappy_2.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_down_unhappy_3.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_left_blush_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_left_blush_1.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_left_blush_2.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_left_blush_3.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_left_unhappy_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_left_unhappy_1.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_left_unhappy_2.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_left_unhappy_3.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_right_blush_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_right_blush_1.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_right_blush_2.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_right_blush_3.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_right_unhappy_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_right_unhappy_1.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_right_unhappy_2.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_walk_right_unhappy_3.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_wave_down_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_wave_down_1.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_wave_down_2.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_wave_down_3.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_wave_start_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_wave_start_1.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralsei_wave_start_2.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralseib_act_3.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralseib_attack_1.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralseib_attack_4.png",
@@ -2884,6 +4090,12 @@ export const characters: Character[] = [
       "/sprites/deltarune/ch1/ralsei/spr_ralseib_bow_0.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralseib_defend_1.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralseib_defend_4.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralseib_idle_enemy_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralseib_idle_enemy_1.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralseib_idle_enemy_2.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralseib_idle_enemy_3.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralseib_idle_enemy_4.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralseib_idle_enemy_blush_0.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralseib_item_0.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralseib_shock_enemy_0.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralseib_sing_0.png",
@@ -2891,6 +4103,8 @@ export const characters: Character[] = [
       "/sprites/deltarune/ch1/ralsei/spr_ralseib_spellready_0.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralseib_victory_12.png",
       "/sprites/deltarune/ch1/ralsei/spr_ralseib_victory_2.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralseib_yarn_1_0.png",
+      "/sprites/deltarune/ch1/ralsei/spr_ralseib_yarn_2_0.png",
       "/sprites/deltarune/ch1/ralsei/spr_susieb_throwralseiready_0.png"
     ]
   },
@@ -2986,6 +4200,47 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "roaringknight",
+    "name": "Roaringknight",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch3"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch3/roaringknight/spr_roaring_knight_clash_0.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaring_knight_laugh_stop_0.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaring_knight_overworld_warp_7.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_attack_ol_center_0.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_attack_ol_center_1.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_attack_ol_center_4.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_ball_transition_down_2.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_ball_transition_pose_2.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_ball_transition_pose_3.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_block_ol_0.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_down_look_forward_4.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_droop_0.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_faceaway_eye_0.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_fly_0.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_front_flourish_0.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_front_flourish_1.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_front_flourish_2.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_front_flourish_5.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_front_slash_1.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_front_slash_4.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_lift_head_3.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_look_down_0.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_noarm_0.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_pose_ol_0.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_reach_overworld_sword_2.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_slosh_sword_8.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_teleport_post_0.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_throw_sword_15.png",
+      "/sprites/deltarune/ch3/roaringknight/spr_roaringknight_turn_around_2.png"
+    ]
+  },
+  {
     "id": "rock",
     "name": "Rock",
     "games": [
@@ -3008,6 +4263,7 @@ export const characters: Character[] = [
       "ch1"
     ],
     "sprites": [
+      "/sprites/deltarune/ch1/roulx/spr_board_rouxls_0.png",
       "/sprites/deltarune/ch1/roulx/spr_face_rurus_0.png",
       "/sprites/deltarune/ch1/roulx/spr_face_rurus_1.png",
       "/sprites/deltarune/ch1/roulx/spr_face_rurus_2.png",
@@ -3015,6 +4271,22 @@ export const characters: Character[] = [
       "/sprites/deltarune/ch1/roulx/spr_face_rurus_4.png",
       "/sprites/deltarune/ch1/roulx/spr_face_rurus_5.png",
       "/sprites/deltarune/ch1/roulx/spr_face_rurus_6.png",
+      "/sprites/deltarune/ch1/roulx/spr_npc_rouxls_chef_up_1.png",
+      "/sprites/deltarune/ch1/roulx/spr_npc_rouxls_cry_0.png",
+      "/sprites/deltarune/ch1/roulx/spr_npc_rouxls_lamp_0.png",
+      "/sprites/deltarune/ch1/roulx/spr_npc_rouxls_lamp_1.png",
+      "/sprites/deltarune/ch1/roulx/spr_npc_rouxls_up_1.png",
+      "/sprites/deltarune/ch1/roulx/spr_npc_rouxls_weather_gaming_chef_0.png",
+      "/sprites/deltarune/ch1/roulx/spr_rouxls_armposes_0.png",
+      "/sprites/deltarune/ch1/roulx/spr_rouxls_armposes_1.png",
+      "/sprites/deltarune/ch1/roulx/spr_rouxls_armposes_2.png",
+      "/sprites/deltarune/ch1/roulx/spr_rouxls_armposes_3.png",
+      "/sprites/deltarune/ch1/roulx/spr_rouxls_chef_card2_3.png",
+      "/sprites/deltarune/ch1/roulx/spr_rouxls_chef_dance_2.png",
+      "/sprites/deltarune/ch1/roulx/spr_rouxls_handposes_0.png",
+      "/sprites/deltarune/ch1/roulx/spr_rouxls_handposes_1.png",
+      "/sprites/deltarune/ch1/roulx/spr_rouxls_hugfriends_0.png",
+      "/sprites/deltarune/ch1/roulx/spr_rouxls_hugfriends_5.png",
       "/sprites/deltarune/ch1/roulx/spr_rurus_appear_8.png"
     ]
   },
@@ -3129,7 +4401,9 @@ export const characters: Character[] = [
       "/sprites/deltarune/ch1/rudy/spr_rudy_d_0.png",
       "/sprites/deltarune/ch1/rudy/spr_rudy_l_0.png",
       "/sprites/deltarune/ch1/rudy/spr_rudy_laugh_0.png",
-      "/sprites/deltarune/ch1/rudy/spr_rudy_laugh_1.png"
+      "/sprites/deltarune/ch1/rudy/spr_rudy_laugh_1.png",
+      "/sprites/deltarune/ch1/rudy/spr_rudy_look_0.png",
+      "/sprites/deltarune/ch1/rudy/spr_rudy_look_smile_0.png"
     ]
   },
   {
@@ -3262,6 +4536,23 @@ export const characters: Character[] = [
       "/sprites/Undertale/core/shamblingmass/spr_shamblingmass_0.png",
       "/sprites/Undertale/core/shamblingmass/spr_shamblingmass_1.png",
       "/sprites/Undertale/core/shamblingmass/spr_shamblingmass_2.png"
+    ]
+  },
+  {
+    "id": "shopcafe",
+    "name": "Shopcafe",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/shopcafe/spr_shop_cafe_swatch_0.png",
+      "/sprites/deltarune/ch2/shopcafe/spr_shop_cafe_swatch_1.png",
+      "/sprites/deltarune/ch2/shopcafe/spr_shop_cafe_swatch_2.png",
+      "/sprites/deltarune/ch2/shopcafe/spr_shop_cafe_swatch_3.png",
+      "/sprites/deltarune/ch2/shopcafe/spr_shop_cafe_swatch_4.png"
     ]
   },
   {
@@ -3481,6 +4772,65 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "spamton",
+    "name": "Spamton",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/spamton/spr_cutscene_14_spamton_hands_look_down_0.png",
+      "/sprites/deltarune/ch2/spamton/spr_cutscene_14_spamton_laugh_glitch_1.png",
+      "/sprites/deltarune/ch2/spamton/spr_cutscene_14_spamton_laugh_glitch_15.png",
+      "/sprites/deltarune/ch2/spamton/spr_cutscene_14_spamton_laugh_glitch_18.png",
+      "/sprites/deltarune/ch2/spamton/spr_cutscene_14_spamton_laugh_glitch_19.png",
+      "/sprites/deltarune/ch2/spamton/spr_cutscene_14_spamton_laugh_glitch_20.png",
+      "/sprites/deltarune/ch2/spamton/spr_shop_soamton_phone_4.png",
+      "/sprites/deltarune/ch2/spamton/spr_shop_spamton0_0.png",
+      "/sprites/deltarune/ch2/spamton/spr_shop_spamton1_0.png",
+      "/sprites/deltarune/ch2/spamton/spr_shop_spamton1_2.png",
+      "/sprites/deltarune/ch2/spamton/spr_shop_spamton1_3.png",
+      "/sprites/deltarune/ch2/spamton/spr_shop_spamton2_0.png",
+      "/sprites/deltarune/ch2/spamton/spr_shop_spamton2_1.png",
+      "/sprites/deltarune/ch2/spamton/spr_shop_spamton3_0.png",
+      "/sprites/deltarune/ch2/spamton/spr_shop_spamton4_0.png",
+      "/sprites/deltarune/ch2/spamton/spr_shop_spamton4_3.png",
+      "/sprites/deltarune/ch2/spamton/spr_spamton_cherub_4.png",
+      "/sprites/deltarune/ch2/spamton/spr_spamton_dark_0.png",
+      "/sprites/deltarune/ch2/spamton/spr_spamton_foam_1.png",
+      "/sprites/deltarune/ch2/spamton/spr_spamton_foam_2.png",
+      "/sprites/deltarune/ch2/spamton/spr_spamton_foam_4.png",
+      "/sprites/deltarune/ch2/spamton/spr_spamton_head_grow_4.png",
+      "/sprites/deltarune/ch2/spamton/spr_spamton_hurt_0.png",
+      "/sprites/deltarune/ch2/spamton/spr_spamton_jump_1.png",
+      "/sprites/deltarune/ch2/spamton/spr_spamtonhead_0.png",
+      "/sprites/deltarune/ch2/spamton/spr_spamtonhead_1.png",
+      "/sprites/deltarune/ch2/spamton/spr_spamtonhead_2.png",
+      "/sprites/deltarune/ch2/spamton/spr_spamtonhead_3.png"
+    ]
+  },
+  {
+    "id": "spamtonneo",
+    "name": "Spamtonneo",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/spamtonneo/spr_sneo_example_0.png",
+      "/sprites/deltarune/ch2/spamtonneo/spr_sneo_final_forme_0.png",
+      "/sprites/deltarune/ch2/spamtonneo/spr_sneo_head_1.png",
+      "/sprites/deltarune/ch2/spamtonneo/spr_sneo_head_2.png",
+      "/sprites/deltarune/ch2/spamtonneo/spr_sneo_head_3.png",
+      "/sprites/deltarune/ch2/spamtonneo/spr_sneo_head_open_0.png",
+      "/sprites/deltarune/ch2/spamtonneo/spr_sneo_lastattack_head_top_0.png"
+    ]
+  },
+  {
     "id": "starwalker",
     "name": "Starwalker",
     "games": [
@@ -3491,6 +4841,14 @@ export const characters: Character[] = [
     ],
     "sprites": [
       "/sprites/deltarune/ch1/starwalker/spr_npc_originalstarwalker_0.png",
+      "/sprites/deltarune/ch1/starwalker/spr_npc_originalstarwalker_walk_down_0.png",
+      "/sprites/deltarune/ch1/starwalker/spr_npc_originalstarwalker_walk_down_1.png",
+      "/sprites/deltarune/ch1/starwalker/spr_npc_originalstarwalker_walk_down_2.png",
+      "/sprites/deltarune/ch1/starwalker/spr_npc_originalstarwalker_walk_down_3.png",
+      "/sprites/deltarune/ch1/starwalker/spr_npc_originalstarwalker_walk_down_4.png",
+      "/sprites/deltarune/ch1/starwalker/spr_npc_originalstarwalker_walk_down_5.png",
+      "/sprites/deltarune/ch1/starwalker/spr_npc_originalstarwalker_walk_down_6.png",
+      "/sprites/deltarune/ch1/starwalker/spr_npc_originalstarwalker_walk_down_7.png",
       "/sprites/deltarune/ch1/starwalker/spr_starwalker_attack_0.png",
       "/sprites/deltarune/ch1/starwalker/spr_starwalker_attack_1.png",
       "/sprites/deltarune/ch1/starwalker/spr_starwalker_idle_0.png",
@@ -3529,6 +4887,22 @@ export const characters: Character[] = [
       "ch1"
     ],
     "sprites": [
+      "/sprites/deltarune/ch1/susie/spr_cutscene_28b_susie_angry_down_dw_0.png",
+      "/sprites/deltarune/ch1/susie/spr_cutscene_28b_susie_angry_down_lw_0.png",
+      "/sprites/deltarune/ch1/susie/spr_cutscene_28b_susie_turn_around_dw_0.png",
+      "/sprites/deltarune/ch1/susie/spr_cutscene_28b_susie_turn_around_lw_0.png",
+      "/sprites/deltarune/ch1/susie/spr_cutscene_30b_susie_playful_punch_0.png",
+      "/sprites/deltarune/ch1/susie/spr_cutscene_30b_susie_playful_punch_1.png",
+      "/sprites/deltarune/ch1/susie/spr_cutscene_30b_susie_playful_punch2_0.png",
+      "/sprites/deltarune/ch1/susie/spr_cutscene_30b_susie_unslouch_0.png",
+      "/sprites/deltarune/ch1/susie/spr_cutscene_30b_susie_unslouch_1.png",
+      "/sprites/deltarune/ch1/susie/spr_cutscene_30b_susie_unslouch_2.png",
+      "/sprites/deltarune/ch1/susie/spr_cutscene_30b_susie_unslouch_3.png",
+      "/sprites/deltarune/ch1/susie/spr_cutscene_30b_susie_unslouch_4.png",
+      "/sprites/deltarune/ch1/susie/spr_cutscene_30b_susie_unslouch_walk_0.png",
+      "/sprites/deltarune/ch1/susie/spr_cutscene_30b_susie_unslouch_walk_1.png",
+      "/sprites/deltarune/ch1/susie/spr_cutscene_30b_susie_unslouch_walk_2.png",
+      "/sprites/deltarune/ch1/susie/spr_cutscene_30b_susie_unslouch_walk_3.png",
       "/sprites/deltarune/ch1/susie/spr_face_s0_0.png",
       "/sprites/deltarune/ch1/susie/spr_face_s1_0.png",
       "/sprites/deltarune/ch1/susie/spr_face_s2_0.png",
@@ -3556,10 +4930,21 @@ export const characters: Character[] = [
       "/sprites/deltarune/ch1/susie/spr_face_susie_alt_9.png",
       "/sprites/deltarune/ch1/susie/spr_krisandsusie_fall_0.png",
       "/sprites/deltarune/ch1/susie/spr_lancerbike_earcover_0.png",
+      "/sprites/deltarune/ch1/susie/spr_npc_jackenstein_climb_party_0.png",
       "/sprites/deltarune/ch1/susie/spr_susie_brave_0.png",
       "/sprites/deltarune/ch1/susie/spr_susie_brave_discouraged_0.png",
       "/sprites/deltarune/ch1/susie/spr_susie_brave_shock_0.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_chomp_0.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_chomp_1.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_coaster_0.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_dance_0.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_dance_1.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_dance_2.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_dance_3.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_dance_4.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_dance_5.png",
       "/sprites/deltarune/ch1/susie/spr_susie_dark_relax_0.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_down_dw_0.png",
       "/sprites/deltarune/ch1/susie/spr_susie_eatchalk_14.png",
       "/sprites/deltarune/ch1/susie/spr_susie_eatchalk_15.png",
       "/sprites/deltarune/ch1/susie/spr_susie_eatchalk_16.png",
@@ -3585,8 +4970,32 @@ export const characters: Character[] = [
       "/sprites/deltarune/ch1/susie/spr_susie_krisshoulder_5.png",
       "/sprites/deltarune/ch1/susie/spr_susie_krisshoulder_r_0.png",
       "/sprites/deltarune/ch1/susie/spr_susie_krisshoulder_r_5.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_lancer_carry_laugh_0.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_lancer_carry_laugh_1.png",
       "/sprites/deltarune/ch1/susie/spr_susie_laughlancer_0.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_left_diagonal_kick_dw_0.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_left_diagonal_kick_dw_1.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_left_diagonal_kick_dw_2.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_left_diagonal_kick_dw_3.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_left_diagonal_kick_dw_4.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_left_dw_0.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_playful_punch_dw_0.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_playful_punch_dw_1.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_pose_0.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_right_diagonal_kick_dw_0.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_right_diagonal_kick_dw_1.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_right_diagonal_kick_dw_2.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_right_diagonal_kick_dw_3.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_right_diagonal_kick_dw_4.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_right_dw_0.png",
       "/sprites/deltarune/ch1/susie/spr_susie_shock_0.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_slide_0.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_slide_1.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_slide_2.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_walk_back_arm_0.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_walk_back_arm_1.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_walk_back_arm_2.png",
+      "/sprites/deltarune/ch1/susie/spr_susie_walk_back_arm_3.png",
       "/sprites/deltarune/ch1/susie/spr_susieb_act_0.png",
       "/sprites/deltarune/ch1/susie/spr_susieb_act_2.png",
       "/sprites/deltarune/ch1/susie/spr_susieb_attack_1.png",
@@ -3617,6 +5026,110 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "swatchling",
+    "name": "Swatchling",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/swatchling/spr_cutscene_26_butler_0.png",
+      "/sprites/deltarune/ch2/swatchling/spr_npc_butler_0.png",
+      "/sprites/deltarune/ch2/swatchling/spr_npc_butler_1.png",
+      "/sprites/deltarune/ch2/swatchling/spr_npc_butler_clap_0.png",
+      "/sprites/deltarune/ch2/swatchling/spr_npc_butler_clap_1.png",
+      "/sprites/deltarune/ch2/swatchling/spr_npc_butler_platter_0.png",
+      "/sprites/deltarune/ch2/swatchling/spr_npc_swatchling_sweep_0.png",
+      "/sprites/deltarune/ch2/swatchling/spr_npc_swatchling_sweep_1.png",
+      "/sprites/deltarune/ch2/swatchling/spr_npc_swatchling_sweep_2.png",
+      "/sprites/deltarune/ch2/swatchling/spr_npc_swatchling_sweep_3.png",
+      "/sprites/deltarune/ch2/swatchling/spr_npc_swatchling_sweep_walk_0.png",
+      "/sprites/deltarune/ch2/swatchling/spr_npc_swatchling_sweep_walk_1.png",
+      "/sprites/deltarune/ch2/swatchling/spr_npc_swatchling_sweep_walk_2.png",
+      "/sprites/deltarune/ch2/swatchling/spr_npc_swatchling_sweep_walk_3.png"
+    ]
+  },
+  {
+    "id": "sweet",
+    "name": "Sweet",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/sweet/spr_cutscene_cyber01_sweet_splat_0.png",
+      "/sprites/deltarune/ch2/sweet/spr_npc_sweet_0.png",
+      "/sprites/deltarune/ch2/sweet/spr_npc_sweet_sing_0.png",
+      "/sprites/deltarune/ch2/sweet/spr_npc_sweet_sing_1.png",
+      "/sprites/deltarune/ch2/sweet/spr_sweet_dance_0.png",
+      "/sprites/deltarune/ch2/sweet/spr_sweet_hurt_0.png",
+      "/sprites/deltarune/ch2/sweet/spr_sweet_idle_0.png"
+    ]
+  },
+  {
+    "id": "tasque",
+    "name": "Tasque",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/tasque/spr_cutscene_26_tasque_0.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_1.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_2.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_3.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_4.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_5.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_flipped_0.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_flipped_1.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_flipped_2.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_flipped_3.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_flipped_4.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_flipped_5.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_origin_bottom_center_0.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_origin_bottom_center_1.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_origin_bottom_center_2.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_origin_bottom_center_3.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_origin_bottom_center_4.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_origin_bottom_center_5.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_overworld_0.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_overworld_1.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_overworld_2.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_overworld_3.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_overworld_4.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_idle_overworld_5.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_meow_2.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_meow_3.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_meow_4.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_meow_5.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_meow_6.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_meow_7.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_meow_8.png",
+      "/sprites/deltarune/ch2/tasque/spr_tasque_rev_0.png"
+    ]
+  },
+  {
+    "id": "tasquemanager",
+    "name": "Tasquemanager",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/tasquemanager/spr_cutscene_26_tasquemanager_0.png",
+      "/sprites/deltarune/ch2/tasquemanager/spr_npc_tm_sing_4.png",
+      "/sprites/deltarune/ch2/tasquemanager/spr_tm_hurt_0.png"
+    ]
+  },
+  {
     "id": "temmie",
     "name": "Temmie",
     "games": [
@@ -3637,6 +5150,115 @@ export const characters: Character[] = [
       "/sprites/Undertale/waterfall/temmie/spr_temmie_hivetalk_1.png",
       "/sprites/Undertale/waterfall/temmie/spr_temmie_r_1.png",
       "/sprites/Undertale/waterfall/temmie/spr_temmie_rt_1.png"
+    ]
+  },
+  {
+    "id": "tenna",
+    "name": "Tenna",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch3"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch3/tenna/spr_board_npc_tenna_back_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_gameshow_screen_tenna_peacefixedAnchor_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_gameshow_screen_tenna_peacefixedAnchor_1.png",
+      "/sprites/deltarune/ch3/tenna/spr_gameshow_screen_tenna_run_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_gameshow_screen_tenna_run_1.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_armsup_annoyed_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_armsup_annoyed_1.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_bulletin_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_communication_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_communication_1.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_dance_cabbage_smol_34.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_dance_cabbage_smol_49.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_desperate_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_desperate_1.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_desperate_2.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_desperate_3.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_desperate_4.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_evil_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_faceaway_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_fall_start_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_fallen_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_grasp_b_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_grasp_c_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_grasp_d_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_grasp_e_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_hooray_armsup_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_hurt_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_laugh_pose_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_laugh_pose_alt_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_laugh_pose_teeth_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_listening_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_nose_blossom_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_point_at_screen_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_point_at_screen_c_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_point_droop_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_point_left_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_point_up_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_point_up_b_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_point_up_twofingers_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_pose_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_pose_headlowered_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_pose_headlowered_nose_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_pose_headraised_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_pose_headraised_nose_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_pose_podium_1.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_pose_podium_2.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_pose_podium_3.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_pose_podium_4.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_pose_podium_evil_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_pose_podium_evil_1.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_pose_podium_evil_2.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_pose_podium_evil_3.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_pose_podium_evil_4.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_sad_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_sad_turned_a_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_sad_turned_b_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_salute_a_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_shocked_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_shocked_alt_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_spray_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_tie_adjust_a_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_tie_adjust_b_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_tie_adjust_c_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_whisper_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_whisper_blush_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tenna_whisper_chef_0.png",
+      "/sprites/deltarune/ch3/tenna/spr_tennadeath_body_0.png"
+    ]
+  },
+  {
+    "id": "terry",
+    "name": "Terry",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/terry/spr_npc_terry_0.png"
+    ]
+  },
+  {
+    "id": "titan",
+    "name": "Titan",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch4"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch4/titan/spr_cover_wings_defense_highlight2_0.png",
+      "/sprites/deltarune/ch4/titan/spr_cover_wings_defense_layer_4_0.png",
+      "/sprites/deltarune/ch4/titan/spr_titan_4_backwing_0.png",
+      "/sprites/deltarune/ch4/titan/spr_titan_hurt_0.png",
+      "/sprites/deltarune/ch4/titan/spr_titan_hurt_2.png"
     ]
   },
   {
@@ -3693,6 +5315,9 @@ export const characters: Character[] = [
     ],
     "sprites": [
       "/sprites/Undertale/ruinas/toriel/spr_chairiel_0.png",
+      "/sprites/Undertale/ruinas/toriel/spr_cutscene_30b_toriel_facepalm_0.png",
+      "/sprites/Undertale/ruinas/toriel/spr_cutscene_30b_toriel_laugh_0.png",
+      "/sprites/Undertale/ruinas/toriel/spr_cutscene_30b_toriel_laugh_1.png",
       "/sprites/Undertale/ruinas/toriel/spr_face_toriel_goawayasgore_0.png",
       "/sprites/Undertale/ruinas/toriel/spr_face_toriel_laughleft_0.png",
       "/sprites/Undertale/ruinas/toriel/spr_face_toriel_noasgore_0.png",
@@ -3907,6 +5532,8 @@ export const characters: Character[] = [
       "/sprites/Undertale/waterfall/undyne/spr_undyne_d_wave_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_d_wave_1.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_dt_1.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_exasperated_0.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_exasperated_1.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_eyeding_3.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_eyeding_4.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_grableap_0.png",
@@ -3929,6 +5556,18 @@ export const characters: Character[] = [
       "/sprites/Undertale/waterfall/undyne/spr_undyne_throw_12.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_throw_7.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_throwspear_0.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_down_0.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_down_1.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_down_2.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_down_3.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_left_0.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_left_1.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_left_2.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_left_3.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_right_0.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_right_1.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_right_2.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_right_3.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_youremine_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undynea_r_raiseup_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undynea_rfall_0.png",
@@ -4034,6 +5673,19 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "virokun",
+    "name": "Virokun",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/virokun/spr_cutscene_26_virovirokun_0.png"
+    ]
+  },
+  {
     "id": "vulkin",
     "name": "Vulkin",
     "games": [
@@ -4048,6 +5700,39 @@ export const characters: Character[] = [
       "/sprites/Undertale/hotland/vulkin/spr_vulkinnpc_hotdog_1.png",
       "/sprites/Undertale/hotland/vulkin/spr_vulkinpc_0.png",
       "/sprites/Undertale/hotland/vulkin/spr_vulkinpc_1.png"
+    ]
+  },
+  {
+    "id": "watercooler",
+    "name": "Watercooler",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch3"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch3/watercooler/spr_watercooler_0.png"
+    ]
+  },
+  {
+    "id": "werewire",
+    "name": "Werewire",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch2"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch2/werewire/spr_cutscene_26_werewerewire_0.png",
+      "/sprites/deltarune/ch2/werewire/spr_npc_werewerewire_look_0.png",
+      "/sprites/deltarune/ch2/werewire/spr_werewerewire_attack_1_0.png",
+      "/sprites/deltarune/ch2/werewire/spr_werewerewire_attack_1_3.png",
+      "/sprites/deltarune/ch2/werewire/spr_werewerewire_attack_2_2.png",
+      "/sprites/deltarune/ch2/werewire/spr_werewerewire_attack_2_3.png",
+      "/sprites/deltarune/ch2/werewire/spr_werewerewire_hurt_0.png",
+      "/sprites/deltarune/ch2/werewire/spr_werewerewire_hurt_spark_0.png"
     ]
   },
   {
