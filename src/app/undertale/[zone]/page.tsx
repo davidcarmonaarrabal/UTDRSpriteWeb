@@ -136,7 +136,7 @@ export default function ZonePage() {
                     There are no characters in <span className="font-semibold">{prettyZone}</span>.
                 </div>
             ) : (
-                <div className="flex flex-wrap justify-center gap-5">
+                <div className="flex flex-wrap justify-center gap-5 mb-10">
                     {zoneChars.map((char) => (
                         <Link
                             key={char.id}

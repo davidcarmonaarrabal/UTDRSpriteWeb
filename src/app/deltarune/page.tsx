@@ -14,6 +14,8 @@ export default function DeltaruneGallery() {
     const zones = [
         { id: "ch1", img: "/img/Chapter1.webp", label: "Chapter 1" },
         { id: "ch2", img: "/img/Chapter2.webp", label: "Chapter 2" },
+        { id: "ch3", img: "/img/Chapter2.webp", label: "Chapter 3" },
+        { id: "ch4", img: "/img/Chapter2.webp", label: "Chapter 4" },
     ];
 
     const deltaruneChars = characters.filter(
