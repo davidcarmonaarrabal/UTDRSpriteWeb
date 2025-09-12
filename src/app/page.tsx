@@ -13,9 +13,9 @@ export default function Home() {
     if (characters.length > 0) {
       const randomIndex = Math.floor(Math.random() * characters.length);
       setRandomId(characters[randomIndex].id);
-    }
+    } 
   }, []);
- 
+
   return (
     <div 
       className="min-h-screen w-full bg-cover bg-center"  

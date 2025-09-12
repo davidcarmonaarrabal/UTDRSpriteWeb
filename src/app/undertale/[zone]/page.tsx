@@ -25,7 +25,6 @@ function normalizeZoneByGame(game: string, zone: string) {
     const z = (zone || "").toLowerCase().trim();
 
     if (g === "deltarune") {
-        // ya es chN
         if (/^ch\d+$/.test(z)) return z;
         // chapterN o chapter N → chN
         const m = z.match(/^chapter\s*(\d+)$/);
