@@ -42,6 +42,22 @@ export default function Footer() {
                     </Link>
 
                     <Link 
+                        href="https://www.buymeacoffee.com/silversoul07"
+                        target="_blank"
+                        className="hover:text-amber-500 transition text-amber-300" 
+                    > 
+                    <p>Buy Me A Coffee!</p>
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            viewBox="0 0 24 24" 
+                            fill="currentColor" 
+                            className="w-5 h-5"
+                        >
+                            <path d="M18.7 4.2h-13l.6 3h12l.4-3zm-12 5l1.4 10.1c.1.9.9 1.7 1.9 1.7h6c1 0 1.8-.8 1.9-1.7L17.3 9h-10.6zM9 21h6c1.9 0 3.5-1.4 3.7-3.3L20 8.2c.1-.6-.3-1.2-.9-1.3l-.9-.1.3-2.5c.1-.6-.4-1.2-1-1.2H6.5c-.6 0-1.1.6-1 1.2l.3 2.5-.9.1c-.6.1-1 .7-.9 1.3l1.3 9.5C5.5 19.6 7.1 21 9 21z" />
+                        </svg>
+                    </Link>
+
+                    <Link 
                         href="https://www.instagram.com/by.jiangtao/"
                         target="_blank"
                         className="hover:text-white transition">

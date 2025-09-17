@@ -16,7 +16,7 @@ function normalizeGame(g: string) {
     return (g || "").toLowerCase();
 }
 
-/** Normaliza la zona según el juego.
+/** Normal iza la zona según el juego.
  * - Undertale: devuelve el slug en minúsculas (snowdin, waterfall, …)
  * - Deltarune: acepta "ch1" tal cual y mapea "chapter1"/"chapter 1" → "ch1"
  */
@@ -161,3 +161,4 @@ export default function ZonePage() {
         </main>
     );
 }
+    
