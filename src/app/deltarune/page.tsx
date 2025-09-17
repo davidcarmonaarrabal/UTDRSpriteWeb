@@ -10,7 +10,6 @@ export default function DeltaruneGallery() {
         "transition-transform duration-200 ease-out hover:scale-105 " +
         "w-[160px] h-[80px] sm:w-[200px] sm:h-[100px] md:w-[220px] md:h-[110px] lg:w-[240px] lg:h-[120px]";
 
-    // Usa zones como en Undertale
     const zones = [
         { id: "ch1", img: "/img/Chapter1.webp", label: "Chapter 1" },
         { id: "ch2", img: "/img/Chapter2.webp", label: "Chapter 2" },

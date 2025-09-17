@@ -16,10 +16,6 @@ function normalizeGame(g: string) {
     return (g || "").toLowerCase();
 }
 
-/** Normal iza la zona según el juego.
- * - Undertale: devuelve el slug en minúsculas (snowdin, waterfall, …)
- * - Deltarune: acepta "ch1" tal cual y mapea "chapter1"/"chapter 1" → "ch1"
- */
 function normalizeZoneByGame(game: string, zone: string) {
     const g = normalizeGame(game);
     const z = (zone || "").toLowerCase().trim();
@@ -29,34 +25,29 @@ function normalizeZoneByGame(game: string, zone: string) {
         // chapterN o chapter N → chN
         const m = z.match(/^chapter\s*(\d+)$/);
         if (m) return `ch${m[1]}`;
-        return z; // deja pasar por si ya viene correcto
+        return z; 
     }
 
-    // Undertale u otros: solo minúsculas
     return z;
 }
 
-/** Título “bonito” para la zona mostrada en UI */
 function prettyZoneLabel(game: string, rawZone: string) {
     const g = normalizeGame(game);
     const z = (rawZone || "").toLowerCase();
 
     if (g === "deltarune") {
-        // Mostrar "Chapter N" si viene chN o chapterN
         const m1 = z.match(/^ch(\d+)$/);
         const m2 = z.match(/^chapter\s*(\d+)$/);
         const n = m1?.[1] || m2?.[1];
         if (n) return `Chapter ${n}`;
     }
 
-    // Capitaliza 1ª letra (Snowdin → Snowdin)
     return rawZone.charAt(0).toUpperCase() + rawZone.slice(1).toLowerCase();
 }
 
 export default function ZonePage() {
     const params = useParams() as Params;
 
-    // Normaliza por si vienen como array
     const gameRaw = Array.isArray(params?.game) ? params.game[0] : params?.game || "undertale";
     const zoneRaw = Array.isArray(params?.zone) ? params.zone[0] : params?.zone || "";
 
@@ -83,7 +74,6 @@ export default function ZonePage() {
 
     return (
         <main className="p-6 max-w-6xl mx-auto">
-            {/* Barra superior */}
             <div className="flex items-center justify-between gap-4 mb-6">
                 <Link
                     href="/"
@@ -123,13 +113,11 @@ export default function ZonePage() {
                 </div>
             </div>
 
-            {/* Encabezado */}
             <header className="mb-6">
                 <h2 className="text-3xl font-bold tracking-tight text-white">{prettyZone}</h2>
                 <p className="mt-1 text-zinc-400">Explore the principal characters sprites of this zone.</p>
             </header>
 
-            {/* Grid */}
             {zoneChars.length === 0 ? (
                 <div className="mt-10 rounded-2xl border border-zinc-800 bg-zinc-900/60 p-8 text-center text-zinc-300">
                     There are no characters in <span className="font-semibold">{prettyZone}</span>.
