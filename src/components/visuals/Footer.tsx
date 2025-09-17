@@ -46,7 +46,7 @@ export default function Footer() {
                         target="_blank"
                         className="hover:text-amber-500 transition text-amber-300" 
                     > 
-                    <p>Buy Me A Coffee!</p>
+                    <p>Support Me!</p>
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
                             viewBox="0 0 24 24" 
