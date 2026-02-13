@@ -98,6 +98,41 @@ export default function ZonePage() {
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
                 };
+            case "waterfall":
+                return {
+                    backgroundImage: "url('/backgrounds/waterfall.webp')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                };
+            case "hotland":
+                return {
+                    backgroundImage: "url('/backgrounds/hotland.webp')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                };
+            case "core":
+                return {
+                    backgroundImage: "url('/backgrounds/core.webp')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                };
+            case "newhome":
+                return {
+                    backgroundImage: "url('/backgrounds/newhome.webp')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                };
+            case "truelab":
+                return {
+                    backgroundImage: "url('/backgrounds/truelab.webp')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                };
             default:
                 return {};
         }
