@@ -82,20 +82,31 @@ export default function ZonePage() {
     }, [zoneChars]);
 
     // Background dinámico por zona (solo ruinas por ahora)
-    const backgroundStyle =
-        zoneKey === "ruinas"
-            ? {
-                backgroundImage: "url('/backgrounds/ruins.webp')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-            }
-            : {};
+    const backgroundStyle = (() => {
+        switch (zoneKey) {
+            case "ruinas":
+                return {
+                    backgroundImage: "url('/backgrounds/ruins.webp')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                };
+            case "snowdin":
+                return {
+                    backgroundImage: "url('/backgrounds/snowdin.webp')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                };
+            default:
+                return {};
+        }
+    })();
 
     return (
         <main className="min-h-screen relative">
             {/* Fondo según zona */}
-            <div className="absolute inset-0 -z-10" style={backgroundStyle} />
+            <div className="fixed top-0 left-0 w-full h-[100vh] -z-10" style={backgroundStyle} />
 
             {/* Contenido */}
             <div className="max-w-6xl mx-auto px-6 py-6 text-white flex flex-col gap-8">
