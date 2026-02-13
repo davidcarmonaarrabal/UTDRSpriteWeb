@@ -192,7 +192,7 @@ export default function ZonePage() {
                             <Link
                                 href={`/character/${randomCharId}`}
                                 aria-label="Personaje aleatorio de la zona"
-                                className="relative block w-[190px] h-[64px] rounded-xl border border-[#f97316] bg-black shadow-[0_0_0_2px_#000] hover:scale-105 transition-transform overflow-hidden"
+                                className="relative block w-[190px] h-[64px] hover:scale-105 transition-transform overflow-hidden"
                             >
                                 <Image
                                     src="/img/button_random.webp"
