@@ -181,9 +181,9 @@ export default function ZonePage() {
                 </div>
 
                 {/* SEGUNDO DIV: dos columnas */}
-                <div className="flex gap-10 flex-1">
+                <div className="flex gap-10 flex-1 flex-col md:flex-row">
                     {/* Columna izquierda: contador + random */}
-                    <div className="w-[220px] flex flex-col items-start gap-6">
+                    <div className="w-[220px] flex flex-row md:flex-col items-start gap-6">
                         <div className="rounded-full bg-black/70 border border-zinc-500 px-4 py-1 text-sm">
                             {zoneChars.length} personaje{zoneChars.length !== 1 ? "s" : ""}
                         </div>
