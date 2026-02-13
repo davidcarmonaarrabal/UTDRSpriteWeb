@@ -24,7 +24,11 @@ function normalizeZoneByGame(game: string, zone: string) {
         if (/^ch\d+$/.test(z)) return z;
         const m = z.match(/^chapter\s*(\d+)$/);
         if (m) return `ch${m[1]}`;
+<<<<<<< HEAD
         return z;
+=======
+        return z; 
+>>>>>>> 397bd8aaced066aa703ec9a1b44e8ce126291d61
     }
 
     return z;
@@ -47,12 +51,17 @@ function prettyZoneLabel(game: string, rawZone: string) {
 export default function ZonePage() {
     const params = useParams() as Params;
 
+<<<<<<< HEAD
     const gameRaw = Array.isArray(params?.game)
         ? params.game[0]
         : params?.game || "undertale";
     const zoneRaw = Array.isArray(params?.zone)
         ? params.zone[0]
         : params?.zone || "";
+=======
+    const gameRaw = Array.isArray(params?.game) ? params.game[0] : params?.game || "undertale";
+    const zoneRaw = Array.isArray(params?.zone) ? params.zone[0] : params?.zone || "";
+>>>>>>> 397bd8aaced066aa703ec9a1b44e8ce126291d61
 
     const game = useMemo(() => normalizeGame(gameRaw), [gameRaw]);
     const zoneKey = useMemo(
@@ -139,9 +148,20 @@ export default function ZonePage() {
     })();
 
     return (
+<<<<<<< HEAD
         <main className="min-h-screen relative">
             {/* Fondo según zona */}
             <div className="fixed top-0 left-0 w-full h-[100vh] -z-10" style={backgroundStyle} />
+=======
+        <main className="p-6 max-w-6xl mx-auto">
+            <div className="flex items-center justify-between gap-4 mb-6">
+                <Link
+                    href="/"
+                    className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition"
+                >
+                    ← Back to Home
+                </Link>
+>>>>>>> 397bd8aaced066aa703ec9a1b44e8ce126291d61
 
             {/* Contenido */}
             <div className="max-w-6xl mx-auto px-6 py-6 text-white flex flex-col gap-8">
@@ -241,6 +261,43 @@ export default function ZonePage() {
                     </div>
                 </div>
             </div>
+<<<<<<< HEAD
+=======
+
+            <header className="mb-6">
+                <h2 className="text-3xl font-bold tracking-tight text-white">{prettyZone}</h2>
+                <p className="mt-1 text-zinc-400">Explore the principal characters sprites of this zone.</p>
+            </header>
+
+            {zoneChars.length === 0 ? (
+                <div className="mt-10 rounded-2xl border border-zinc-800 bg-zinc-900/60 p-8 text-center text-zinc-300">
+                    There are no characters in <span className="font-semibold">{prettyZone}</span>.
+                </div>
+            ) : (
+                <div className="flex flex-wrap justify-center gap-5 mb-10">
+                    {zoneChars.map((char) => (
+                        <Link
+                            key={char.id}
+                            href={`/character/${char.id}`}
+                            className="group block w-[140px] rounded-2xl border border-zinc-800 bg-zinc-900/60 p-3 shadow hover:shadow-lg hover:border-zinc-700 transition"
+                        >
+                            <div className="relative aspect-square w-full rounded-xl bg-black overflow-hidden">
+                                <Image
+                                    src={char.sprites[0]}
+                                    alt={char.name}
+                                    fill
+                                    sizes="140px"
+                                    className="object-contain transition-transform duration-200 ease-out group-hover:scale-105"
+                                />
+                            </div>
+
+                            <p className="mt-3 text-center text-sm font-medium text-zinc-100">{char.name}</p>
+                            <div className="mx-auto mt-1 h-px w-10 bg-zinc-700 opacity-0 group-hover:opacity-100 transition"></div>
+                        </Link>
+                    ))}
+                </div>
+            )}
+>>>>>>> 397bd8aaced066aa703ec9a1b44e8ce126291d61
         </main>
     );
 }

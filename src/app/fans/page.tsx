@@ -3,7 +3,6 @@ import Image from "next/image";
 import { characters } from "@/data/characters";
 
 export default function FansPage() {
-  // Personajes cuya lista de zonas incluye "fans" (case-insensitive)
   const fanChars = characters.filter((c) =>
     (c.zones ?? []).some((z) => z.toLowerCase() === "fans")
   );

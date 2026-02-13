@@ -26,7 +26,6 @@ export default function UndertaleGallery() {
         []
     );
 
-    // RANDOM solo en cliente
     const [randomId, setRandomId] = useState<string | null>(null);
     useEffect(() => {
         if (undertaleChars.length > 0) {
@@ -42,7 +41,6 @@ export default function UndertaleGallery() {
         >
             <div className="w-full">
 
-                {/* MAIN → pegado a la derecha */}
                 <main className="w-full flex justify-end px-12">
                     <div className="flex flex-col items-end text-right gap-6">
                         
