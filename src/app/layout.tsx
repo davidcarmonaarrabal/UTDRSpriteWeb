@@ -5,7 +5,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "@/components/visuals/Footer";
 
 export const metadata: Metadata = {
-  title: "UNDERTALE/DELTARUNE Sprites Repository",
+  title: "UNDERTALE/DELT ARUNE Sprites Repository",
   description: "Galería de personajes de Undertale",
 };
 
@@ -18,4 +18,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </body>
     </html>
   );
-}
+} 

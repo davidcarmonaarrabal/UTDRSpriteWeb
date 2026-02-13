@@ -16,52 +16,49 @@ function normalizeGame(g: string) {
     return (g || "").toLowerCase();
 }
 
-/** Normal iza la zona según el juego.
- * - Undertale: devuelve el slug en minúsculas (snowdin, waterfall, …)
- * - Deltarune: acepta "ch1" tal cual y mapea "chapter1"/"chapter 1" → "ch1"
- */
 function normalizeZoneByGame(game: string, zone: string) {
     const g = normalizeGame(game);
     const z = (zone || "").toLowerCase().trim();
 
     if (g === "deltarune") {
         if (/^ch\d+$/.test(z)) return z;
-        // chapterN o chapter N → chN
         const m = z.match(/^chapter\s*(\d+)$/);
         if (m) return `ch${m[1]}`;
-        return z; // deja pasar por si ya viene correcto
+        return z;
     }
 
-    // Undertale u otros: solo minúsculas
     return z;
 }
 
-/** Título “bonito” para la zona mostrada en UI */
 function prettyZoneLabel(game: string, rawZone: string) {
     const g = normalizeGame(game);
     const z = (rawZone || "").toLowerCase();
 
     if (g === "deltarune") {
-        // Mostrar "Chapter N" si viene chN o chapterN
         const m1 = z.match(/^ch(\d+)$/);
         const m2 = z.match(/^chapter\s*(\d+)$/);
         const n = m1?.[1] || m2?.[1];
         if (n) return `Chapter ${n}`;
     }
 
-    // Capitaliza 1ª letra (Snowdin → Snowdin)
     return rawZone.charAt(0).toUpperCase() + rawZone.slice(1).toLowerCase();
 }
 
 export default function ZonePage() {
     const params = useParams() as Params;
 
-    // Normaliza por si vienen como array
-    const gameRaw = Array.isArray(params?.game) ? params.game[0] : params?.game || "undertale";
-    const zoneRaw = Array.isArray(params?.zone) ? params.zone[0] : params?.zone || "";
+    const gameRaw = Array.isArray(params?.game)
+        ? params.game[0]
+        : params?.game || "undertale";
+    const zoneRaw = Array.isArray(params?.zone)
+        ? params.zone[0]
+        : params?.zone || "";
 
     const game = useMemo(() => normalizeGame(gameRaw), [gameRaw]);
-    const zoneKey = useMemo(() => normalizeZoneByGame(game, zoneRaw), [game, zoneRaw]);
+    const zoneKey = useMemo(
+        () => normalizeZoneByGame(game, zoneRaw),
+        [game, zoneRaw]
+    );
 
     const zoneChars = useMemo(
         () =>
@@ -73,7 +70,10 @@ export default function ZonePage() {
         [game, zoneKey]
     );
 
-    const prettyZone = useMemo(() => prettyZoneLabel(game, zoneRaw), [game, zoneRaw]);
+    const prettyZone = useMemo(
+        () => prettyZoneLabel(game, zoneRaw),
+        [game, zoneRaw]
+    );
 
     const randomCharId = useMemo(() => {
         if (zoneChars.length === 0) return null;
@@ -81,84 +81,120 @@ export default function ZonePage() {
         return zoneChars[r].id;
     }, [zoneChars]);
 
+    // Background dinámico por zona (solo ruinas por ahora)
+    const backgroundStyle =
+        zoneKey === "ruinas"
+            ? {
+                backgroundImage: "url('/backgrounds/ruins.webp')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+            }
+            : {};
+
     return (
-        <main className="p-6 max-w-6xl mx-auto">
-            {/* Barra superior */}
-            <div className="flex items-center justify-between gap-4 mb-6">
-                <Link
-                    href="/"
-                    className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition"
-                >
-                    ← Back to Home
-                </Link>
+        <main className="min-h-screen relative">
+            {/* Fondo según zona */}
+            <div className="absolute inset-0 -z-10" style={backgroundStyle} />
 
-                <Link
-                    href={`/${game}`}
-                    className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition"
-                >
-                    ← Back to Game
-                </Link>
-
-                <div className="flex items-center gap-3">
-                    <span className="rounded-lg bg-zinc-900/70 border border-zinc-800 px-3 py-1 text-sm text-zinc-300">
-                        {zoneChars.length} personaje{zoneChars.length !== 1 ? "s" : ""}
-                    </span>
-
-                    {randomCharId && (
+            {/* Contenido */}
+            <div className="max-w-6xl mx-auto px-6 py-6 text-white flex flex-col gap-8">
+                {/* PRIMER DIV: cabecera horizontal */}
+                <div className="flex items-center justify-between gap-6">
+                    <div className="flex items-center gap-4">
                         <Link
-                            href={`/character/${randomCharId}`}
-                            aria-label="Personaje aleatorio de la zona"
-                            className="relative block w-[120px] h-[40px] rounded-xl shadow hover:scale-105 transition overflow-hidden bg-black focus:outline-none focus:ring-2 focus:ring-indigo-600"
+                            href="/"
+                            className="inline-flex items-center rounded-lg bg-black/70 px-5 py-2 text-sm tracking-wide border border-zinc-700 hover:bg-black/90 transition"
                         >
-                            <Image
-                                src="/img/button_random.webp"
-                                alt="Random"
-                                fill
-                                sizes="120px"
-                                className="object-contain"
-                                priority
-                            />
+                            ← Back to Home
                         </Link>
-                    )}
+
+                        <Link
+                            href={`/${game}`}
+                            className="inline-flex items-center rounded-lg bg-black/70 px-5 py-2 text-sm tracking-wide border border-zinc-700 hover:bg-black/90 transition"
+                        >
+                            ← Back to Game
+                        </Link>
+                    </div>
+
+                    {/* Logo que lleva al home */}
+                    <Link
+                        href="/"
+                        className="inline-flex items-center hover:opacity-90 transition"
+                        aria-label="Ir al inicio"
+                    >
+                        <Image
+                            src="/img/logo.webp"
+                            alt="UNDERTALE / DELTARUNE Sprites Repository"
+                            width={260}
+                            height={80}
+                            className="h-auto w-[260px]"
+                            priority
+                        />
+                    </Link>
+                </div>
+
+                {/* SEGUNDO DIV: dos columnas */}
+                <div className="flex gap-10 flex-1">
+                    {/* Columna izquierda: contador + random */}
+                    <div className="w-[220px] flex flex-col items-start gap-6">
+                        <div className="rounded-full bg-black/70 border border-zinc-500 px-4 py-1 text-sm">
+                            {zoneChars.length} personaje{zoneChars.length !== 1 ? "s" : ""}
+                        </div>
+
+                        {randomCharId && (
+                            <Link
+                                href={`/character/${randomCharId}`}
+                                aria-label="Personaje aleatorio de la zona"
+                                className="relative block w-[190px] h-[64px] rounded-xl border border-[#f97316] bg-black shadow-[0_0_0_2px_#000] hover:scale-105 transition-transform overflow-hidden"
+                            >
+                                <Image
+                                    src="/img/button_random.webp"
+                                    alt="Random"
+                                    fill
+                                    sizes="190px"
+                                    className="object-contain"
+                                    priority
+                                />
+                            </Link>
+                        )}
+                    </div>
+
+                    {/* Columna derecha: grid personajes */}
+                    <div className="flex-1 flex flex-col">
+                        {zoneChars.length === 0 ? (
+                            <div className="mt-10 rounded-2xl border border-zinc-800 bg-zinc-900/60 p-8 text-center text-zinc-300">
+                                There are no characters in{" "}
+                                <span className="font-semibold">{prettyZone}</span>.
+                            </div>
+                        ) : (
+                            <div className="flex flex-wrap justify-center gap-6 mb-10">
+                                {zoneChars.map((char) => (
+                                    <Link
+                                        key={char.id}
+                                        href={`/character/${char.id}`}
+                                        className="group block w-[140px] rounded-xl border border-zinc-700 bg-black/80 p-3 shadow hover:border-zinc-400 hover:-translate-y-1 transition-transform"
+                                    >
+                                        <div className="relative aspect-[3/4] w-full rounded-lg bg-zinc-900 overflow-hidden">
+                                            <Image
+                                                src={char.sprites[0]}
+                                                alt={char.name}
+                                                fill
+                                                sizes="140px"
+                                                className="object-contain transition-transform duration-200 ease-out group-hover:scale-105"
+                                            />
+                                        </div>
+
+                                        <p className="mt-3 text-center text-xs font-medium tracking-wide uppercase text-zinc-100">
+                                            {char.name}
+                                        </p>
+                                    </Link>
+                                ))}
+                            </div>
+                        )}
+                    </div>
                 </div>
             </div>
-
-            {/* Encabezado */}
-            <header className="mb-6">
-                <h2 className="text-3xl font-bold tracking-tight text-white">{prettyZone}</h2>
-                <p className="mt-1 text-zinc-400">Explore the principal characters sprites of this zone.</p>
-            </header>
-
-            {/* Grid */}
-            {zoneChars.length === 0 ? (
-                <div className="mt-10 rounded-2xl border border-zinc-800 bg-zinc-900/60 p-8 text-center text-zinc-300">
-                    There are no characters in <span className="font-semibold">{prettyZone}</span>.
-                </div>
-            ) : (
-                <div className="flex flex-wrap justify-center gap-5 mb-10">
-                    {zoneChars.map((char) => (
-                        <Link
-                            key={char.id}
-                            href={`/character/${char.id}`}
-                            className="group block w-[140px] rounded-2xl border border-zinc-800 bg-zinc-900/60 p-3 shadow hover:shadow-lg hover:border-zinc-700 transition"
-                        >
-                            <div className="relative aspect-square w-full rounded-xl bg-black overflow-hidden">
-                                <Image
-                                    src={char.sprites[0]}
-                                    alt={char.name}
-                                    fill
-                                    sizes="140px"
-                                    className="object-contain transition-transform duration-200 ease-out group-hover:scale-105"
-                                />
-                            </div>
-
-                            <p className="mt-3 text-center text-sm font-medium text-zinc-100">{char.name}</p>
-                            <div className="mx-auto mt-1 h-px w-10 bg-zinc-700 opacity-0 group-hover:opacity-100 transition"></div>
-                        </Link>
-                    ))}
-                </div>
-            )}
         </main>
     );
 }
-    

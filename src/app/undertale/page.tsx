@@ -40,7 +40,6 @@ export default function UndertaleGallery() {
             className="min-h-screen w-full bg-cover bg-center"
             style={{ backgroundImage: "url('/img/fondo1.webp')" }}
         >
-            {/* SIN márgenes laterales */}
             <div className="w-full">
 
                 {/* MAIN → pegado a la derecha */}
@@ -50,7 +49,7 @@ export default function UndertaleGallery() {
                         <Image
                             src="/img/logo.webp"
                             alt="Undertale / Deltarune Logo"
-                            width={320}
+                            width={320} 
                             height={160}
                             className="drop-shadow-lg sm:w-[400px]"
                             priority
@@ -74,7 +73,6 @@ export default function UndertaleGallery() {
                     </div>
                 </main>
 
-                {/* INFERIOR → pegado a la izquierda */}
                 <section className="w-full mt-4 px-12 lg:max-w-[60vw]">
                     {randomId && (
                         <Link
@@ -88,7 +86,7 @@ export default function UndertaleGallery() {
                                 fill
                                 sizes="(max-width: 640px) 180px, 200px"
                                 className="object-contain"
-                                priority
+                                priority 
                             />
                         </Link>
                     )}
@@ -109,7 +107,7 @@ export default function UndertaleGallery() {
                                     {zone.label}
                                 </p>
                             </Link>
-                        ))}
+                        ))} 
                     </div>
                 </section>
             </div>

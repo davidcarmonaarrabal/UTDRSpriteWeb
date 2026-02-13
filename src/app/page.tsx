@@ -19,8 +19,8 @@ export default function Home() {
   return (
     <div 
       className="min-h-screen w-full bg-cover bg-center"  
-      style={{ backgroundImage: "url('/img/fondo1.webp')" }}
-    > 
+        style={{ backgroundImage: "url('/img/fondo1.webp')" }}
+      >  
       <main className="mx-auto w-full px-4 sm:px-8 py-6 flex flex-col ite  ms-cente r sm:items-end text-center sm:text-right">
         
         <Image
@@ -39,8 +39,7 @@ export default function Home() {
                 placeholder="Cargando búsqueda…"
                 className="w-full max-w-md round ed-md border border-zinc-800 bg-zinc-400 px-3 py-2 text-black placeholder-zinc-500"
               />
-            } 
-          >
+            }          >
             <SearchBox
               autoNavigateToSearch
               className="w-full max-w-md rounded-md border border-zinc-800 bg-zinc-400 px-3 py-2 text-black placeholder-zinc-500 focus:outline-none fo  cus:ring-2 focus:ring-indigo-600"
@@ -54,4 +53,4 @@ export default function Home() {
       </main>
     </div>
   );  
-}
+} 

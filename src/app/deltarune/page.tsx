@@ -10,7 +10,6 @@ export default function DeltaruneGallery() {
         "transition-transform duration-200 ease-out hover:scale-105 " +
         "w-[160px] h-[80px] sm:w-[200px] sm:h-[100px] md:w-[220px] md:h-[110px] lg:w-[240px] lg:h-[120px]";
 
-    // Usa zones como en Undertale
     const zones = [
         { id: "ch1", img: "/img/Chapter1.webp", label: "Chapter 1" },
         { id: "ch2", img: "/img/Chapter2.webp", label: "Chapter 2" },
@@ -23,7 +22,7 @@ export default function DeltaruneGallery() {
     );
 
     const randomChar =
-        deltaruneChars.length > 0
+        deltaruneChars.length > 0   
             ? deltaruneChars[Math.floor(Math.random() * deltaruneChars.length)]
             : null;
 
@@ -33,14 +32,14 @@ export default function DeltaruneGallery() {
                 href="/"
                 className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition mb-4"
             >
-                ← Back to Home
+                ← Back to Home 
             </Link>
 
             <h2 className="text-2xl sm:text-3xl font-bold my-4 text-center">
-                Deltarune Sprites Repository
+                Deltarune Sprites Repository 
             </h2>
-
-            {randomChar && (
+ 
+            {randomChar && (        
                 <Link
                     href={`/character/${randomChar.id}`}
                     aria-label="Personaje aleatorio de Deltarune"
@@ -53,7 +52,7 @@ export default function DeltaruneGallery() {
                         sizes="(max-width: 640px) 180px, 200px"
                         className="object-contain"
                         priority
-                    />
+                    />  
                 </Link>
             )}
 
@@ -64,8 +63,8 @@ export default function DeltaruneGallery() {
                             <Image
                                 src={zone.img}
                                 alt={zone.label}
-                                fill
-                                sizes="(max-width: 640px) 160px, (max-width: 768px) 200px, (max-width: 1024px) 220px, 240px"
+                                    fill
+                                    sizes="(max-width: 640px) 160px, (max-width: 768px) 200px, (max-width: 1024px) 220px, 240px"
                                 className="object-cover"
                             />
                         </div>
@@ -77,4 +76,4 @@ export default function DeltaruneGallery() {
             </div>
         </main>
     );
-}
+}   
