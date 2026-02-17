@@ -11,7 +11,6 @@ export default function LogoLinks({ randomId }: LogoLinksProps) {
     const links = [
         { href: "/undertale", src: "/img/undertalelogo2.webp", alt: "Galería Undertale" },
         { href: "/deltarune", src: "/img/deltarunelogo2.webp", alt: "Galería Deltarune" },
-        { href: "/fans", src: "/img/fanslogo2.webp", alt: "Galería Fans" },
     ];
 
     if (randomId) {
