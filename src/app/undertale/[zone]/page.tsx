@@ -150,14 +150,18 @@ export default function ZonePage() {
                     <div className="flex items-center gap-4">
                         <Link
                             href="/"
-                            className="inline-flex items-center rounded-lg bg-black/70 px-5 py-2 text-sm tracking-wide border border-zinc-700 hover:bg-black/90 transition"
+                            className="inline-flex items-center rounded-lg bg-black/70 px-5 py-2 text-sm tracking-wide border border-zinc-700 hover:bg-black/90 transition shadow-[0_0_18px_rgba(255,255,255,0.65)]
+                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
+                                transition mb-4"
                         >
                             ← Back to Home
                         </Link>
 
                         <Link
                             href={`/${game}`}
-                            className="inline-flex items-center rounded-lg bg-black/70 px-5 py-2 text-sm tracking-wide border border-zinc-700 hover:bg-black/90 transition"
+                            className="inline-flex items-center rounded-lg bg-black/70 px-5 py-2 text-sm tracking-wide border border-zinc-700 hover:bg-black/90 transition shadow-[0_0_18px_rgba(255,255,255,0.65)]
+                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
+                                transition mb-4"
                         >
                             ← Back to Game
                         </Link>
@@ -183,7 +187,7 @@ export default function ZonePage() {
                 {/* SEGUNDO DIV: dos columnas */}
                 <div className="flex gap-10 flex-1 flex-col md:flex-row">
                     {/* Columna izquierda: contador + random */}
-                    <div className="w-[220px] flex flex-row md:flex-col items-start gap-6">
+                    <div className="w-[220px] flex flex-row md:flex-col items-start gap-6 ">
                         <div className="rounded-full bg-black/70 border border-zinc-500 px-4 py-1 text-sm">
                             {zoneChars.length} personaje{zoneChars.length !== 1 ? "s" : ""}
                         </div>
@@ -219,7 +223,9 @@ export default function ZonePage() {
                                     <Link
                                         key={char.id}
                                         href={`/character/${char.id}`}
-                                        className="group block w-[140px] rounded-xl border border-zinc-700 bg-black/80 p-3 shadow hover:border-zinc-400 hover:-translate-y-1 transition-transform"
+                                        className="group block w-[140px] rounded-xl border border-zinc-700 bg-black/80 p-3 shadow hover:border-zinc-400 hover:-translate-y-1 transition-transform shadow-[0_0_18px_rgba(255,255,255,0.65)]
+                                            hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
+                                            transition mb-4"
                                     >
                                         <div className="relative aspect-[3/4] w-full rounded-lg bg-zinc-900 overflow-hidden">
                                             <Image
