@@ -9,7 +9,7 @@ export default function DeltaruneGallery() {
     const logoBox =
         "relative overflow-hidden rounded-xl shadow bg-black " +
         "transition-transform duration-200 ease-out hover:scale-105 " +
-        "w-[160px] h-[80px] sm:w-[200px] sm:h-[100px] md:w-[220px] md:h-[110px] lg:w-[240px] lg:h-[120px]";
+        "w-[160px] h-[80px] sm:w-[200px] sm:h-[100px] md:w-[220px] md:h-[110px] lg:w-[240px] lg:h-[120px] bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow-[0_0_18px_rgba(255,255,255,0.65)] hover:shadow-[0_0_26px_rgba(255,255,255,0.9)] transition mb-4";
 
     const zones = [
         { id: "ch1", img: "/img/ch1.webp", label: "Chapter 1" },
@@ -39,7 +39,6 @@ export default function DeltaruneGallery() {
             <div className="w-full">
                 <main className="w-full flex justify-end px-12">
                     <div className="flex flex-col items-end text-right gap-6">
-                        {/* Logo principal */}
                         <Image
                             src="/img/logo.webp"
                             alt="Undertale / Deltarune Logo"
@@ -51,14 +50,17 @@ export default function DeltaruneGallery() {
 
                         <Link
                             href="/"
-                            className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition mb-4"
+                            className="inline-flex items-center gap-2 rounded-xl border border-zinc-200
+                                bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100
+                                shadow-[0_0_18px_rgba(255,255,255,0.65)]
+                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
+                                transition mb-4"
                         >
                             ← Back to Home
                         </Link>
 
-                        {/* Logo Deltarune */}
                         <Image
-                            src="/img/deltarunelogo.webp" // ← Añade tu logo de Deltarune aquí
+                            src="/img/deltarunelogo.webp"
                             alt="Deltarune Logo"
                             width={320}
                             height={160}
