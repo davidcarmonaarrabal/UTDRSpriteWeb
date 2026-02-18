@@ -16,7 +16,9 @@ export default async function CharacterPage({
                 <div className="p-6 max-w-6xl mx-auto">
                     <Link
                         href="/"
-                        className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition"
+                        className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)]
+                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
+                                transition mb-4"
                     >
                         ← Back to Home
                     </Link>
@@ -62,7 +64,7 @@ export default async function CharacterPage({
                         <li>
                             <Link
                                 href="/"
-                                className="hover:underline text-zinc-200"
+                                className="hover:underline text-zinc-200 "
                             >
                                 Home
                             </Link>
@@ -97,7 +99,9 @@ export default async function CharacterPage({
                     <div className="flex items-center gap-3">
                         <Link
                             href="/"
-                            className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition"
+                            className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)]
+                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
+                                transition mb-4"
                         >
                             ← Home
                         </Link>
@@ -105,7 +109,9 @@ export default async function CharacterPage({
                         {activeZone && zoneHref && (
                             <Link
                                 href={zoneHref}
-                                className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition"
+                                className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)]
+                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
+                                transition mb-4"
                             >
                                 ↩ Back to zone
                             </Link>
@@ -116,7 +122,9 @@ export default async function CharacterPage({
                         {prevChar && (
                             <Link
                                 href={`/character/${prevChar.id}`}
-                                className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition"
+                                className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)]
+                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
+                                transition mb-4"
                             >
                                 ← Previous
                             </Link>
@@ -125,13 +133,17 @@ export default async function CharacterPage({
                         {nextChar && (
                             <Link
                                 href={`/character/${nextChar.id}`}
-                                className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition"
+                                className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)]
+                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
+                                transition mb-4"
                             >
                                 Next →
                             </Link>
                         )}
 
-                        <span className="ml-2 rounded-lg bg-zinc-900 border border-zinc-800 px-3 py-1 text-sm text-zinc-300">
+                        <span className="ml-2 rounded-lg bg-zinc-900 border border-zinc-800 px-3 py-1 text-sm text-zinc-300 shadow-[0_0_18px_rgba(255,255,255,0.65)]
+                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
+                                transition mb-4">
                             {character.sprites.length} sprite
                             {character.sprites.length !== 1
                                 ? "s"
@@ -183,7 +195,9 @@ export default async function CharacterPage({
                         return (
                             <div
                                 key={i}
-                                className="group rounded-2xl border border-zinc-800 bg-zinc-900/60 p-3 shadow hover:shadow-lg hover:border-zinc-700 transition"
+                                className="group rounded-2xl border border-zinc-800 bg-zinc-900/60 p-3 shadow hover:shadow-lg hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)]
+                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
+                                transition mb-4"
                             >
                                 <div className="relative aspect-square w-full rounded-xl bg-black overflow-hidden">
                                     <img
