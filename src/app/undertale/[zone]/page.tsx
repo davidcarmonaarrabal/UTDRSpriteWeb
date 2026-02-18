@@ -191,7 +191,7 @@ export default function ZonePage() {
                         <div className="rounded-full bg-black/70 border border-zinc-500 px-4 py-1 text-sm shadow-[0_0_18px_rgba(255,255,255,0.65)]
                                 hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
                                 transition mb-4">
-                            {zoneChars.length} personaje{zoneChars.length !== 1 ? "s" : ""}
+                            {zoneChars.length} character{zoneChars.length !== 1 ? "s" : ""}
                         </div>
 
                         {randomCharId && (

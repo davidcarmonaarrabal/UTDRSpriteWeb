@@ -185,8 +185,7 @@ export default async function CharacterPage({
                     </div>
 
                     <p className="mt-3 text-zinc-400">
-                        Descarga los sprites en tamaño 200×200
-                        (o proporción contenida) y explóralos en detalle.
+                        Download the sprites at 200×200 size (or contained proportion) and explore them in detail.
                     </p>
                 </header>
 
