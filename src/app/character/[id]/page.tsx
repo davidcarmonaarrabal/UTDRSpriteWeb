@@ -16,9 +16,7 @@ export default async function CharacterPage({
                 <div className="p-6 max-w-6xl mx-auto">
                     <Link
                         href="/"
-                        className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)]
-                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
-                                transition mb-4"
+                        className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)] hover:shadow-[0_0_26px_rgba(255,255,255,0.9)] mb-4"
                     >
                         ← Back to Home
                     </Link>
@@ -34,24 +32,40 @@ export default async function CharacterPage({
     const zones = character.zones ?? [];
 
     const activeZone = zones[0] ?? null;
-    const zoneHref = activeZone ? `/undertale/${activeZone}` : null;
 
-    const zoneChars = activeZone
-        ? characters.filter((c) =>
-              (c.zones ?? []).some(
-                  (z) => z.toLowerCase() === activeZone.toLowerCase()
+    // 🔥 Detecta automáticamente el juego
+    const mainGame = games[0]?.toLowerCase() ?? "undertale";
+
+    const zoneHref = activeZone
+        ? `/${mainGame}/${activeZone}`
+        : null;
+
+    const zoneChars =
+        activeZone
+            ? characters.filter((c) =>
+                  (c.zones ?? []).some(
+                      (z) =>
+                          z.toLowerCase() ===
+                          activeZone.toLowerCase()
+                  )
               )
-          )
-        : [];
+            : [];
 
-    const currentIndex = activeZone
-        ? zoneChars.findIndex((c) => c.id === character.id)
-        : -1;
+    const currentIndex =
+        activeZone
+            ? zoneChars.findIndex(
+                  (c) => c.id === character.id
+              )
+            : -1;
 
-    const prevChar = currentIndex > 0 ? zoneChars[currentIndex - 1] : null;
+    const prevChar =
+        currentIndex > 0
+            ? zoneChars[currentIndex - 1]
+            : null;
 
     const nextChar =
-        currentIndex >= 0 && currentIndex < zoneChars.length - 1
+        currentIndex >= 0 &&
+        currentIndex < zoneChars.length - 1
             ? zoneChars[currentIndex + 1]
             : null;
 
@@ -64,7 +78,7 @@ export default async function CharacterPage({
                         <li>
                             <Link
                                 href="/"
-                                className="hover:underline text-zinc-200 "
+                                className="hover:underline text-zinc-200"
                             >
                                 Home
                             </Link>
@@ -78,7 +92,9 @@ export default async function CharacterPage({
                                         href={zoneHref}
                                         className="hover:underline text-zinc-200"
                                     >
-                                        {activeZone.charAt(0).toUpperCase() +
+                                        {activeZone
+                                            .charAt(0)
+                                            .toUpperCase() +
                                             activeZone
                                                 .slice(1)
                                                 .toLowerCase()}
@@ -99,9 +115,7 @@ export default async function CharacterPage({
                     <div className="flex items-center gap-3">
                         <Link
                             href="/"
-                            className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)]
-                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
-                                transition mb-4"
+                            className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)] hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]"
                         >
                             ← Home
                         </Link>
@@ -109,9 +123,7 @@ export default async function CharacterPage({
                         {activeZone && zoneHref && (
                             <Link
                                 href={zoneHref}
-                                className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)]
-                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
-                                transition mb-4"
+                                className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)] hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]"
                             >
                                 ↩ Back to zone
                             </Link>
@@ -122,9 +134,7 @@ export default async function CharacterPage({
                         {prevChar && (
                             <Link
                                 href={`/character/${prevChar.id}`}
-                                className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)]
-                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
-                                transition mb-4"
+                                className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)] hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]"
                             >
                                 ← Previous
                             </Link>
@@ -133,17 +143,13 @@ export default async function CharacterPage({
                         {nextChar && (
                             <Link
                                 href={`/character/${nextChar.id}`}
-                                className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)]
-                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
-                                transition mb-4"
+                                className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm font-medium text-zinc-100 shadow hover:bg-zinc-800 hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)] hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]"
                             >
                                 Next →
                             </Link>
                         )}
 
-                        <span className="ml-2 rounded-lg bg-zinc-900 border border-zinc-800 px-3 py-1 text-sm text-zinc-300 shadow-[0_0_18px_rgba(255,255,255,0.65)]
-                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
-                                transition mb-4">
+                        <span className="ml-2 rounded-lg bg-zinc-900 border border-zinc-800 px-3 py-1 text-sm text-zinc-300">
                             {character.sprites.length} sprite
                             {character.sprites.length !== 1
                                 ? "s"
@@ -180,8 +186,7 @@ export default async function CharacterPage({
 
                     <p className="mt-3 text-zinc-400">
                         Descarga los sprites en tamaño 200×200
-                        (o proporción contenida) y explóralos en
-                        detalle.
+                        (o proporción contenida) y explóralos en detalle.
                     </p>
                 </header>
 
@@ -195,9 +200,7 @@ export default async function CharacterPage({
                         return (
                             <div
                                 key={i}
-                                className="group rounded-2xl border border-zinc-800 bg-zinc-900/60 p-3 shadow hover:shadow-lg hover:border-zinc-700 transition shadow-[0_0_18px_rgba(255,255,255,0.65)]
-                                hover:shadow-[0_0_26px_rgba(255,255,255,0.9)]
-                                transition mb-4"
+                                className="group rounded-2xl border border-zinc-800 bg-zinc-900/60 p-3 shadow hover:shadow-lg hover:border-zinc-700 transition"
                             >
                                 <div className="relative aspect-square w-full rounded-xl bg-black overflow-hidden">
                                     <img

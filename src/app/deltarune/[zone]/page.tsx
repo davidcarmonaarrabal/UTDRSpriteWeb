@@ -85,7 +85,7 @@ export default function ZonePage({
     return (
         <main className="min-h-screen relative">
             {/* Fondo según zona */}
-            <div className="fixed top-0 left-0 w-full h-[100vh] -z-10" style={backgroundStyle} />
+            <div className="fixed top-0 left-0 w-full h-[100vh] bg-zinc-950 -z-10" style={backgroundStyle} />
 
             {/* Contenido */}
             <div className="max-w-6xl mx-auto px-6 py-6 text-white flex flex-col gap-8">
@@ -160,7 +160,7 @@ export default function ZonePage({
                     <div className="flex-1 flex flex-col">
 
                         {zoneChars.length === 0 ? (
-                            <div className="mt-10 rounded-2xl border border-zinc-800 bg-zinc-900/60 p-8 text-center text-zinc-300">
+                            <div className="mt-10 rounded-2xl border border-zinc-800 bg-zinc-900/60 p-8 text-center text-zinc-300 ">
                                 There are no characters in{" "}
                                 <span className="font-semibold">{prettyZone}</span>.
                             </div>

@@ -141,7 +141,7 @@ export default function ZonePage() {
     return (
         <main className="min-h-screen relative">
             {/* Fondo según zona */}
-            <div className="fixed top-0 left-0 w-full h-[100vh] -z-10" style={backgroundStyle} />
+            <div className="fixed top-0 left-0 w-full h-[100vh] bg-zinc-950 -z-10" style={backgroundStyle} />
 
             {/* Contenido */}
             <div className="max-w-6xl mx-auto px-6 py-6 text-white flex flex-col gap-8">
