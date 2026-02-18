@@ -292,6 +292,20 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "balthizard",
+    "name": "Balthizard",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch4"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch4/balthizard/spr_dw_churchb_npcstatue_incenseturtle_bake_0.png",
+      "/sprites/deltarune/ch4/balthizard/spr_incense_hurt_0.png"
+    ]
+  },
+  {
     "id": "battlequeen",
     "name": "Battlequeen",
     "games": [
@@ -501,6 +515,27 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "bibliox",
+    "name": "Bibliox",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch3"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch3/bibliox/spr_bibliox_hurt_0.png",
+      "/sprites/deltarune/ch3/bibliox/spr_bibliox_intro_2.png",
+      "/sprites/deltarune/ch3/bibliox/spr_bibliox_intro_3.png",
+      "/sprites/deltarune/ch3/bibliox/spr_bibliox_intro_4.png",
+      "/sprites/deltarune/ch3/bibliox/spr_bibliox_intro_5.png",
+      "/sprites/deltarune/ch3/bibliox/spr_bibliox_talk_1.png",
+      "/sprites/deltarune/ch3/bibliox/spr_dw_ch3_board_npc_bibliox_0.png",
+      "/sprites/deltarune/ch3/bibliox/spr_dw_churchb_npcstatue_bibliox_bake_0.png",
+      "/sprites/deltarune/ch3/bibliox/spr_npc_bibliox_0.png"
+    ]
+  },
+  {
     "id": "big_tem",
     "name": "Big Tem",
     "games": [
@@ -606,6 +641,12 @@ export const characters: Character[] = [
       "/sprites/Undertale/core/bpants/spr_burgerpants_sit_phone_0.png",
       "/sprites/Undertale/core/bpants/spr_face_burgerpants_0.png",
       "/sprites/Undertale/core/bpants/spr_face_burgerpants_1.png",
+      "/sprites/Undertale/core/bpants/spr_face_burgerpants_10.png",
+      "/sprites/Undertale/core/bpants/spr_face_burgerpants_11.png",
+      "/sprites/Undertale/core/bpants/spr_face_burgerpants_12.png",
+      "/sprites/Undertale/core/bpants/spr_face_burgerpants_13.png",
+      "/sprites/Undertale/core/bpants/spr_face_burgerpants_14.png",
+      "/sprites/Undertale/core/bpants/spr_face_burgerpants_15.png",
       "/sprites/Undertale/core/bpants/spr_face_burgerpants_2.png",
       "/sprites/Undertale/core/bpants/spr_face_burgerpants_3.png",
       "/sprites/Undertale/core/bpants/spr_face_burgerpants_4.png",
@@ -613,6 +654,9 @@ export const characters: Character[] = [
       "/sprites/Undertale/core/bpants/spr_face_burgerpants_6.png",
       "/sprites/Undertale/core/bpants/spr_face_burgerpants_7.png",
       "/sprites/Undertale/core/bpants/spr_face_burgerpants_8.png",
+      "/sprites/Undertale/core/bpants/spr_face_burgerpants_9.png",
+      "/sprites/Undertale/core/bpants/spr_npc_burgerpants_deflate_0.png",
+      "/sprites/Undertale/core/bpants/spr_npc_burgerpants_deflate_1.png",
       "/sprites/Undertale/core/bpants/spr_npc_icemascot_takeoff_0.png",
       "/sprites/Undertale/core/bpants/spr_npc_icemascot_takeoff_10.png",
       "/sprites/Undertale/core/bpants/spr_npc_icemascot_takeoff_11.png",
@@ -1840,6 +1884,21 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "guei",
+    "name": "Guei",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch4"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch4/guei/spr_dw_churchb_npcstatue_guei_bake_0.png",
+      "/sprites/deltarune/ch4/guei/spr_guei_hurt_0.png",
+      "/sprites/deltarune/ch4/guei/spr_npc_guei_4.png"
+    ]
+  },
+  {
     "id": "gyftrot",
     "name": "Gyftrot",
     "games": [
@@ -3032,6 +3091,37 @@ export const characters: Character[] = [
     ]
   },
   {
+    "id": "missmizzle",
+    "name": "Missmizzle",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch4"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch4/missmizzle/spr_mizzle_alarm_large_4.png",
+      "/sprites/deltarune/ch4/missmizzle/spr_mizzle_idle_large_centered_1.png"
+    ]
+  },
+  {
+    "id": "mizzle",
+    "name": "Mizzle",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch4"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch4/mizzle/spr_holywater_alarm_4.png",
+      "/sprites/deltarune/ch4/mizzle/spr_holywater_alarm_5.png",
+      "/sprites/deltarune/ch4/mizzle/spr_holywater_hurt_0.png",
+      "/sprites/deltarune/ch4/mizzle/spr_holywater_idle_1.png",
+      "/sprites/deltarune/ch4/mizzle/spr_holywater_sing_2.png"
+    ]
+  },
+  {
     "id": "moldbygg",
     "name": "Moldbygg",
     "games": [
@@ -3450,6 +3540,22 @@ export const characters: Character[] = [
       "/sprites/Undertale/hotland/orangefire/spr_orangefire_1.png",
       "/sprites/Undertale/hotland/orangefire/spr_orangefire_2.png",
       "/sprites/Undertale/hotland/orangefire/spr_orangefire_3.png"
+    ]
+  },
+  {
+    "id": "organikk",
+    "name": "Organikk",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch4"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch4/organikk/spr_npc_organik_0_recruit_0.png",
+      "/sprites/deltarune/ch4/organikk/spr_organ_enemy_blue_0.png",
+      "/sprites/deltarune/ch4/organikk/spr_organ_enemy_petrified_0.png",
+      "/sprites/deltarune/ch4/organikk/spr_organik_hurt_0.png"
     ]
   },
   {
@@ -5744,6 +5850,8 @@ export const characters: Character[] = [
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne_5.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne_6.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne_7.png",
+      "/sprites/Undertale/waterfall/undyne/spr_face_undyne_8.png",
+      "/sprites/Undertale/waterfall/undyne/spr_face_undyne_9.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne0_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne1_3_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_face_undyne1A_0.png",
@@ -5767,12 +5875,15 @@ export const characters: Character[] = [
       "/sprites/Undertale/waterfall/undyne/spr_ua_pet_1.png",
       "/sprites/Undertale/waterfall/undyne/spr_ua_throw_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_armraise_0.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_benchpress_4.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_besties_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_cheektug_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_d_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_d_wave_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_d_wave_1.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_dt_1.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_dw_caught_0.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_dw_spear_point_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_exasperated_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_exasperated_1.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_eyeding_3.png",
@@ -5785,6 +5896,8 @@ export const characters: Character[] = [
       "/sprites/Undertale/waterfall/undyne/spr_undyne_jump1_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_kick_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_lt_0.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_police_table_0.png",
+      "/sprites/Undertale/waterfall/undyne/spr_undyne_police_table_surprise_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_polite_1.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_rt_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_rush_0.png",
@@ -5799,16 +5912,6 @@ export const characters: Character[] = [
       "/sprites/Undertale/waterfall/undyne/spr_undyne_throwspear_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_down_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_down_1.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_down_2.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_down_3.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_left_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_left_1.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_left_2.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_left_3.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_right_0.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_right_1.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_right_2.png",
-      "/sprites/Undertale/waterfall/undyne/spr_undyne_walk_right_3.png",
       "/sprites/Undertale/waterfall/undyne/spr_undyne_youremine_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undynea_r_raiseup_0.png",
       "/sprites/Undertale/waterfall/undyne/spr_undynea_rfall_0.png",
@@ -6008,6 +6111,38 @@ export const characters: Character[] = [
       "/sprites/Undertale/ruinas/whimsun/spr_whimsun_0.png",
       "/sprites/Undertale/ruinas/whimsun/spr_whimsun_1.png",
       "/sprites/Undertale/ruinas/whimsun/spr_whimsunhurt_0.png"
+    ]
+  },
+  {
+    "id": "wicabel",
+    "name": "Wicabel",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch4"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch4/wicabel/spr_bell_spare_0.png",
+      "/sprites/deltarune/ch4/wicabel/spr_bell_statue_0.png",
+      "/sprites/deltarune/ch4/wicabel/spr_npc_wicabel_0.png"
+    ]
+  },
+  {
+    "id": "winglade",
+    "name": "Winglade",
+    "games": [
+      "deltarune"
+    ],
+    "zones": [
+      "ch4"
+    ],
+    "sprites": [
+      "/sprites/deltarune/ch4/winglade/spr_halo_bat_0.png",
+      "/sprites/deltarune/ch4/winglade/spr_halo_bat_hurt_0.png",
+      "/sprites/deltarune/ch4/winglade/spr_halo_bat_retract_4.png",
+      "/sprites/deltarune/ch4/winglade/spr_halo_bat_retract_5.png",
+      "/sprites/deltarune/ch4/winglade/spr_npc_halo_bat_0.png"
     ]
   },
   {

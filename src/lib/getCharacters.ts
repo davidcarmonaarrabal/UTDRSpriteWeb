@@ -1,5 +1,5 @@
-import fs from 'fs'
-import path from 'path'
+import * as fs from 'fs'
+import * as path from 'path'
 
 export function getCharacters(): string[] {
     const spritesPath = path.join(process.cwd(), 'public', 'sprites')
